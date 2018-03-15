@@ -1,0 +1,49 @@
+/* Global styles */
+{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Roboto, Helvetica, Arial, Sans-Serif;
+	font-weight: 400;
+	color:            #333333; /* sets the color of all type in the website except for links and other sections overwritten */
+	background-color: #ffffff; /* sets the overall background color */
+	-webkit-text-size-adjust: 110%;
+}
+
+strong {
+	font-weight: 500;
+}
+
+h2 {
+	font-weight: 500;
+}
+
+/* LINKS */
+a:link {
+text-decoration: none; /* none = no underline, other options include line-through or overline */
+color: #108ec2; /* sets hex color of every link - www.colorpicker.com or photoshop to find hex values */
+}
+
+a:active {
+text-decoration: none;
+}
+
+a:visited { /* highlights links that you have already clicked. This can be helpful for users to identify which items they have already seen*/
+text-decoration: none;
+/* this changes the background of a visited link, you can also get rid of the the back ground an color and there will be no change if a link has been visited */
+color: #108ec2;
+/*color: #608090;*/
+}
+
+/* sets the properties for links when mouse rolls over */
+a:hover {
+text-decoration: none;
+color: #48babf;
+}
+
+/* any img that is a link */
+a img {
+border: none;
+}
