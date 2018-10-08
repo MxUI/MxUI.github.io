@@ -4,8 +4,6 @@
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 */
 
-alert("style-normal loaded");
-
 /* Basic */
 
 	header.major {
@@ -17,7 +15,8 @@ alert("style-normal loaded");
 	}
 
 	header .byline {
-		font-size: 1.35em;
+		/*font-size: 1.35em; */
+		font-size: 5.0em;
 	}
 
 /* Wrapper */
