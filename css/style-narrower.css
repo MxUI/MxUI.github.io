@@ -71,15 +71,12 @@
 			}
 
 			#titleBar .toggle:after {
-				background: url("images/toggle.svg") 0px 0px no-repeat;
-				content: '';
+				background: none;
+				color: white;
 				display: block;
-				height: 13px;
-				left: 10px;
-				opacity: 0.75;
-				position: absolute;
-				top: 15px;
-				width: 20px;
+				height: 44px;
+				text-align: center;
+				width: 44px;
 			}
 
 	#navPanel {
