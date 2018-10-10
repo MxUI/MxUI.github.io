@@ -47,6 +47,7 @@
 		font-weight: 700;
 		line-height: 1.75em;
 		margin-bottom: 1em;
+		font-size: 1.0em;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -518,6 +519,7 @@
 
 			#nav > ul > li a {
 				color: #FFF;
+				font-weight: 700;
 				text-decoration: none;
 				font-size: 1.2em;
 			}
@@ -527,7 +529,7 @@
 			}
 
 			#nav > ul > li:hover a {
-				color: #fff;
+				color: #e6e6e6;
 			}
 
 			#nav > ul > li.active {
