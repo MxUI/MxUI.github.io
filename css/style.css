@@ -181,6 +181,31 @@
 		position: relative;
 	}
 
+		.image.orglogo {					
+			display: block;	
+		}
+
+			.image.orglogo img {
+				display: block;
+				width: 30%;
+				height: auto;
+				opacity: 0.65;
+				margin: -25px 0 0 35%;							
+			}
+
+		.image.logo {	
+					
+			display: block;	
+		}
+
+			.image.logo img {
+				display: block;
+				width: 8%;
+				height: 8%;
+				opacity: 0.75;
+				margin: -10px 0 0 10px;				
+			}		
+
 		.image.fit {
 			display: block;
 		}
@@ -445,7 +470,7 @@
 /* Wrapper */
 
 	.wrapper.style1 {
-		background: #fff;
+		background: #ffffff00;
 	}
 
 	.wrapper.style2 {
@@ -497,13 +522,17 @@
 			z-index: 1;
 		}
 
-	.homepage #header {
-		padding: 8em 0;
-		background-position: center;
-	}
+		.homepage #header {
+			padding: 8em 0;
+			background-position: center;
+		}		
 
-	#logo {
-		font-size: 2em;
+		#logotext {
+			font-size: 2em;
+		}
+
+	.logo {
+ 		font-size: 2em;
 	}
 
 	#nav > ul {
@@ -536,13 +565,13 @@
 				background: #3ac984;
 			}
 
-				#nav > ul > li.active a {
-					color: white;
-				}
-
-			#nav > ul > li > ul {
-				display: none;
+			#nav > ul > li.active a {
+				color: white;
 			}
+
+				#nav > ul > li > ul {
+					display: none;
+				}
 
 /* Dropotron */
 
@@ -565,9 +594,9 @@
 				text-decoration: none;
 			}
 
-			.dropotron > li.active > a, .dropotron > li:hover > a {
-				color: #FFF;
-			}
+				.dropotron > li.active > a, .dropotron > li:hover > a {
+					color: #FFF;
+				}
 
 		.dropotron.level-0 {
 			border-radius: 0 10px 10px 10px;
