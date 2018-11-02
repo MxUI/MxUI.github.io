@@ -182,7 +182,7 @@
 	}
 
 		.image.orglogo {					
-			display: block;	
+			display: block;
 		}
 
 			.image.orglogo img {
@@ -191,6 +191,28 @@
 				height: auto;
 				opacity: 0.5;
 				margin: -25px 0px 0 25%;							
+			}
+
+		.image.example {					
+			display: block;
+		}
+
+			.image.example img {	
+				display: block;	
+				width: 200px;
+				height: auto;
+				margin: auto;												
+			}
+
+		.image.exampleLogo {					
+			display: block;
+		}
+
+			.image.exampleLogo img {							
+				position: block;				
+				width: 100px;
+				height: auto;
+				margin: auto;				   	 								
 			}
 
 		.image.logo {	
@@ -713,7 +735,8 @@
 		.divTableCell, .divTableHead {
 			border: 0px solid #999999;
 			display: table-cell;
-			padding: 3px 10px;
+			padding: 10px 5px;
+			
 		}		
 
 		.divTableFoot {

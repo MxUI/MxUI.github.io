@@ -61,27 +61,30 @@
 				instead it is to define a general framework for coupling different types of <i>physics</i> that can then be re-used in different solvers by their developers.</b></p>
 				<p>These examples highlight the details of how MUI has been used to enable the coupled solution to a certain type of problem.</p>
 			</section>
+
 			<section class="container">
 				<div class="divTable">
 					<div class="divTableBody">
 						<div class="divTableHeading">
-							<div class="divTableCell">Problem</div>
-							<div class="divTableCell">Description</div>
-							<div class="divTableCell">MUI Specifics</div>
-							<div class="divTableCell">Codes</div>
+							<div class="divTableCell" style="max-width: 210px; min-width: 210px;">Problem</div>
+							<div class="divTableCell" style="max-width: 250px; min-width: 150px;">Description</div>
+							<div class="divTableCell" style="max-width: 110px; min-width: 110px;">Codes</div>
 						</div>
 						<div class="divTableRow">
-							<div class="divTableCell">Test</div>
-							<div class="divTableCell">Test</div>
-							<div class="divTableCell">Test</div>
-							<div class="divTableCell">
-								<div class="divTable">
-									<div class="divTableBody">
-										<div class="divTableRow">
-											<div class="divTableCell">Test</div>
-										</div>
-									</div>
-								</div>							
+							<div class="divTableCell" style="max-width: 210px; min-width: 210px;">
+								<b><i>Molten Salt Fast Reactor (Computational Fluid Dynamics coupled with Neutronics)</b></i>
+								<a class="image example"><img src="images/Examples/MSFR.png" alt="Molten Salt Fast Reactor"></a>
+							</div>
+							<div class="divTableCell" style="max-width: 250px; min-width: 150px;">Can frozen walls help reduce the effects of container vessel corrosion
+								in molten salt fast nuclear reactor designs? Unsteady CFD calculations were performed with <b><i>Code_Saturne</i></b> and neutronics calculations
+								by <b>DYN3D-MG</b>. MUI was used as the interface between the two codes, transferring all nodal data between codes at the end of the time-step for the CFD
+								and end of the outer iteration for the neutronics.
+							</div>						
+							<div class="divTableCell" style="max-width: 110px; min-width: 110px;">
+								CFD (EDF energy)
+								<a class="image exampleLogo" target="_blank" href="https://www.code-saturne.org"><img src="images/Examples/Logos/code_saturne.png" alt="Code_Saturne Logo"></a>
+								Neutronics (HZDR)
+								<a class="image exampleLogo" target="_blank" href="https://www.hzdr.de/db/Cms?pOid=11771&pNid=542"><img src="images/Examples/Logos/dyn3d.jpeg" alt="DYN3D-MG Logo"></a>
 							</div>
 						</div>
 					</div>
