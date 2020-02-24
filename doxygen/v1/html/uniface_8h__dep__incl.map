@@ -1,0 +1,8 @@
+<map id="uniface.h" name="uniface.h">
+<area shape="rect" id="node2" href="$lib__mpi__multidomain_8h.html" title="Provides helper functions for creating and synchronising multiple MUI interfaces for a single domain..." alt="" coords="195,87,346,114"/>
+<area shape="rect" id="node3" href="$mui_8h.html" title="The main header file for MUI. Usually the only file that needs to be included in order to integrate i..." alt="" coords="243,169,298,196"/>
+<area shape="rect" id="node6" href="$mui4py_8cpp.html" title="wrappers/Python/mui4py\l/mui4py.cpp" alt="" coords="359,244,526,285"/>
+<area shape="rect" id="node7" href="$sampler__rbf_8h.html" title="Spatial sampler using Gaussian Radial Basis Function interpolation. " alt="" coords="472,80,643,121"/>
+<area shape="rect" id="node4" href="$mui__3d_8cpp.html" title="wrappers/C/mui_3d.cpp" alt="" coords="5,251,165,278"/>
+<area shape="rect" id="node5" href="$mui__3df_8cpp.html" title="wrappers/Fortran/mui\l_3df.cpp" alt="" coords="190,244,335,285"/>
+</map>

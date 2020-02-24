@@ -1,0 +1,22 @@
+<map id="geometry.h" name="geometry.h">
+<area shape="rect" id="node2" href="$bin_8h.html" title="Structures and methods to create an underlying binning structure for data received through an interfa..." alt="" coords="641,80,691,107"/>
+<area shape="rect" id="node10" href="$sampler_8h.html" title="A reference file for making custom samplers. The new sampler does not have to derive from this class..." alt="" coords="1248,155,1327,181"/>
+<area shape="rect" id="node21" href="$span_8h.html" title="Provides functions to determine whether geometries are colliding. " alt="" coords="993,80,1054,107"/>
+<area shape="rect" id="node3" href="$uniface_8h.html" title="Provides the majority of the useful functionality for MUI, including all fetch, commit and push funct..." alt="" coords="177,155,251,181"/>
+<area shape="rect" id="node4" href="$lib__mpi__multidomain_8h.html" title="Provides helper functions for creating and synchronising multiple MUI interfaces for a single domain..." alt="" coords="25,237,176,263"/>
+<area shape="rect" id="node5" href="$mui_8h.html" title="The main header file for MUI. Usually the only file that needs to be included in order to integrate i..." alt="" coords="944,319,999,345"/>
+<area shape="rect" id="node8" href="$mui4py_8cpp.html" title="wrappers/Python/mui4py\l/mui4py.cpp" alt="" coords="215,393,381,435"/>
+<area shape="rect" id="node9" href="$sampler__rbf_8h.html" title="Spatial sampler using Gaussian Radial Basis Function interpolation. " alt="" coords="251,229,422,271"/>
+<area shape="rect" id="node6" href="$mui__3d_8cpp.html" title="wrappers/C/mui_3d.cpp" alt="" coords="803,401,963,427"/>
+<area shape="rect" id="node7" href="$mui__3df_8cpp.html" title="wrappers/Fortran/mui\l_3df.cpp" alt="" coords="988,393,1133,435"/>
+<area shape="rect" id="node11" href="$sampler__exact_8h.html" title="Spatial sampler that provides a value at an exact point with no interpolation. " alt="" coords="497,229,667,271"/>
+<area shape="rect" id="node12" href="$sampler__gauss_8h.html" title="Spatial sampler that provides a value at a point using Gaussian interpolation. " alt="" coords="691,229,862,271"/>
+<area shape="rect" id="node13" href="$sampler__mov__avg_8h.html" title="Spatial sampler that provides a value at a point using a moving average interpolation. " alt="" coords="886,229,1057,271"/>
+<area shape="rect" id="node14" href="$sampler__nn_8h.html" title="Spatial sampler that provides a value at a point using a nearest neighbour interpolation. " alt="" coords="1081,237,1283,263"/>
+<area shape="rect" id="node15" href="$sampler__pseudo__nn_8h.html" title="Spatial sampler that provides a value at a point using a pseudo nearest neighbour interpolation..." alt="" coords="1307,229,1478,271"/>
+<area shape="rect" id="node16" href="$sampler__pseudo__n2__linear_8h.html" title="Spatial sampler that provides a value at a point using a pseudo&#45;linear n^2 interpolation. " alt="" coords="1502,229,1673,271"/>
+<area shape="rect" id="node17" href="$sampler__sum__quintic_8h.html" title="Spatial sampler that provides a value at a point using summation with a quintic kernel. " alt="" coords="1697,229,1867,271"/>
+<area shape="rect" id="node18" href="$sampler__sph__quintic_8h.html" title="Spatial sampler that provides a value at a point using SPH interpolation with a quintic kernel..." alt="" coords="1891,229,2062,271"/>
+<area shape="rect" id="node19" href="$sampler__shepard__quintic_8h.html" title="spatial_samplers/sampler\l_shepard_quintic.h" alt="" coords="2086,229,2257,271"/>
+<area shape="rect" id="node20" href="$sampler__null_8h.html" title="Dummy spatial sampler that provides a template for creating new samplers. " alt="" coords="2281,229,2451,271"/>
+</map>

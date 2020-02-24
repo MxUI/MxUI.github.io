@@ -1,0 +1,17 @@
+<map id="comm_mpi_smart.h" name="comm_mpi_smart.h">
+<area shape="rect" id="node4" href="$util_8h.html" title="Provides a number of utility functions used through the rest of the library. " alt="" coords="1139,304,1189,331"/>
+<area shape="rect" id="node30" href="$stream_8h.html" title="Defines base stream class container_stream and associated functors. " alt="" coords="242,379,315,405"/>
+<area shape="rect" id="node34" href="$comm_8h.html" title="File containing class definition of communication interface. This is the base class for all other com..." alt="" coords="809,155,879,181"/>
+<area shape="rect" id="node35" href="$message_8h.html" title="Structure to contain and manipulate data from internal data to MPI message. " alt="" coords="435,229,522,256"/>
+<area shape="rect" id="node40" href="$comm__mpi_8h.html" title="Class definition of base MPI communicator. " alt="" coords="795,80,893,107"/>
+<area shape="rect" id="node43" href="$comm__factory_8h.html" title="Structures and methods to create a new communicator based on chosen protocols. " alt="" coords="1009,80,1125,107"/>
+<area shape="rect" id="node33" href="$point_8h.html" title="Container structure for a point data type, including specialism and manipulation. ..." alt="" coords="1480,379,1541,405"/>
+<area shape="rect" id="node31" href="$endian__traits_8h.html" title="Support for dealing with big and little endian platforms. " alt="" coords="249,453,356,480"/>
+<area shape="rect" id="node36" href="$stream__string_8h.html" title="Defines the stream in/out for std::string data type. " alt="" coords="492,304,604,331"/>
+<area shape="rect" id="node37" href="$stream__vector_8h.html" title="Defines the stream in/out for std::vector data type. " alt="" coords="351,304,467,331"/>
+<area shape="rect" id="node38" href="$stream__tuple_8h.html" title="Defines the stream in/out for std::tuple data type. " alt="" coords="167,304,275,331"/>
+<area shape="rect" id="node42" href="$lib__uri_8h.html" title="Base class to contain and manipulate a unique URI (Uniform Resource Identifier). " alt="" coords="953,155,1020,181"/>
+<area shape="rect" id="node44" href="$exception_8h.html" title="Base class for exception handling. " alt="" coords="1195,229,1285,256"/>
+<area shape="rect" id="node45" href="$lib__dispatcher_8h.html" title="Structure for communicator used in comm_factory.h. " alt="" coords="1261,155,1374,181"/>
+<area shape="rect" id="node46" href="$lib__singleton_8h.html" title="Base class to contain communicator in comm_factory.h. " alt="" coords="1014,229,1119,256"/>
+</map>
