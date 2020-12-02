@@ -82,9 +82,9 @@
 								and end of the outer iteration for the neutronics.
 							</div>						
 							<div class="divTableCell" style="max-width: 110px; min-width: 110px;">
-								CFD (EDF energy)
+								CFD: <i>Code_Saturne</i> (EDF energy)
 								<a class="image exampleLogo" target="_blank" href="https://www.code-saturne.org"><img src="images/Examples/Logos/code_saturne.png" alt="Code_Saturne Logo"></a>
-								Neutronics (HZDR)
+								Neutronics: DYN3D-MG (HZDR)
 								<a class="image exampleLogo" target="_blank" href="https://www.hzdr.de/db/Cms?pOid=11771&pNid=542"><img src="images/Examples/Logos/dyn3d.jpeg" alt="DYN3D-MG Logo"></a>
 							</div>
 						</div>
@@ -93,14 +93,14 @@
                                 <b><i>Capturing the fluid-gas interface accurately in evaporation modelling (Molecular Dynamics coupled with Direct Simulation Monte Carlo)</b></i>
                                 <a class="image example"><img src="images/Examples/MD-DSMC.png" alt="Interface capture using MD and DSMC"></a>
                             </div>
-                            <div class="divTableCell" style="max-width: 250px; min-width: 150px;">Macroscopic modelling of evaporation normally considers the interface between each phase using parameters. To improve the accuracy of this type of simulation methods to capture micro and mesoscopic effects are required. Solvers written in the <b>OpenFOAM</b> environment for Molecular Dynamics (MD, microscopic) and Direct Simulation Monte Carlo (DSMC, mesoscopic) were coupled using MUI. MUI is used as a data transport layer and coupling protocol framework. Published results show that the coupled solution still follows the general HPC performance of the slower of the two methods (MD) but the overall size of simulation that can be captured while maintaining correct physics is significantly improved by incorporating the less-computationally intensive method DSMC to capture the majority of a domain when compared to just using MD alone.
+                            <div class="divTableCell" style="max-width: 250px; min-width: 150px;">Macroscopic modelling of evaporation normally considers the interface between each phase using parameters. To improve the accuracy of this type of simulation methods to capture micro and mesoscopic effects are required. Solvers written in the <b>OpenFOAM</b> environment for Molecular Dynamics (MD, microscopic) and Direct Simulation Monte Carlo (DSMC, mesoscopic) were coupled. MUI is used as a data transport layer and coupling protocol framework. Published results show that the coupled solution still follows the general HPC performance of the slower of the two methods (MD) but the overall size of simulation that can be captured while maintaining correct physics is significantly improved by incorporating the less-computationally intensive method DSMC to capture the majority of a domain when compared to just using MD alone.
                             </div>
                             <div class="divTableCell" style="max-width: 110px; min-width: 110px;">
-                                General framework (OpenFOAM Foundation)
+                                General Framework (OpenFOAM Foundation)
                                 <a class="image exampleLogo" target="_blank" href="https://openfoam.org/"><img src="images/Examples/Logos/OF.png" alt="OpenFOAM Logo"></a>
-                                Molecular Dynamics mdFoam+ (MicroNanoFlows)
+                                MD: mdFoam+ (MicroNanoFlows)
                                 <a class="image exampleLogo" target="_blank" href="https://github.com/MicroNanoFlows/OpenFOAM-2.4.0-MNF/releases/tag/v1.0.1.coupled"><img src="images/Examples/Logos/MNF.png" alt="MicroNanoFlows Logo"></a>
-                                Direct Simulation Monte Carlo dsmcFoam+ (MicroNanoFlows)
+                                DSMC: dsmcFoam+ (MicroNanoFlows)
                                 <a class="image exampleLogo" target="_blank" href="https://github.com/MicroNanoFlows/OpenFOAM-2.4.0-MNF/releases/tag/v1.0.1.coupled"><img src="images/Examples/Logos/MNF.png" alt="MicroNanoFlows Logo"></a>
                             </div>
                         </div>
