@@ -1,0 +1,26 @@
+digraph "dynstorage.h"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="dynstorage.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Implementation of a compound dynamic data structure used throughout MUI."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="spatial_storage.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$spatial__storage_8h.html",tooltip="Defines the spatial_storage data type."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="uniface.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$uniface_8h.html",tooltip="Provides the majority of the useful functionality for MUI, including all fetch, commit and push funct..."];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="lib_mpi_multidomain.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$lib__mpi__multidomain_8h.html",tooltip="Provides helper functions for creating and synchronising multiple MUI interfaces for a single domain."];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="mui.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mui_8h.html",tooltip="The main header file for MUI. Usually the only file that needs to be included in order to integrate i..."];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="wrappers/C/mui_3d.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mui__3d_8cpp.html",tooltip=" "];
+  Node5 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="wrappers/Fortran/mui\l_3df.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mui__3df_8cpp.html",tooltip=" "];
+  Node5 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="wrappers/Python/mui4py\l/mui4py.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mui4py_8cpp.html",tooltip=" "];
+  Node3 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="spatial_samplers/sampler\l_rbf.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sampler__rbf_8h.html",tooltip="Spatial sampler using Gaussian Radial Basis Function interpolation."];
+  Node3 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

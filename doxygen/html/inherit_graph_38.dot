@@ -1,0 +1,20 @@
+digraph "Graphical Class Hierarchy"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node111 [label="mui::istream",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmui_1_1istream.html",tooltip=" "];
+  Node111 -> Node112 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node112 [label="mui::iitr_stream\< ConstInput\lIterator \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmui_1_1iitr__stream.html",tooltip=" "];
+  Node111 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 [label="mui::iostream",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmui_1_1iostream.html",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="mui::container_stream\l\< Seq, Alloc \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmui_1_1container__stream.html",tooltip=" "];
+  Node0 [label="mui::ostream",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmui_1_1ostream.html",tooltip=" "];
+  Node0 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node0 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="mui::ocount_stream",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmui_1_1ocount__stream.html",tooltip=" "];
+  Node0 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="mui::oitr_stream\< Output\lIterator \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmui_1_1oitr__stream.html",tooltip=" "];
+}

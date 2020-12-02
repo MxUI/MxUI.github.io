@@ -1,0 +1,57 @@
+digraph "virtual_container.h"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="virtual_container.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Provides a virtual container interface that is used to wrap around data structures created by dynstor..."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="sampler.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sampler_8h.html",tooltip="A reference file for making custom samplers. The new sampler does not have to derive from this class,..."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="mui.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mui_8h.html",tooltip="The main header file for MUI. Usually the only file that needs to be included in order to integrate i..."];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="wrappers/C/mui_3d.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mui__3d_8cpp.html",tooltip=" "];
+  Node3 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="wrappers/Fortran/mui\l_3df.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mui__3df_8cpp.html",tooltip=" "];
+  Node3 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="wrappers/Python/mui4py\l/mui4py.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mui4py_8cpp.html",tooltip=" "];
+  Node2 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="spatial_samplers/sampler\l_exact.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sampler__exact_8h.html",tooltip="Spatial sampler that provides a value at an exact point with no interpolation."];
+  Node7 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="spatial_samplers/sampler\l_gauss.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sampler__gauss_8h.html",tooltip="Spatial sampler that provides a value at a point using Gaussian interpolation."];
+  Node8 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="spatial_samplers/sampler\l_mov_avg.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sampler__mov__avg_8h.html",tooltip="Spatial sampler that provides a value at a point using a moving average interpolation."];
+  Node9 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="spatial_samplers/sampler_nn.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sampler__nn_8h.html",tooltip="Spatial sampler that provides a value at a point using a nearest neighbour interpolation."];
+  Node10 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="spatial_samplers/sampler\l_null.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sampler__null_8h.html",tooltip="Dummy spatial sampler that provides a template for creating new samplers."];
+  Node2 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="spatial_samplers/sampler\l_pseudo_n2_linear.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sampler__pseudo__n2__linear_8h.html",tooltip="Spatial sampler that provides a value at a point using a pseudo-linear n^2 interpolation."];
+  Node12 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="spatial_samplers/sampler\l_pseudo_nn.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sampler__pseudo__nn_8h.html",tooltip="Spatial sampler that provides a value at a point using a pseudo nearest neighbour interpolation."];
+  Node13 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="spatial_samplers/sampler\l_shepard_quintic.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sampler__shepard__quintic_8h.html",tooltip=" "];
+  Node14 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="spatial_samplers/sampler\l_sph_quintic.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sampler__sph__quintic_8h.html",tooltip="Spatial sampler that provides a value at a point using SPH interpolation with a quintic kernel."];
+  Node15 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="spatial_samplers/sampler\l_sum_quintic.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sampler__sum__quintic_8h.html",tooltip="Spatial sampler that provides a value at a point using summation with a quintic kernel."];
+  Node16 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="spatial_storage.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$spatial__storage_8h.html",tooltip="Defines the spatial_storage data type."];
+  Node17 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="uniface.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$uniface_8h.html",tooltip="Provides the majority of the useful functionality for MUI, including all fetch, commit and push funct..."];
+  Node18 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="lib_mpi_multidomain.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$lib__mpi__multidomain_8h.html",tooltip="Provides helper functions for creating and synchronising multiple MUI interfaces for a single domain."];
+  Node19 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 -> Node20 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node20 [label="spatial_samplers/sampler\l_rbf.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sampler__rbf_8h.html",tooltip="Spatial sampler using Gaussian Radial Basis Function interpolation."];
+  Node18 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

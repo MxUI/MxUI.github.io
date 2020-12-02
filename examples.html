@@ -40,7 +40,8 @@
 				<!-- Nav -->
 				<nav id="nav">
 					<ul>
-						<li><a href="index.html">Home</a></li>						
+						<li><a href="index.html">Home</a></li>
+                        <li><a href="doxygen/html/classmui_1_1uniface.html">Documentation</a></li>
 						<li><a href="examples.html">Coupling Examples</a></li>
 						<li><a href="publications.html">Publications</a></li>
 						<li><a href="downloads.html">Downloads</a></li>
@@ -87,6 +88,22 @@
 								<a class="image exampleLogo" target="_blank" href="https://www.hzdr.de/db/Cms?pOid=11771&pNid=542"><img src="images/Examples/Logos/dyn3d.jpeg" alt="DYN3D-MG Logo"></a>
 							</div>
 						</div>
+                        <div class="divTableRow">
+                            <div class="divTableCell" style="max-width: 210px; min-width: 210px;">
+                                <b><i>Capturing the fluid-gas interface accurately in evaporation modelling (Molecular Dynamics coupled with Direct Simulation Monte Carlo)</b></i>
+                                <a class="image example"><img src="images/Examples/MD-DSMC.png" alt="Interface capture using MD and DSMC"></a>
+                            </div>
+                            <div class="divTableCell" style="max-width: 250px; min-width: 150px;">Macroscopic modelling of evaporation normally considers the interface between each phase using parameters. To improve the accuracy of this type of simulation methods to capture micro and mesoscopic effects are required. Solvers written in the <b>OpenFOAM</b> environment for Molecular Dynamics (MD, microscopic) and Direct Simulation Monte Carlo (DSMC, mesoscopic) were coupled using MUI. MUI is used as a data transport layer and coupling protocol framework. Published results show that the coupled solution still follows the general HPC performance of the slower of the two methods (MD) but the overall size of simulation that can be captured while maintaining correct physics is significantly improved by incorporating the less-computationally intensive method DSMC to capture the majority of a domain when compared to just using MD alone.
+                            </div>
+                            <div class="divTableCell" style="max-width: 110px; min-width: 110px;">
+                                General framework (OpenFOAM Foundation)
+                                <a class="image exampleLogo" target="_blank" href="https://openfoam.org/"><img src="images/Examples/Logos/OF.png" alt="OpenFOAM Logo"></a>
+                                Molecular Dynamics mdFoam+ (MicroNanoFlows)
+                                <a class="image exampleLogo" target="_blank" href="https://github.com/MicroNanoFlows/OpenFOAM-2.4.0-MNF/releases/tag/v1.0.1.coupled"><img src="images/Examples/Logos/MNF.png" alt="MicroNanoFlows Logo"></a>
+                                Direct Simulation Monte Carlo dsmcFoam+ (MicroNanoFlows)
+                                <a class="image exampleLogo" target="_blank" href="https://github.com/MicroNanoFlows/OpenFOAM-2.4.0-MNF/releases/tag/v1.0.1.coupled"><img src="images/Examples/Logos/MNF.png" alt="MicroNanoFlows Logo"></a>
+                            </div>
+                        </div>
 					</div>
 				</div>		
 			</section>

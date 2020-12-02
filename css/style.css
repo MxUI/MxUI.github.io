@@ -199,7 +199,7 @@
 
 			.image.example img {	
 				display: block;	
-				width: 200px;
+				width: 400px;
 				height: auto;
 				margin: auto;												
 			}
@@ -210,7 +210,7 @@
 
 			.image.exampleLogo img {							
 				position: block;				
-				width: 100px;
+				width: 50px;
 				height: auto;
 				margin: auto;				   	 								
 			}
@@ -736,8 +736,8 @@
 			border: 0px solid #999999;
 			display: table-cell;
 			padding: 10px 5px;
-			
-		}		
+            vertical-align: middle;
+        }
 
 		.divTableFoot {
 			background-color: #EEE;
