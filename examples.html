@@ -41,7 +41,7 @@
 				<nav id="nav">
 					<ul>
 						<li><a href="index.html">Home</a></li>
-                        <li><a href="doxygen/html/classmui_1_1uniface.html">Documentation</a></li>
+                        			<li><a href="doxygen/html/classmui_1_1uniface.html">Documentation</a></li>
 						<li><a href="examples.html">Coupling Examples</a></li>
 						<li><a href="publications.html">Publications</a></li>
 						<li><a href="downloads.html">Downloads</a></li>
@@ -73,10 +73,29 @@
 						</div>
 						<div class="divTableRow">
 							<div class="divTableCell" style="max-width: 210px; min-width: 210px;">
+								<b><i>Fluid Structure Interaction (Computational Fluid Dynamics coupled with Finite Element Structural Analysis)</b></i>
+								<a class="image example"><img src="images/Examples/FSI.png" alt="Fluid Structure Interaction"></a>
+							</div>
+							<div class="divTableCell" style="max-width: 250px; min-width: 150px;">
+								Fluid Structure Ineraction problems are ubiquitous in the physical sciences, from understanding how cell membranes interact with internal fluid pressures
+								through to how liquids slosh in containers or how ocean waves interact with defence structures. A multiphase Volume of Fluid approach from <b><i>OpenFOAM</i></b> is 
+								strongly coupled to a structural solver built in the <b><i>FEniCS</i></b> framework. Coupling is achieved using a Radial Basis Function spatial interpolation and Aitken's
+								fixed point iterative scheme.  
+							</div>						
+							<div class="divTableCell" style="max-width: 110px; min-width: 110px;">
+								CFD: <i>interFoam</i> (OpenFOAM Foundation)
+								<a class="image exampleLogo" target="_blank" href="https://openfoam.org/"><img src="images/Examples/Logos/OF.png" alt="OpenFOAM Logo"></a>
+								Structural: FEniCS
+								<a class="image exampleLogo" target="_blank" href="https://fenicsproject.org/"><img src="images/Examples/Logos/fenics_logo.png" alt="FEniCS Logo"></a>
+							</div>
+						</div>
+						<div class="divTableRow">
+							<div class="divTableCell" style="max-width: 210px; min-width: 210px;">
 								<b><i>Molten Salt Fast Reactor (Computational Fluid Dynamics coupled with Neutronics)</b></i>
 								<a class="image example"><img src="images/Examples/MSFR.png" alt="Molten Salt Fast Reactor"></a>
 							</div>
-							<div class="divTableCell" style="max-width: 250px; min-width: 150px;">Can frozen walls help reduce the effects of container vessel corrosion
+							<div class="divTableCell" style="max-width: 250px; min-width: 150px;">
+								Can frozen walls help reduce the effects of container vessel corrosion
 								in molten salt fast nuclear reactor designs? Unsteady CFD calculations were performed with <b><i>Code_Saturne</i></b> and neutronics calculations
 								by <b>DYN3D-MG</b>. MUI was used as the interface between the two codes, transferring all nodal data between codes at the end of the time-step for the CFD
 								and end of the outer iteration for the neutronics.
@@ -88,22 +107,23 @@
 								<a class="image exampleLogo" target="_blank" href="https://www.hzdr.de/db/Cms?pOid=11771&pNid=542"><img src="images/Examples/Logos/dyn3d.jpeg" alt="DYN3D-MG Logo"></a>
 							</div>
 						</div>
-                        <div class="divTableRow">
-                            <div class="divTableCell" style="max-width: 210px; min-width: 210px;">
-                                <b><i>Capturing the fluid-gas interface accurately in evaporation modelling (Molecular Dynamics coupled with Direct Simulation Monte Carlo)</b></i>
-                                <a class="image example"><img src="images/Examples/MD-DSMC.png" alt="Interface capture using MD and DSMC"></a>
-                            </div>
-                            <div class="divTableCell" style="max-width: 250px; min-width: 150px;">Macroscopic modelling of evaporation normally considers the interface between each phase using parameters. To improve the accuracy of this type of simulation methods to capture micro and mesoscopic effects are required. Solvers written in the <b>OpenFOAM</b> environment for Molecular Dynamics (MD, microscopic) and Direct Simulation Monte Carlo (DSMC, mesoscopic) were coupled. MUI is used as a data transport layer and coupling protocol framework. Published results show that the coupled solution still follows the general HPC performance of the slower of the two methods (MD) but the overall size of simulation that can be captured while maintaining correct physics is significantly improved by incorporating the less-computationally intensive method DSMC to capture the majority of a domain when compared to just using MD alone.
-                            </div>
-                            <div class="divTableCell" style="max-width: 110px; min-width: 110px;">
-                                General Framework (OpenFOAM Foundation)
-                                <a class="image exampleLogo" target="_blank" href="https://openfoam.org/"><img src="images/Examples/Logos/OF.png" alt="OpenFOAM Logo"></a>
-                                MD: mdFoam+ (MicroNanoFlows)
-                                <a class="image exampleLogo" target="_blank" href="https://github.com/MicroNanoFlows/OpenFOAM-2.4.0-MNF/releases/tag/v1.0.1.coupled"><img src="images/Examples/Logos/MNF.png" alt="MicroNanoFlows Logo"></a>
-                                DSMC: dsmcFoam+ (MicroNanoFlows)
-                                <a class="image exampleLogo" target="_blank" href="https://github.com/MicroNanoFlows/OpenFOAM-2.4.0-MNF/releases/tag/v1.0.1.coupled"><img src="images/Examples/Logos/MNF.png" alt="MicroNanoFlows Logo"></a>
-                            </div>
-                        </div>
+                        			<div class="divTableRow">
+                            				<div class="divTableCell" style="max-width: 210px; min-width: 210px;">
+                                				<b><i>Capturing the fluid-gas interface accurately in evaporation modelling (Molecular Dynamics coupled with Direct Simulation Monte Carlo)</b></i>
+                                				<a class="image example"><img src="images/Examples/MD-DSMC.png" alt="Interface capture using MD and DSMC"></a>
+                            				</div>
+                            				<div class="divTableCell" style="max-width: 250px; min-width: 150px;">
+                            					Macroscopic modelling of evaporation normally considers the interface between each phase using parameters. To improve the accuracy of this type of simulation methods to capture micro and mesoscopic effects are required. Solvers written in the <b>OpenFOAM</b> environment for Molecular Dynamics (MD, microscopic) and Direct Simulation Monte Carlo (DSMC, mesoscopic) were coupled. MUI is used as a data transport layer and coupling protocol framework. Published results show that the coupled solution still follows the general HPC performance of the slower of the two methods (MD) but the overall size of simulation that can be captured while maintaining correct physics is significantly improved by incorporating the less-computationally intensive method DSMC to capture the majority of a domain when compared to just using MD alone.
+                            				</div>
+							<div class="divTableCell" style="max-width: 110px; min-width: 110px;">
+								General Framework (OpenFOAM Foundation)
+								<a class="image exampleLogo" target="_blank" href="https://openfoam.org/"><img src="images/Examples/Logos/OF.png" alt="OpenFOAM Logo"></a>
+								MD: mdFoam+ (MicroNanoFlows)
+								<a class="image exampleLogo" target="_blank" href="https://github.com/MicroNanoFlows/OpenFOAM-2.4.0-MNF/releases/tag/v1.0.1.coupled"><img src="images/Examples/Logos/MNF.png" alt="MicroNanoFlows Logo"></a>
+								DSMC: dsmcFoam+ (MicroNanoFlows)
+								<a class="image exampleLogo" target="_blank" href="https://github.com/MicroNanoFlows/OpenFOAM-2.4.0-MNF/releases/tag/v1.0.1.coupled"><img src="images/Examples/Logos/MNF.png" alt="MicroNanoFlows Logo"></a>
+							</div>
+                        			</div>
 					</div>
 				</div>		
 			</section>
@@ -118,7 +138,7 @@
 				<a class="github-button" href="https://github.com/MxUI/MUI/archive/master.zip" data-size="large" data-icon="octicon-cloud-download" aria-label="Download MxUI/MUI on GitHub">Download</a>	
 				<!-- Copyright -->
 				<div class="copyright">
-					&copy; Copyright the MxUI consortium (design derived from: <a href="http://templated.co">TEMPLATED</a>)
+					&copy; Copyright the MxUI consortium
 				</div>
 			</div>
 		</div>
