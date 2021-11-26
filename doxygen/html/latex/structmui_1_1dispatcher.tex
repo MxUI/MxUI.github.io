@@ -1,0 +1,92 @@
+\hypertarget{structmui_1_1dispatcher}{}\doxysection{mui\+::dispatcher$<$ U\+U\+ID, F\+P\+TR, E\+X\+C\+E\+P\+T\+I\+ON $>$ Struct Template Reference}
+\label{structmui_1_1dispatcher}\index{mui::dispatcher$<$ UUID, FPTR, EXCEPTION $>$@{mui::dispatcher$<$ UUID, FPTR, EXCEPTION $>$}}
+
+
+{\ttfamily \#include $<$lib\+\_\+dispatcher.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+F\+P\+TR \mbox{\hyperlink{structmui_1_1dispatcher_a725b23518b180b3738df48bbd4bee228}{dispatch}} (const U\+U\+ID \&id)
+\item 
+bool \mbox{\hyperlink{structmui_1_1dispatcher_a2286f91611ef194b2b4f3565257b4e4a}{exist}} (const U\+U\+ID \&id)
+\item 
+F\+P\+TR \mbox{\hyperlink{structmui_1_1dispatcher_a03dcca40c263e4d309e37b1b210f98d6}{operator\mbox{[}$\,$\mbox{]}}} (const U\+U\+ID \&id)
+\item 
+bool \mbox{\hyperlink{structmui_1_1dispatcher_ab43f6dd70225423fb101c0c254a3b267}{link}} (const U\+U\+ID \&id, F\+P\+TR parser)
+\item 
+bool \mbox{\hyperlink{structmui_1_1dispatcher_a54874aeadc1dee3647e4196ee843c87d}{unlink}} (const U\+U\+ID \&id)
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Types}
+\begin{DoxyCompactItemize}
+\item 
+using \mbox{\hyperlink{structmui_1_1dispatcher_a14156fe55b0a25c899dd521c2b9d5508}{assoc\+\_\+table}} = std\+::unordered\+\_\+map$<$ U\+U\+ID, F\+P\+TR $>$
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{structmui_1_1dispatcher_a14156fe55b0a25c899dd521c2b9d5508}{assoc\+\_\+table}} \mbox{\hyperlink{structmui_1_1dispatcher_a601bd43f740243c9acd74299799bfbbe}{dtable\+\_\+}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Typedef Documentation}
+\mbox{\Hypertarget{structmui_1_1dispatcher_a14156fe55b0a25c899dd521c2b9d5508}\label{structmui_1_1dispatcher_a14156fe55b0a25c899dd521c2b9d5508}} 
+\index{mui::dispatcher$<$ UUID, FPTR, EXCEPTION $>$@{mui::dispatcher$<$ UUID, FPTR, EXCEPTION $>$}!assoc\_table@{assoc\_table}}
+\index{assoc\_table@{assoc\_table}!mui::dispatcher$<$ UUID, FPTR, EXCEPTION $>$@{mui::dispatcher$<$ UUID, FPTR, EXCEPTION $>$}}
+\doxysubsubsection{\texorpdfstring{assoc\_table}{assoc\_table}}
+{\footnotesize\ttfamily template$<$typename U\+U\+ID , class F\+P\+TR , class E\+X\+C\+E\+P\+T\+I\+ON  = exception\+\_\+segv$>$ \\
+using \mbox{\hyperlink{structmui_1_1dispatcher}{mui\+::dispatcher}}$<$ U\+U\+ID, F\+P\+TR, E\+X\+C\+E\+P\+T\+I\+ON $>$\+::\mbox{\hyperlink{structmui_1_1dispatcher_a14156fe55b0a25c899dd521c2b9d5508}{assoc\+\_\+table}} =  std\+::unordered\+\_\+map$<$U\+U\+ID,F\+P\+TR$>$\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{structmui_1_1dispatcher_a725b23518b180b3738df48bbd4bee228}\label{structmui_1_1dispatcher_a725b23518b180b3738df48bbd4bee228}} 
+\index{mui::dispatcher$<$ UUID, FPTR, EXCEPTION $>$@{mui::dispatcher$<$ UUID, FPTR, EXCEPTION $>$}!dispatch@{dispatch}}
+\index{dispatch@{dispatch}!mui::dispatcher$<$ UUID, FPTR, EXCEPTION $>$@{mui::dispatcher$<$ UUID, FPTR, EXCEPTION $>$}}
+\doxysubsubsection{\texorpdfstring{dispatch()}{dispatch()}}
+{\footnotesize\ttfamily template$<$typename U\+U\+ID , class F\+P\+TR , class E\+X\+C\+E\+P\+T\+I\+ON  = exception\+\_\+segv$>$ \\
+F\+P\+TR \mbox{\hyperlink{structmui_1_1dispatcher}{mui\+::dispatcher}}$<$ U\+U\+ID, F\+P\+TR, E\+X\+C\+E\+P\+T\+I\+ON $>$\+::dispatch (\begin{DoxyParamCaption}\item[{const U\+U\+ID \&}]{id }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{structmui_1_1dispatcher_a2286f91611ef194b2b4f3565257b4e4a}\label{structmui_1_1dispatcher_a2286f91611ef194b2b4f3565257b4e4a}} 
+\index{mui::dispatcher$<$ UUID, FPTR, EXCEPTION $>$@{mui::dispatcher$<$ UUID, FPTR, EXCEPTION $>$}!exist@{exist}}
+\index{exist@{exist}!mui::dispatcher$<$ UUID, FPTR, EXCEPTION $>$@{mui::dispatcher$<$ UUID, FPTR, EXCEPTION $>$}}
+\doxysubsubsection{\texorpdfstring{exist()}{exist()}}
+{\footnotesize\ttfamily template$<$typename U\+U\+ID , class F\+P\+TR , class E\+X\+C\+E\+P\+T\+I\+ON  = exception\+\_\+segv$>$ \\
+bool \mbox{\hyperlink{structmui_1_1dispatcher}{mui\+::dispatcher}}$<$ U\+U\+ID, F\+P\+TR, E\+X\+C\+E\+P\+T\+I\+ON $>$\+::exist (\begin{DoxyParamCaption}\item[{const U\+U\+ID \&}]{id }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{structmui_1_1dispatcher_ab43f6dd70225423fb101c0c254a3b267}\label{structmui_1_1dispatcher_ab43f6dd70225423fb101c0c254a3b267}} 
+\index{mui::dispatcher$<$ UUID, FPTR, EXCEPTION $>$@{mui::dispatcher$<$ UUID, FPTR, EXCEPTION $>$}!link@{link}}
+\index{link@{link}!mui::dispatcher$<$ UUID, FPTR, EXCEPTION $>$@{mui::dispatcher$<$ UUID, FPTR, EXCEPTION $>$}}
+\doxysubsubsection{\texorpdfstring{link()}{link()}}
+{\footnotesize\ttfamily template$<$typename U\+U\+ID , class F\+P\+TR , class E\+X\+C\+E\+P\+T\+I\+ON  = exception\+\_\+segv$>$ \\
+bool \mbox{\hyperlink{structmui_1_1dispatcher}{mui\+::dispatcher}}$<$ U\+U\+ID, F\+P\+TR, E\+X\+C\+E\+P\+T\+I\+ON $>$\+::link (\begin{DoxyParamCaption}\item[{const U\+U\+ID \&}]{id,  }\item[{F\+P\+TR}]{parser }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{structmui_1_1dispatcher_a03dcca40c263e4d309e37b1b210f98d6}\label{structmui_1_1dispatcher_a03dcca40c263e4d309e37b1b210f98d6}} 
+\index{mui::dispatcher$<$ UUID, FPTR, EXCEPTION $>$@{mui::dispatcher$<$ UUID, FPTR, EXCEPTION $>$}!operator\mbox{[}\mbox{]}@{operator[]}}
+\index{operator\mbox{[}\mbox{]}@{operator[]}!mui::dispatcher$<$ UUID, FPTR, EXCEPTION $>$@{mui::dispatcher$<$ UUID, FPTR, EXCEPTION $>$}}
+\doxysubsubsection{\texorpdfstring{operator[]()}{operator[]()}}
+{\footnotesize\ttfamily template$<$typename U\+U\+ID , class F\+P\+TR , class E\+X\+C\+E\+P\+T\+I\+ON  = exception\+\_\+segv$>$ \\
+F\+P\+TR \mbox{\hyperlink{structmui_1_1dispatcher}{mui\+::dispatcher}}$<$ U\+U\+ID, F\+P\+TR, E\+X\+C\+E\+P\+T\+I\+ON $>$\+::operator\mbox{[}$\,$\mbox{]} (\begin{DoxyParamCaption}\item[{const U\+U\+ID \&}]{id }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{structmui_1_1dispatcher_a54874aeadc1dee3647e4196ee843c87d}\label{structmui_1_1dispatcher_a54874aeadc1dee3647e4196ee843c87d}} 
+\index{mui::dispatcher$<$ UUID, FPTR, EXCEPTION $>$@{mui::dispatcher$<$ UUID, FPTR, EXCEPTION $>$}!unlink@{unlink}}
+\index{unlink@{unlink}!mui::dispatcher$<$ UUID, FPTR, EXCEPTION $>$@{mui::dispatcher$<$ UUID, FPTR, EXCEPTION $>$}}
+\doxysubsubsection{\texorpdfstring{unlink()}{unlink()}}
+{\footnotesize\ttfamily template$<$typename U\+U\+ID , class F\+P\+TR , class E\+X\+C\+E\+P\+T\+I\+ON  = exception\+\_\+segv$>$ \\
+bool \mbox{\hyperlink{structmui_1_1dispatcher}{mui\+::dispatcher}}$<$ U\+U\+ID, F\+P\+TR, E\+X\+C\+E\+P\+T\+I\+ON $>$\+::unlink (\begin{DoxyParamCaption}\item[{const U\+U\+ID \&}]{id }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{structmui_1_1dispatcher_a601bd43f740243c9acd74299799bfbbe}\label{structmui_1_1dispatcher_a601bd43f740243c9acd74299799bfbbe}} 
+\index{mui::dispatcher$<$ UUID, FPTR, EXCEPTION $>$@{mui::dispatcher$<$ UUID, FPTR, EXCEPTION $>$}!dtable\_@{dtable\_}}
+\index{dtable\_@{dtable\_}!mui::dispatcher$<$ UUID, FPTR, EXCEPTION $>$@{mui::dispatcher$<$ UUID, FPTR, EXCEPTION $>$}}
+\doxysubsubsection{\texorpdfstring{dtable\_}{dtable\_}}
+{\footnotesize\ttfamily template$<$typename U\+U\+ID , class F\+P\+TR , class E\+X\+C\+E\+P\+T\+I\+ON  = exception\+\_\+segv$>$ \\
+\mbox{\hyperlink{structmui_1_1dispatcher_a14156fe55b0a25c899dd521c2b9d5508}{assoc\+\_\+table}} \mbox{\hyperlink{structmui_1_1dispatcher}{mui\+::dispatcher}}$<$ U\+U\+ID, F\+P\+TR, E\+X\+C\+E\+P\+T\+I\+ON $>$\+::dtable\+\_\+\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+The documentation for this struct was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{lib__dispatcher_8h}{lib\+\_\+dispatcher.\+h}}\end{DoxyCompactItemize}

@@ -1,0 +1,371 @@
+\hypertarget{classmui_1_1sampler__rbf}{}\doxysection{mui\+::sampler\+\_\+rbf$<$ C\+O\+N\+F\+IG, O\+\_\+\+TP, I\+\_\+\+TP $>$ Class Template Reference}
+\label{classmui_1_1sampler__rbf}\index{mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$@{mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$}}
+
+
+{\ttfamily \#include $<$sampler\+\_\+rbf.\+h$>$}
+
+
+
+Collaboration diagram for mui\+::sampler\+\_\+rbf$<$ C\+O\+N\+F\+IG, O\+\_\+\+TP, I\+\_\+\+TP $>$\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=232pt]{classmui_1_1sampler__rbf__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+using \mbox{\hyperlink{classmui_1_1sampler__rbf_aa65d08dfc99b1882b3557572a2d84167}{O\+T\+Y\+PE}} = O\+\_\+\+TP
+\item 
+using \mbox{\hyperlink{classmui_1_1sampler__rbf_a17f28f8d8af1eea75abc93686457d33e}{I\+T\+Y\+PE}} = I\+\_\+\+TP
+\item 
+using \mbox{\hyperlink{classmui_1_1sampler__rbf_a4c57e6ac3aff15e7d979429e7af7e15b}{R\+E\+AL}} = typename C\+O\+N\+F\+I\+G\+::\+R\+E\+AL
+\item 
+using \mbox{\hyperlink{classmui_1_1sampler__rbf_a8f20c31073b66caccf1f736ae698503b}{I\+NT}} = typename C\+O\+N\+F\+I\+G\+::\+I\+NT
+\item 
+using \mbox{\hyperlink{classmui_1_1sampler__rbf_a8740729e4364330baf0732768ce7d0e0}{point\+\_\+type}} = typename C\+O\+N\+F\+I\+G\+::point\+\_\+type
+\item 
+using \mbox{\hyperlink{classmui_1_1sampler__rbf_a28d7dde449ade3f44902b68584454bb6}{E\+X\+C\+E\+P\+T\+I\+ON}} = typename C\+O\+N\+F\+I\+G\+::\+E\+X\+C\+E\+P\+T\+I\+ON
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classmui_1_1sampler__rbf_a9f8a847e67b3029eaf3461f2aab1f43e}{sampler\+\_\+rbf}} (\mbox{\hyperlink{classmui_1_1sampler__rbf_a4c57e6ac3aff15e7d979429e7af7e15b}{R\+E\+AL}} r, std\+::vector$<$ \mbox{\hyperlink{classmui_1_1sampler__rbf_a8740729e4364330baf0732768ce7d0e0}{point\+\_\+type}} $>$ \&pts, \mbox{\hyperlink{classmui_1_1sampler__rbf_a8f20c31073b66caccf1f736ae698503b}{I\+NT}} basis\+Func=0, bool conservative=false, bool polynomial=false, bool smooth\+Func=false, bool read\+Matrix=false, const std\+::string \&file\+Address=std\+::string(), \mbox{\hyperlink{classmui_1_1sampler__rbf_a4c57e6ac3aff15e7d979429e7af7e15b}{R\+E\+AL}} cutoff=1e-\/9)
+\item 
+{\footnotesize template$<$template$<$ typename, typename $>$ class C\+O\+N\+T\+A\+I\+N\+ER$>$ }\\\mbox{\hyperlink{classmui_1_1sampler__rbf_aa65d08dfc99b1882b3557572a2d84167}{O\+T\+Y\+PE}} \mbox{\hyperlink{classmui_1_1sampler__rbf_a49e622b098295b2a23ebda2039c2e32c}{filter}} (\mbox{\hyperlink{classmui_1_1sampler__rbf_a8740729e4364330baf0732768ce7d0e0}{point\+\_\+type}} focus, const C\+O\+N\+T\+A\+I\+N\+ER$<$ \mbox{\hyperlink{classmui_1_1sampler__rbf_a17f28f8d8af1eea75abc93686457d33e}{I\+T\+Y\+PE}}, C\+O\+N\+F\+IG $>$ \&data\+\_\+points)
+\item 
+\mbox{\hyperlink{classmui_1_1geometry_1_1any__shape}{geometry\+::any\+\_\+shape}}$<$ C\+O\+N\+F\+IG $>$ \mbox{\hyperlink{classmui_1_1sampler__rbf_a680e10f2074020ed634abd8afa1b8917}{support}} (\mbox{\hyperlink{classmui_1_1sampler__rbf_a8740729e4364330baf0732768ce7d0e0}{point\+\_\+type}} focus, \mbox{\hyperlink{classmui_1_1sampler__rbf_a4c57e6ac3aff15e7d979429e7af7e15b}{R\+E\+AL}} domain\+\_\+mag) const
+\item 
+void \mbox{\hyperlink{classmui_1_1sampler__rbf_a7654b7d2bca74f96743e01bd727568ce}{pre\+Set\+Fetch\+Points}} (std\+::vector$<$ \mbox{\hyperlink{classmui_1_1sampler__rbf_a8740729e4364330baf0732768ce7d0e0}{point\+\_\+type}} $>$ \&pts)
+\item 
+void \mbox{\hyperlink{classmui_1_1sampler__rbf_a1cd67b88e74f46e2cb8cb38e642cbb77}{add\+Fetch\+Point}} (\mbox{\hyperlink{classmui_1_1sampler__rbf_a8740729e4364330baf0732768ce7d0e0}{point\+\_\+type}} pt)
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static const bool \mbox{\hyperlink{classmui_1_1sampler__rbf_af9d602f1ecb6da1ad65944094cac55c7}{Q\+U\+I\+ET}} = C\+O\+N\+F\+I\+G\+::\+Q\+U\+I\+ET
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classmui_1_1sampler__rbf_a4c57e6ac3aff15e7d979429e7af7e15b}{R\+E\+AL}} \mbox{\hyperlink{classmui_1_1sampler__rbf_a180ed1153bf9652b79f7e397dd28a883}{r\+\_\+}}
+\item 
+\mbox{\hyperlink{classmui_1_1sampler__rbf_a4c57e6ac3aff15e7d979429e7af7e15b}{R\+E\+AL}} \mbox{\hyperlink{classmui_1_1sampler__rbf_a9f64cf910a43b9c3f5485ec1393d459c}{s\+\_\+}}
+\item 
+bool \mbox{\hyperlink{classmui_1_1sampler__rbf_a0419acd0a2a4ee7d8ce96d21a9939f92}{initialised\+\_\+}}
+\item 
+\mbox{\hyperlink{classmui_1_1sampler__rbf_a8f20c31073b66caccf1f736ae698503b}{I\+NT}} \mbox{\hyperlink{classmui_1_1sampler__rbf_a7d9fc1f7303d553db376f44d55f1925a}{C\+A\+Brow\+\_\+}}
+\item 
+\mbox{\hyperlink{classmui_1_1sampler__rbf_a8f20c31073b66caccf1f736ae698503b}{I\+NT}} \mbox{\hyperlink{classmui_1_1sampler__rbf_a21baf7ad62151679be2bbd569f4d0dca}{C\+A\+Bcol\+\_\+}}
+\item 
+\mbox{\hyperlink{classmui_1_1sampler__rbf_a8f20c31073b66caccf1f736ae698503b}{I\+NT}} \mbox{\hyperlink{classmui_1_1sampler__rbf_abe11d5beb32bb8fab5164a77bb10edee}{C\+A\+Arow\+\_\+}}
+\item 
+\mbox{\hyperlink{classmui_1_1sampler__rbf_a8f20c31073b66caccf1f736ae698503b}{I\+NT}} \mbox{\hyperlink{classmui_1_1sampler__rbf_a5180b1a1dd363cf41215a81972655942}{C\+A\+Acol\+\_\+}}
+\item 
+\mbox{\hyperlink{classmui_1_1sampler__rbf_a8f20c31073b66caccf1f736ae698503b}{I\+NT}} \mbox{\hyperlink{classmui_1_1sampler__rbf_a55c405cd5c442e59c49bd3fb83d105a9}{Hrow\+\_\+}}
+\item 
+\mbox{\hyperlink{classmui_1_1sampler__rbf_a8f20c31073b66caccf1f736ae698503b}{I\+NT}} \mbox{\hyperlink{classmui_1_1sampler__rbf_a9c039b808318313c6b79d707cc112f93}{Hcol\+\_\+}}
+\item 
+const bool \mbox{\hyperlink{classmui_1_1sampler__rbf_a851eca9b88bc61d9b65a85dd53276855}{conservative\+\_\+}}
+\item 
+const bool \mbox{\hyperlink{classmui_1_1sampler__rbf_a7f3f48f9c462cdd16d88dc6603b50123}{consistent\+\_\+}}
+\item 
+const bool \mbox{\hyperlink{classmui_1_1sampler__rbf_a9e0505bcc69f8bcec18fe642f2c57b4e}{polynomial\+\_\+}}
+\item 
+const bool \mbox{\hyperlink{classmui_1_1sampler__rbf_af42c4464b16239a0d657603f03921d03}{smooth\+Func\+\_\+}}
+\item 
+const bool \mbox{\hyperlink{classmui_1_1sampler__rbf_a6c2a6333cc84f9aadeba0b3af1b0fc26}{read\+Matrix\+\_\+}}
+\item 
+const \mbox{\hyperlink{classmui_1_1sampler__rbf_a8f20c31073b66caccf1f736ae698503b}{I\+NT}} \mbox{\hyperlink{classmui_1_1sampler__rbf_a24e99389294940e4434cc2fca0c36f45}{basis\+Func\+\_\+}}
+\item 
+const std\+::string \mbox{\hyperlink{classmui_1_1sampler__rbf_ae71e24a935a1158ea3d511732c66d177}{file\+Address\+\_\+}}
+\item 
+\mbox{\hyperlink{classmui_1_1sampler__rbf_a8f20c31073b66caccf1f736ae698503b}{I\+NT}} \mbox{\hyperlink{classmui_1_1sampler__rbf_a16b77224b16498dd1d8024291cd8e470}{N\+\_\+sp\+\_\+}}
+\item 
+\mbox{\hyperlink{classmui_1_1sampler__rbf_a8f20c31073b66caccf1f736ae698503b}{I\+NT}} \mbox{\hyperlink{classmui_1_1sampler__rbf_a555307fcf76a5e9c8b7f5aae14412c26}{M\+\_\+ap\+\_\+}}
+\item 
+std\+::vector$<$ \mbox{\hyperlink{classmui_1_1sampler__rbf_a8740729e4364330baf0732768ce7d0e0}{point\+\_\+type}} $>$ \mbox{\hyperlink{classmui_1_1sampler__rbf_a531c29920ed54b5b71bdafdba2fb0176}{pts\+\_\+}}
+\item 
+Eigen\+::\+Matrix$<$ \mbox{\hyperlink{classmui_1_1sampler__rbf_a4c57e6ac3aff15e7d979429e7af7e15b}{R\+E\+AL}}, Eigen\+::\+Dynamic, Eigen\+::\+Dynamic $>$ \mbox{\hyperlink{classmui_1_1sampler__rbf_abd3ff81908ae305304f62d8bd2dc6c61}{H\+\_\+}}
+\item 
+Eigen\+::\+Matrix$<$ \mbox{\hyperlink{classmui_1_1sampler__rbf_a4c57e6ac3aff15e7d979429e7af7e15b}{R\+E\+AL}}, Eigen\+::\+Dynamic, Eigen\+::\+Dynamic $>$ \mbox{\hyperlink{classmui_1_1sampler__rbf_a23729089448d4bee853b57788314cdf2}{H\+\_\+to\+Smooth\+\_\+}}
+\item 
+std\+::vector$<$ std\+::vector$<$ \mbox{\hyperlink{classmui_1_1sampler__rbf_a8f20c31073b66caccf1f736ae698503b}{I\+NT}} $>$ $>$ \mbox{\hyperlink{classmui_1_1sampler__rbf_a2ade5f773f2aa85186c37eb2dc8dcbcd}{connectivity\+A\+B\+\_\+}}
+\item 
+std\+::vector$<$ std\+::vector$<$ \mbox{\hyperlink{classmui_1_1sampler__rbf_a8f20c31073b66caccf1f736ae698503b}{I\+NT}} $>$ $>$ \mbox{\hyperlink{classmui_1_1sampler__rbf_a1847fc1b038456bad56296dae7b987fc}{connectivity\+A\+A\+\_\+}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Typedef Documentation}
+\mbox{\Hypertarget{classmui_1_1sampler__rbf_a28d7dde449ade3f44902b68584454bb6}\label{classmui_1_1sampler__rbf_a28d7dde449ade3f44902b68584454bb6}} 
+\index{mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$@{mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$}!EXCEPTION@{EXCEPTION}}
+\index{EXCEPTION@{EXCEPTION}!mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$@{mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$}}
+\doxysubsubsection{\texorpdfstring{EXCEPTION}{EXCEPTION}}
+{\footnotesize\ttfamily template$<$typename C\+O\+N\+F\+IG  = default\+\_\+config, typename O\+\_\+\+TP  = typename C\+O\+N\+F\+I\+G\+::\+R\+E\+AL, typename I\+\_\+\+TP  = O\+\_\+\+TP$>$ \\
+using \mbox{\hyperlink{classmui_1_1sampler__rbf}{mui\+::sampler\+\_\+rbf}}$<$ C\+O\+N\+F\+IG, O\+\_\+\+TP, I\+\_\+\+TP $>$\+::\mbox{\hyperlink{classmui_1_1sampler__rbf_a28d7dde449ade3f44902b68584454bb6}{E\+X\+C\+E\+P\+T\+I\+ON}} =  typename C\+O\+N\+F\+I\+G\+::\+E\+X\+C\+E\+P\+T\+I\+ON}
+
+\mbox{\Hypertarget{classmui_1_1sampler__rbf_a8f20c31073b66caccf1f736ae698503b}\label{classmui_1_1sampler__rbf_a8f20c31073b66caccf1f736ae698503b}} 
+\index{mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$@{mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$}!INT@{INT}}
+\index{INT@{INT}!mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$@{mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$}}
+\doxysubsubsection{\texorpdfstring{INT}{INT}}
+{\footnotesize\ttfamily template$<$typename C\+O\+N\+F\+IG  = default\+\_\+config, typename O\+\_\+\+TP  = typename C\+O\+N\+F\+I\+G\+::\+R\+E\+AL, typename I\+\_\+\+TP  = O\+\_\+\+TP$>$ \\
+using \mbox{\hyperlink{classmui_1_1sampler__rbf}{mui\+::sampler\+\_\+rbf}}$<$ C\+O\+N\+F\+IG, O\+\_\+\+TP, I\+\_\+\+TP $>$\+::\mbox{\hyperlink{classmui_1_1sampler__rbf_a8f20c31073b66caccf1f736ae698503b}{I\+NT}} =  typename C\+O\+N\+F\+I\+G\+::\+I\+NT}
+
+\mbox{\Hypertarget{classmui_1_1sampler__rbf_a17f28f8d8af1eea75abc93686457d33e}\label{classmui_1_1sampler__rbf_a17f28f8d8af1eea75abc93686457d33e}} 
+\index{mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$@{mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$}!ITYPE@{ITYPE}}
+\index{ITYPE@{ITYPE}!mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$@{mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$}}
+\doxysubsubsection{\texorpdfstring{ITYPE}{ITYPE}}
+{\footnotesize\ttfamily template$<$typename C\+O\+N\+F\+IG  = default\+\_\+config, typename O\+\_\+\+TP  = typename C\+O\+N\+F\+I\+G\+::\+R\+E\+AL, typename I\+\_\+\+TP  = O\+\_\+\+TP$>$ \\
+using \mbox{\hyperlink{classmui_1_1sampler__rbf}{mui\+::sampler\+\_\+rbf}}$<$ C\+O\+N\+F\+IG, O\+\_\+\+TP, I\+\_\+\+TP $>$\+::\mbox{\hyperlink{classmui_1_1sampler__rbf_a17f28f8d8af1eea75abc93686457d33e}{I\+T\+Y\+PE}} =  I\+\_\+\+TP}
+
+\mbox{\Hypertarget{classmui_1_1sampler__rbf_aa65d08dfc99b1882b3557572a2d84167}\label{classmui_1_1sampler__rbf_aa65d08dfc99b1882b3557572a2d84167}} 
+\index{mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$@{mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$}!OTYPE@{OTYPE}}
+\index{OTYPE@{OTYPE}!mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$@{mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$}}
+\doxysubsubsection{\texorpdfstring{OTYPE}{OTYPE}}
+{\footnotesize\ttfamily template$<$typename C\+O\+N\+F\+IG  = default\+\_\+config, typename O\+\_\+\+TP  = typename C\+O\+N\+F\+I\+G\+::\+R\+E\+AL, typename I\+\_\+\+TP  = O\+\_\+\+TP$>$ \\
+using \mbox{\hyperlink{classmui_1_1sampler__rbf}{mui\+::sampler\+\_\+rbf}}$<$ C\+O\+N\+F\+IG, O\+\_\+\+TP, I\+\_\+\+TP $>$\+::\mbox{\hyperlink{classmui_1_1sampler__rbf_aa65d08dfc99b1882b3557572a2d84167}{O\+T\+Y\+PE}} =  O\+\_\+\+TP}
+
+\mbox{\Hypertarget{classmui_1_1sampler__rbf_a8740729e4364330baf0732768ce7d0e0}\label{classmui_1_1sampler__rbf_a8740729e4364330baf0732768ce7d0e0}} 
+\index{mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$@{mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$}!point\_type@{point\_type}}
+\index{point\_type@{point\_type}!mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$@{mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$}}
+\doxysubsubsection{\texorpdfstring{point\_type}{point\_type}}
+{\footnotesize\ttfamily template$<$typename C\+O\+N\+F\+IG  = default\+\_\+config, typename O\+\_\+\+TP  = typename C\+O\+N\+F\+I\+G\+::\+R\+E\+AL, typename I\+\_\+\+TP  = O\+\_\+\+TP$>$ \\
+using \mbox{\hyperlink{classmui_1_1sampler__rbf}{mui\+::sampler\+\_\+rbf}}$<$ C\+O\+N\+F\+IG, O\+\_\+\+TP, I\+\_\+\+TP $>$\+::\mbox{\hyperlink{classmui_1_1sampler__rbf_a8740729e4364330baf0732768ce7d0e0}{point\+\_\+type}} =  typename C\+O\+N\+F\+I\+G\+::point\+\_\+type}
+
+\mbox{\Hypertarget{classmui_1_1sampler__rbf_a4c57e6ac3aff15e7d979429e7af7e15b}\label{classmui_1_1sampler__rbf_a4c57e6ac3aff15e7d979429e7af7e15b}} 
+\index{mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$@{mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$}!REAL@{REAL}}
+\index{REAL@{REAL}!mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$@{mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$}}
+\doxysubsubsection{\texorpdfstring{REAL}{REAL}}
+{\footnotesize\ttfamily template$<$typename C\+O\+N\+F\+IG  = default\+\_\+config, typename O\+\_\+\+TP  = typename C\+O\+N\+F\+I\+G\+::\+R\+E\+AL, typename I\+\_\+\+TP  = O\+\_\+\+TP$>$ \\
+using \mbox{\hyperlink{classmui_1_1sampler__rbf}{mui\+::sampler\+\_\+rbf}}$<$ C\+O\+N\+F\+IG, O\+\_\+\+TP, I\+\_\+\+TP $>$\+::\mbox{\hyperlink{classmui_1_1sampler__rbf_a4c57e6ac3aff15e7d979429e7af7e15b}{R\+E\+AL}} =  typename C\+O\+N\+F\+I\+G\+::\+R\+E\+AL}
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classmui_1_1sampler__rbf_a9f8a847e67b3029eaf3461f2aab1f43e}\label{classmui_1_1sampler__rbf_a9f8a847e67b3029eaf3461f2aab1f43e}} 
+\index{mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$@{mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$}!sampler\_rbf@{sampler\_rbf}}
+\index{sampler\_rbf@{sampler\_rbf}!mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$@{mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$}}
+\doxysubsubsection{\texorpdfstring{sampler\_rbf()}{sampler\_rbf()}}
+{\footnotesize\ttfamily template$<$typename C\+O\+N\+F\+IG  = default\+\_\+config, typename O\+\_\+\+TP  = typename C\+O\+N\+F\+I\+G\+::\+R\+E\+AL, typename I\+\_\+\+TP  = O\+\_\+\+TP$>$ \\
+\mbox{\hyperlink{classmui_1_1sampler__rbf}{mui\+::sampler\+\_\+rbf}}$<$ C\+O\+N\+F\+IG, O\+\_\+\+TP, I\+\_\+\+TP $>$\+::\mbox{\hyperlink{classmui_1_1sampler__rbf}{sampler\+\_\+rbf}} (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classmui_1_1sampler__rbf_a4c57e6ac3aff15e7d979429e7af7e15b}{R\+E\+AL}}}]{r,  }\item[{std\+::vector$<$ \mbox{\hyperlink{classmui_1_1sampler__rbf_a8740729e4364330baf0732768ce7d0e0}{point\+\_\+type}} $>$ \&}]{pts,  }\item[{\mbox{\hyperlink{classmui_1_1sampler__rbf_a8f20c31073b66caccf1f736ae698503b}{I\+NT}}}]{basis\+Func = {\ttfamily 0},  }\item[{bool}]{conservative = {\ttfamily false},  }\item[{bool}]{polynomial = {\ttfamily false},  }\item[{bool}]{smooth\+Func = {\ttfamily false},  }\item[{bool}]{read\+Matrix = {\ttfamily false},  }\item[{const std\+::string \&}]{file\+Address = {\ttfamily std\+:\+:string()},  }\item[{\mbox{\hyperlink{classmui_1_1sampler__rbf_a4c57e6ac3aff15e7d979429e7af7e15b}{R\+E\+AL}}}]{cutoff = {\ttfamily 1e-\/9} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Input parameters\+: 1.\+R\+E\+AL r\+: r is the searching radius
+\begin{DoxyEnumerate}
+\item std\+::vector$<$point\+\_\+type$>$\& pts\+: pts is vector of points that pre-\/set for R\+BF interpolation
+\item I\+NT basis\+Func\+: basis\+Func is a parameter for basis function selection. Implemented functions are as follows\+: Gaussian(default)\+: basis\+Func\+\_\+=0 Wendland\textquotesingle{}s C0\+: basis\+Func\+\_\+=1 Wendland\textquotesingle{}s C2\+: basis\+Func\+\_\+=2 Wendland\textquotesingle{}s C4\+: basis\+Func\+\_\+=3 Wendland\textquotesingle{}s C6\+: basis\+Func\+\_\+=4
+\item bool conservative\+: conservative is a boolen switch on the mode of R\+BF interpolation\+: consistent mode(default)\+: conservative=false conservative mode\+: conservative=true
+\item bool polynomial\+: polynomial is a boolen switch on the polynomial term of the transformation matrix\+: without polynomial terms(default)\+: polynomial=false with polynomial terms\+: polynomial=true
+\item bool smooth\+Func\+: smooth\+Func is a boolen switch on the smoothing function of the transformation matrix\+: without smoothing function(default)\+: smooth\+Func=false with smoothing function\+: smooth\+Func=true
+\item bool read\+Matrix\+: read\+Matrix is a parameter to select whether to construct transformation matrix or read matrix from file\+: construct transformation matrix and write it to file(default)\+: read\+Matrix=false read transformation matrix from file\+: read\+Matrix=true
+\item const std\+::string\& file\+Address\+: file\+Address is a parameter to set the address that the transformation matrix I/O. The default value of file\+Address is an empty string.
+\item double cutoff\+: cutoff is a parameter to set the cut-\/off of the Gaussian basis function (only valid for basis\+Func\+\_\+=0). The default value of cutoff is 1e-\/9 
+\end{DoxyEnumerate}
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classmui_1_1sampler__rbf_a1cd67b88e74f46e2cb8cb38e642cbb77}\label{classmui_1_1sampler__rbf_a1cd67b88e74f46e2cb8cb38e642cbb77}} 
+\index{mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$@{mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$}!addFetchPoint@{addFetchPoint}}
+\index{addFetchPoint@{addFetchPoint}!mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$@{mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$}}
+\doxysubsubsection{\texorpdfstring{addFetchPoint()}{addFetchPoint()}}
+{\footnotesize\ttfamily template$<$typename C\+O\+N\+F\+IG  = default\+\_\+config, typename O\+\_\+\+TP  = typename C\+O\+N\+F\+I\+G\+::\+R\+E\+AL, typename I\+\_\+\+TP  = O\+\_\+\+TP$>$ \\
+void \mbox{\hyperlink{classmui_1_1sampler__rbf}{mui\+::sampler\+\_\+rbf}}$<$ C\+O\+N\+F\+IG, O\+\_\+\+TP, I\+\_\+\+TP $>$\+::add\+Fetch\+Point (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classmui_1_1sampler__rbf_a8740729e4364330baf0732768ce7d0e0}{point\+\_\+type}}}]{pt }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classmui_1_1sampler__rbf_a49e622b098295b2a23ebda2039c2e32c}\label{classmui_1_1sampler__rbf_a49e622b098295b2a23ebda2039c2e32c}} 
+\index{mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$@{mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$}!filter@{filter}}
+\index{filter@{filter}!mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$@{mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$}}
+\doxysubsubsection{\texorpdfstring{filter()}{filter()}}
+{\footnotesize\ttfamily template$<$typename C\+O\+N\+F\+IG  = default\+\_\+config, typename O\+\_\+\+TP  = typename C\+O\+N\+F\+I\+G\+::\+R\+E\+AL, typename I\+\_\+\+TP  = O\+\_\+\+TP$>$ \\
+template$<$template$<$ typename, typename $>$ class C\+O\+N\+T\+A\+I\+N\+ER$>$ \\
+\mbox{\hyperlink{classmui_1_1sampler__rbf_aa65d08dfc99b1882b3557572a2d84167}{O\+T\+Y\+PE}} \mbox{\hyperlink{classmui_1_1sampler__rbf}{mui\+::sampler\+\_\+rbf}}$<$ C\+O\+N\+F\+IG, O\+\_\+\+TP, I\+\_\+\+TP $>$\+::filter (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classmui_1_1sampler__rbf_a8740729e4364330baf0732768ce7d0e0}{point\+\_\+type}}}]{focus,  }\item[{const C\+O\+N\+T\+A\+I\+N\+ER$<$ \mbox{\hyperlink{classmui_1_1sampler__rbf_a17f28f8d8af1eea75abc93686457d33e}{I\+T\+Y\+PE}}, C\+O\+N\+F\+IG $>$ \&}]{data\+\_\+points }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classmui_1_1sampler__rbf_a7654b7d2bca74f96743e01bd727568ce}\label{classmui_1_1sampler__rbf_a7654b7d2bca74f96743e01bd727568ce}} 
+\index{mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$@{mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$}!preSetFetchPoints@{preSetFetchPoints}}
+\index{preSetFetchPoints@{preSetFetchPoints}!mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$@{mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$}}
+\doxysubsubsection{\texorpdfstring{preSetFetchPoints()}{preSetFetchPoints()}}
+{\footnotesize\ttfamily template$<$typename C\+O\+N\+F\+IG  = default\+\_\+config, typename O\+\_\+\+TP  = typename C\+O\+N\+F\+I\+G\+::\+R\+E\+AL, typename I\+\_\+\+TP  = O\+\_\+\+TP$>$ \\
+void \mbox{\hyperlink{classmui_1_1sampler__rbf}{mui\+::sampler\+\_\+rbf}}$<$ C\+O\+N\+F\+IG, O\+\_\+\+TP, I\+\_\+\+TP $>$\+::pre\+Set\+Fetch\+Points (\begin{DoxyParamCaption}\item[{std\+::vector$<$ \mbox{\hyperlink{classmui_1_1sampler__rbf_a8740729e4364330baf0732768ce7d0e0}{point\+\_\+type}} $>$ \&}]{pts }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classmui_1_1sampler__rbf_a680e10f2074020ed634abd8afa1b8917}\label{classmui_1_1sampler__rbf_a680e10f2074020ed634abd8afa1b8917}} 
+\index{mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$@{mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$}!support@{support}}
+\index{support@{support}!mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$@{mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$}}
+\doxysubsubsection{\texorpdfstring{support()}{support()}}
+{\footnotesize\ttfamily template$<$typename C\+O\+N\+F\+IG  = default\+\_\+config, typename O\+\_\+\+TP  = typename C\+O\+N\+F\+I\+G\+::\+R\+E\+AL, typename I\+\_\+\+TP  = O\+\_\+\+TP$>$ \\
+\mbox{\hyperlink{classmui_1_1geometry_1_1any__shape}{geometry\+::any\+\_\+shape}}$<$C\+O\+N\+F\+IG$>$ \mbox{\hyperlink{classmui_1_1sampler__rbf}{mui\+::sampler\+\_\+rbf}}$<$ C\+O\+N\+F\+IG, O\+\_\+\+TP, I\+\_\+\+TP $>$\+::support (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classmui_1_1sampler__rbf_a8740729e4364330baf0732768ce7d0e0}{point\+\_\+type}}}]{focus,  }\item[{\mbox{\hyperlink{classmui_1_1sampler__rbf_a4c57e6ac3aff15e7d979429e7af7e15b}{R\+E\+AL}}}]{domain\+\_\+mag }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classmui_1_1sampler__rbf_a24e99389294940e4434cc2fca0c36f45}\label{classmui_1_1sampler__rbf_a24e99389294940e4434cc2fca0c36f45}} 
+\index{mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$@{mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$}!basisFunc\_@{basisFunc\_}}
+\index{basisFunc\_@{basisFunc\_}!mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$@{mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$}}
+\doxysubsubsection{\texorpdfstring{basisFunc\_}{basisFunc\_}}
+{\footnotesize\ttfamily template$<$typename C\+O\+N\+F\+IG  = default\+\_\+config, typename O\+\_\+\+TP  = typename C\+O\+N\+F\+I\+G\+::\+R\+E\+AL, typename I\+\_\+\+TP  = O\+\_\+\+TP$>$ \\
+const \mbox{\hyperlink{classmui_1_1sampler__rbf_a8f20c31073b66caccf1f736ae698503b}{I\+NT}} \mbox{\hyperlink{classmui_1_1sampler__rbf}{mui\+::sampler\+\_\+rbf}}$<$ C\+O\+N\+F\+IG, O\+\_\+\+TP, I\+\_\+\+TP $>$\+::basis\+Func\+\_\+\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classmui_1_1sampler__rbf_a5180b1a1dd363cf41215a81972655942}\label{classmui_1_1sampler__rbf_a5180b1a1dd363cf41215a81972655942}} 
+\index{mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$@{mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$}!CAAcol\_@{CAAcol\_}}
+\index{CAAcol\_@{CAAcol\_}!mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$@{mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$}}
+\doxysubsubsection{\texorpdfstring{CAAcol\_}{CAAcol\_}}
+{\footnotesize\ttfamily template$<$typename C\+O\+N\+F\+IG  = default\+\_\+config, typename O\+\_\+\+TP  = typename C\+O\+N\+F\+I\+G\+::\+R\+E\+AL, typename I\+\_\+\+TP  = O\+\_\+\+TP$>$ \\
+\mbox{\hyperlink{classmui_1_1sampler__rbf_a8f20c31073b66caccf1f736ae698503b}{I\+NT}} \mbox{\hyperlink{classmui_1_1sampler__rbf}{mui\+::sampler\+\_\+rbf}}$<$ C\+O\+N\+F\+IG, O\+\_\+\+TP, I\+\_\+\+TP $>$\+::C\+A\+Acol\+\_\+\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classmui_1_1sampler__rbf_abe11d5beb32bb8fab5164a77bb10edee}\label{classmui_1_1sampler__rbf_abe11d5beb32bb8fab5164a77bb10edee}} 
+\index{mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$@{mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$}!CAArow\_@{CAArow\_}}
+\index{CAArow\_@{CAArow\_}!mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$@{mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$}}
+\doxysubsubsection{\texorpdfstring{CAArow\_}{CAArow\_}}
+{\footnotesize\ttfamily template$<$typename C\+O\+N\+F\+IG  = default\+\_\+config, typename O\+\_\+\+TP  = typename C\+O\+N\+F\+I\+G\+::\+R\+E\+AL, typename I\+\_\+\+TP  = O\+\_\+\+TP$>$ \\
+\mbox{\hyperlink{classmui_1_1sampler__rbf_a8f20c31073b66caccf1f736ae698503b}{I\+NT}} \mbox{\hyperlink{classmui_1_1sampler__rbf}{mui\+::sampler\+\_\+rbf}}$<$ C\+O\+N\+F\+IG, O\+\_\+\+TP, I\+\_\+\+TP $>$\+::C\+A\+Arow\+\_\+\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classmui_1_1sampler__rbf_a21baf7ad62151679be2bbd569f4d0dca}\label{classmui_1_1sampler__rbf_a21baf7ad62151679be2bbd569f4d0dca}} 
+\index{mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$@{mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$}!CABcol\_@{CABcol\_}}
+\index{CABcol\_@{CABcol\_}!mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$@{mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$}}
+\doxysubsubsection{\texorpdfstring{CABcol\_}{CABcol\_}}
+{\footnotesize\ttfamily template$<$typename C\+O\+N\+F\+IG  = default\+\_\+config, typename O\+\_\+\+TP  = typename C\+O\+N\+F\+I\+G\+::\+R\+E\+AL, typename I\+\_\+\+TP  = O\+\_\+\+TP$>$ \\
+\mbox{\hyperlink{classmui_1_1sampler__rbf_a8f20c31073b66caccf1f736ae698503b}{I\+NT}} \mbox{\hyperlink{classmui_1_1sampler__rbf}{mui\+::sampler\+\_\+rbf}}$<$ C\+O\+N\+F\+IG, O\+\_\+\+TP, I\+\_\+\+TP $>$\+::C\+A\+Bcol\+\_\+\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classmui_1_1sampler__rbf_a7d9fc1f7303d553db376f44d55f1925a}\label{classmui_1_1sampler__rbf_a7d9fc1f7303d553db376f44d55f1925a}} 
+\index{mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$@{mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$}!CABrow\_@{CABrow\_}}
+\index{CABrow\_@{CABrow\_}!mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$@{mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$}}
+\doxysubsubsection{\texorpdfstring{CABrow\_}{CABrow\_}}
+{\footnotesize\ttfamily template$<$typename C\+O\+N\+F\+IG  = default\+\_\+config, typename O\+\_\+\+TP  = typename C\+O\+N\+F\+I\+G\+::\+R\+E\+AL, typename I\+\_\+\+TP  = O\+\_\+\+TP$>$ \\
+\mbox{\hyperlink{classmui_1_1sampler__rbf_a8f20c31073b66caccf1f736ae698503b}{I\+NT}} \mbox{\hyperlink{classmui_1_1sampler__rbf}{mui\+::sampler\+\_\+rbf}}$<$ C\+O\+N\+F\+IG, O\+\_\+\+TP, I\+\_\+\+TP $>$\+::C\+A\+Brow\+\_\+\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classmui_1_1sampler__rbf_a1847fc1b038456bad56296dae7b987fc}\label{classmui_1_1sampler__rbf_a1847fc1b038456bad56296dae7b987fc}} 
+\index{mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$@{mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$}!connectivityAA\_@{connectivityAA\_}}
+\index{connectivityAA\_@{connectivityAA\_}!mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$@{mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$}}
+\doxysubsubsection{\texorpdfstring{connectivityAA\_}{connectivityAA\_}}
+{\footnotesize\ttfamily template$<$typename C\+O\+N\+F\+IG  = default\+\_\+config, typename O\+\_\+\+TP  = typename C\+O\+N\+F\+I\+G\+::\+R\+E\+AL, typename I\+\_\+\+TP  = O\+\_\+\+TP$>$ \\
+std\+::vector$<$std\+::vector$<$\mbox{\hyperlink{classmui_1_1sampler__rbf_a8f20c31073b66caccf1f736ae698503b}{I\+NT}}$>$ $>$ \mbox{\hyperlink{classmui_1_1sampler__rbf}{mui\+::sampler\+\_\+rbf}}$<$ C\+O\+N\+F\+IG, O\+\_\+\+TP, I\+\_\+\+TP $>$\+::connectivity\+A\+A\+\_\+\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classmui_1_1sampler__rbf_a2ade5f773f2aa85186c37eb2dc8dcbcd}\label{classmui_1_1sampler__rbf_a2ade5f773f2aa85186c37eb2dc8dcbcd}} 
+\index{mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$@{mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$}!connectivityAB\_@{connectivityAB\_}}
+\index{connectivityAB\_@{connectivityAB\_}!mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$@{mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$}}
+\doxysubsubsection{\texorpdfstring{connectivityAB\_}{connectivityAB\_}}
+{\footnotesize\ttfamily template$<$typename C\+O\+N\+F\+IG  = default\+\_\+config, typename O\+\_\+\+TP  = typename C\+O\+N\+F\+I\+G\+::\+R\+E\+AL, typename I\+\_\+\+TP  = O\+\_\+\+TP$>$ \\
+std\+::vector$<$std\+::vector$<$\mbox{\hyperlink{classmui_1_1sampler__rbf_a8f20c31073b66caccf1f736ae698503b}{I\+NT}}$>$ $>$ \mbox{\hyperlink{classmui_1_1sampler__rbf}{mui\+::sampler\+\_\+rbf}}$<$ C\+O\+N\+F\+IG, O\+\_\+\+TP, I\+\_\+\+TP $>$\+::connectivity\+A\+B\+\_\+\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classmui_1_1sampler__rbf_a851eca9b88bc61d9b65a85dd53276855}\label{classmui_1_1sampler__rbf_a851eca9b88bc61d9b65a85dd53276855}} 
+\index{mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$@{mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$}!conservative\_@{conservative\_}}
+\index{conservative\_@{conservative\_}!mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$@{mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$}}
+\doxysubsubsection{\texorpdfstring{conservative\_}{conservative\_}}
+{\footnotesize\ttfamily template$<$typename C\+O\+N\+F\+IG  = default\+\_\+config, typename O\+\_\+\+TP  = typename C\+O\+N\+F\+I\+G\+::\+R\+E\+AL, typename I\+\_\+\+TP  = O\+\_\+\+TP$>$ \\
+const bool \mbox{\hyperlink{classmui_1_1sampler__rbf}{mui\+::sampler\+\_\+rbf}}$<$ C\+O\+N\+F\+IG, O\+\_\+\+TP, I\+\_\+\+TP $>$\+::conservative\+\_\+\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classmui_1_1sampler__rbf_a7f3f48f9c462cdd16d88dc6603b50123}\label{classmui_1_1sampler__rbf_a7f3f48f9c462cdd16d88dc6603b50123}} 
+\index{mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$@{mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$}!consistent\_@{consistent\_}}
+\index{consistent\_@{consistent\_}!mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$@{mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$}}
+\doxysubsubsection{\texorpdfstring{consistent\_}{consistent\_}}
+{\footnotesize\ttfamily template$<$typename C\+O\+N\+F\+IG  = default\+\_\+config, typename O\+\_\+\+TP  = typename C\+O\+N\+F\+I\+G\+::\+R\+E\+AL, typename I\+\_\+\+TP  = O\+\_\+\+TP$>$ \\
+const bool \mbox{\hyperlink{classmui_1_1sampler__rbf}{mui\+::sampler\+\_\+rbf}}$<$ C\+O\+N\+F\+IG, O\+\_\+\+TP, I\+\_\+\+TP $>$\+::consistent\+\_\+\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classmui_1_1sampler__rbf_ae71e24a935a1158ea3d511732c66d177}\label{classmui_1_1sampler__rbf_ae71e24a935a1158ea3d511732c66d177}} 
+\index{mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$@{mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$}!fileAddress\_@{fileAddress\_}}
+\index{fileAddress\_@{fileAddress\_}!mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$@{mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$}}
+\doxysubsubsection{\texorpdfstring{fileAddress\_}{fileAddress\_}}
+{\footnotesize\ttfamily template$<$typename C\+O\+N\+F\+IG  = default\+\_\+config, typename O\+\_\+\+TP  = typename C\+O\+N\+F\+I\+G\+::\+R\+E\+AL, typename I\+\_\+\+TP  = O\+\_\+\+TP$>$ \\
+const std\+::string \mbox{\hyperlink{classmui_1_1sampler__rbf}{mui\+::sampler\+\_\+rbf}}$<$ C\+O\+N\+F\+IG, O\+\_\+\+TP, I\+\_\+\+TP $>$\+::file\+Address\+\_\+\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classmui_1_1sampler__rbf_abd3ff81908ae305304f62d8bd2dc6c61}\label{classmui_1_1sampler__rbf_abd3ff81908ae305304f62d8bd2dc6c61}} 
+\index{mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$@{mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$}!H\_@{H\_}}
+\index{H\_@{H\_}!mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$@{mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$}}
+\doxysubsubsection{\texorpdfstring{H\_}{H\_}}
+{\footnotesize\ttfamily template$<$typename C\+O\+N\+F\+IG  = default\+\_\+config, typename O\+\_\+\+TP  = typename C\+O\+N\+F\+I\+G\+::\+R\+E\+AL, typename I\+\_\+\+TP  = O\+\_\+\+TP$>$ \\
+Eigen\+::\+Matrix$<$\mbox{\hyperlink{classmui_1_1sampler__rbf_a4c57e6ac3aff15e7d979429e7af7e15b}{R\+E\+AL}}, Eigen\+::\+Dynamic, Eigen\+::\+Dynamic$>$ \mbox{\hyperlink{classmui_1_1sampler__rbf}{mui\+::sampler\+\_\+rbf}}$<$ C\+O\+N\+F\+IG, O\+\_\+\+TP, I\+\_\+\+TP $>$\+::H\+\_\+\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classmui_1_1sampler__rbf_a23729089448d4bee853b57788314cdf2}\label{classmui_1_1sampler__rbf_a23729089448d4bee853b57788314cdf2}} 
+\index{mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$@{mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$}!H\_toSmooth\_@{H\_toSmooth\_}}
+\index{H\_toSmooth\_@{H\_toSmooth\_}!mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$@{mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$}}
+\doxysubsubsection{\texorpdfstring{H\_toSmooth\_}{H\_toSmooth\_}}
+{\footnotesize\ttfamily template$<$typename C\+O\+N\+F\+IG  = default\+\_\+config, typename O\+\_\+\+TP  = typename C\+O\+N\+F\+I\+G\+::\+R\+E\+AL, typename I\+\_\+\+TP  = O\+\_\+\+TP$>$ \\
+Eigen\+::\+Matrix$<$\mbox{\hyperlink{classmui_1_1sampler__rbf_a4c57e6ac3aff15e7d979429e7af7e15b}{R\+E\+AL}}, Eigen\+::\+Dynamic, Eigen\+::\+Dynamic$>$ \mbox{\hyperlink{classmui_1_1sampler__rbf}{mui\+::sampler\+\_\+rbf}}$<$ C\+O\+N\+F\+IG, O\+\_\+\+TP, I\+\_\+\+TP $>$\+::H\+\_\+to\+Smooth\+\_\+\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classmui_1_1sampler__rbf_a9c039b808318313c6b79d707cc112f93}\label{classmui_1_1sampler__rbf_a9c039b808318313c6b79d707cc112f93}} 
+\index{mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$@{mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$}!Hcol\_@{Hcol\_}}
+\index{Hcol\_@{Hcol\_}!mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$@{mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$}}
+\doxysubsubsection{\texorpdfstring{Hcol\_}{Hcol\_}}
+{\footnotesize\ttfamily template$<$typename C\+O\+N\+F\+IG  = default\+\_\+config, typename O\+\_\+\+TP  = typename C\+O\+N\+F\+I\+G\+::\+R\+E\+AL, typename I\+\_\+\+TP  = O\+\_\+\+TP$>$ \\
+\mbox{\hyperlink{classmui_1_1sampler__rbf_a8f20c31073b66caccf1f736ae698503b}{I\+NT}} \mbox{\hyperlink{classmui_1_1sampler__rbf}{mui\+::sampler\+\_\+rbf}}$<$ C\+O\+N\+F\+IG, O\+\_\+\+TP, I\+\_\+\+TP $>$\+::Hcol\+\_\+\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classmui_1_1sampler__rbf_a55c405cd5c442e59c49bd3fb83d105a9}\label{classmui_1_1sampler__rbf_a55c405cd5c442e59c49bd3fb83d105a9}} 
+\index{mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$@{mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$}!Hrow\_@{Hrow\_}}
+\index{Hrow\_@{Hrow\_}!mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$@{mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$}}
+\doxysubsubsection{\texorpdfstring{Hrow\_}{Hrow\_}}
+{\footnotesize\ttfamily template$<$typename C\+O\+N\+F\+IG  = default\+\_\+config, typename O\+\_\+\+TP  = typename C\+O\+N\+F\+I\+G\+::\+R\+E\+AL, typename I\+\_\+\+TP  = O\+\_\+\+TP$>$ \\
+\mbox{\hyperlink{classmui_1_1sampler__rbf_a8f20c31073b66caccf1f736ae698503b}{I\+NT}} \mbox{\hyperlink{classmui_1_1sampler__rbf}{mui\+::sampler\+\_\+rbf}}$<$ C\+O\+N\+F\+IG, O\+\_\+\+TP, I\+\_\+\+TP $>$\+::Hrow\+\_\+\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classmui_1_1sampler__rbf_a0419acd0a2a4ee7d8ce96d21a9939f92}\label{classmui_1_1sampler__rbf_a0419acd0a2a4ee7d8ce96d21a9939f92}} 
+\index{mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$@{mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$}!initialised\_@{initialised\_}}
+\index{initialised\_@{initialised\_}!mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$@{mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$}}
+\doxysubsubsection{\texorpdfstring{initialised\_}{initialised\_}}
+{\footnotesize\ttfamily template$<$typename C\+O\+N\+F\+IG  = default\+\_\+config, typename O\+\_\+\+TP  = typename C\+O\+N\+F\+I\+G\+::\+R\+E\+AL, typename I\+\_\+\+TP  = O\+\_\+\+TP$>$ \\
+bool \mbox{\hyperlink{classmui_1_1sampler__rbf}{mui\+::sampler\+\_\+rbf}}$<$ C\+O\+N\+F\+IG, O\+\_\+\+TP, I\+\_\+\+TP $>$\+::initialised\+\_\+\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classmui_1_1sampler__rbf_a555307fcf76a5e9c8b7f5aae14412c26}\label{classmui_1_1sampler__rbf_a555307fcf76a5e9c8b7f5aae14412c26}} 
+\index{mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$@{mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$}!M\_ap\_@{M\_ap\_}}
+\index{M\_ap\_@{M\_ap\_}!mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$@{mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$}}
+\doxysubsubsection{\texorpdfstring{M\_ap\_}{M\_ap\_}}
+{\footnotesize\ttfamily template$<$typename C\+O\+N\+F\+IG  = default\+\_\+config, typename O\+\_\+\+TP  = typename C\+O\+N\+F\+I\+G\+::\+R\+E\+AL, typename I\+\_\+\+TP  = O\+\_\+\+TP$>$ \\
+\mbox{\hyperlink{classmui_1_1sampler__rbf_a8f20c31073b66caccf1f736ae698503b}{I\+NT}} \mbox{\hyperlink{classmui_1_1sampler__rbf}{mui\+::sampler\+\_\+rbf}}$<$ C\+O\+N\+F\+IG, O\+\_\+\+TP, I\+\_\+\+TP $>$\+::M\+\_\+ap\+\_\+\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classmui_1_1sampler__rbf_a16b77224b16498dd1d8024291cd8e470}\label{classmui_1_1sampler__rbf_a16b77224b16498dd1d8024291cd8e470}} 
+\index{mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$@{mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$}!N\_sp\_@{N\_sp\_}}
+\index{N\_sp\_@{N\_sp\_}!mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$@{mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$}}
+\doxysubsubsection{\texorpdfstring{N\_sp\_}{N\_sp\_}}
+{\footnotesize\ttfamily template$<$typename C\+O\+N\+F\+IG  = default\+\_\+config, typename O\+\_\+\+TP  = typename C\+O\+N\+F\+I\+G\+::\+R\+E\+AL, typename I\+\_\+\+TP  = O\+\_\+\+TP$>$ \\
+\mbox{\hyperlink{classmui_1_1sampler__rbf_a8f20c31073b66caccf1f736ae698503b}{I\+NT}} \mbox{\hyperlink{classmui_1_1sampler__rbf}{mui\+::sampler\+\_\+rbf}}$<$ C\+O\+N\+F\+IG, O\+\_\+\+TP, I\+\_\+\+TP $>$\+::N\+\_\+sp\+\_\+\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classmui_1_1sampler__rbf_a9e0505bcc69f8bcec18fe642f2c57b4e}\label{classmui_1_1sampler__rbf_a9e0505bcc69f8bcec18fe642f2c57b4e}} 
+\index{mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$@{mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$}!polynomial\_@{polynomial\_}}
+\index{polynomial\_@{polynomial\_}!mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$@{mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$}}
+\doxysubsubsection{\texorpdfstring{polynomial\_}{polynomial\_}}
+{\footnotesize\ttfamily template$<$typename C\+O\+N\+F\+IG  = default\+\_\+config, typename O\+\_\+\+TP  = typename C\+O\+N\+F\+I\+G\+::\+R\+E\+AL, typename I\+\_\+\+TP  = O\+\_\+\+TP$>$ \\
+const bool \mbox{\hyperlink{classmui_1_1sampler__rbf}{mui\+::sampler\+\_\+rbf}}$<$ C\+O\+N\+F\+IG, O\+\_\+\+TP, I\+\_\+\+TP $>$\+::polynomial\+\_\+\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classmui_1_1sampler__rbf_a531c29920ed54b5b71bdafdba2fb0176}\label{classmui_1_1sampler__rbf_a531c29920ed54b5b71bdafdba2fb0176}} 
+\index{mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$@{mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$}!pts\_@{pts\_}}
+\index{pts\_@{pts\_}!mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$@{mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$}}
+\doxysubsubsection{\texorpdfstring{pts\_}{pts\_}}
+{\footnotesize\ttfamily template$<$typename C\+O\+N\+F\+IG  = default\+\_\+config, typename O\+\_\+\+TP  = typename C\+O\+N\+F\+I\+G\+::\+R\+E\+AL, typename I\+\_\+\+TP  = O\+\_\+\+TP$>$ \\
+std\+::vector$<$\mbox{\hyperlink{classmui_1_1sampler__rbf_a8740729e4364330baf0732768ce7d0e0}{point\+\_\+type}}$>$ \mbox{\hyperlink{classmui_1_1sampler__rbf}{mui\+::sampler\+\_\+rbf}}$<$ C\+O\+N\+F\+IG, O\+\_\+\+TP, I\+\_\+\+TP $>$\+::pts\+\_\+\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classmui_1_1sampler__rbf_af9d602f1ecb6da1ad65944094cac55c7}\label{classmui_1_1sampler__rbf_af9d602f1ecb6da1ad65944094cac55c7}} 
+\index{mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$@{mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$}!QUIET@{QUIET}}
+\index{QUIET@{QUIET}!mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$@{mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$}}
+\doxysubsubsection{\texorpdfstring{QUIET}{QUIET}}
+{\footnotesize\ttfamily template$<$typename C\+O\+N\+F\+IG  = default\+\_\+config, typename O\+\_\+\+TP  = typename C\+O\+N\+F\+I\+G\+::\+R\+E\+AL, typename I\+\_\+\+TP  = O\+\_\+\+TP$>$ \\
+const bool \mbox{\hyperlink{classmui_1_1sampler__rbf}{mui\+::sampler\+\_\+rbf}}$<$ C\+O\+N\+F\+IG, O\+\_\+\+TP, I\+\_\+\+TP $>$\+::Q\+U\+I\+ET = C\+O\+N\+F\+I\+G\+::\+Q\+U\+I\+ET\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{classmui_1_1sampler__rbf_a180ed1153bf9652b79f7e397dd28a883}\label{classmui_1_1sampler__rbf_a180ed1153bf9652b79f7e397dd28a883}} 
+\index{mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$@{mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$}!r\_@{r\_}}
+\index{r\_@{r\_}!mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$@{mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$}}
+\doxysubsubsection{\texorpdfstring{r\_}{r\_}}
+{\footnotesize\ttfamily template$<$typename C\+O\+N\+F\+IG  = default\+\_\+config, typename O\+\_\+\+TP  = typename C\+O\+N\+F\+I\+G\+::\+R\+E\+AL, typename I\+\_\+\+TP  = O\+\_\+\+TP$>$ \\
+\mbox{\hyperlink{classmui_1_1sampler__rbf_a4c57e6ac3aff15e7d979429e7af7e15b}{R\+E\+AL}} \mbox{\hyperlink{classmui_1_1sampler__rbf}{mui\+::sampler\+\_\+rbf}}$<$ C\+O\+N\+F\+IG, O\+\_\+\+TP, I\+\_\+\+TP $>$\+::r\+\_\+\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classmui_1_1sampler__rbf_a6c2a6333cc84f9aadeba0b3af1b0fc26}\label{classmui_1_1sampler__rbf_a6c2a6333cc84f9aadeba0b3af1b0fc26}} 
+\index{mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$@{mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$}!readMatrix\_@{readMatrix\_}}
+\index{readMatrix\_@{readMatrix\_}!mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$@{mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$}}
+\doxysubsubsection{\texorpdfstring{readMatrix\_}{readMatrix\_}}
+{\footnotesize\ttfamily template$<$typename C\+O\+N\+F\+IG  = default\+\_\+config, typename O\+\_\+\+TP  = typename C\+O\+N\+F\+I\+G\+::\+R\+E\+AL, typename I\+\_\+\+TP  = O\+\_\+\+TP$>$ \\
+const bool \mbox{\hyperlink{classmui_1_1sampler__rbf}{mui\+::sampler\+\_\+rbf}}$<$ C\+O\+N\+F\+IG, O\+\_\+\+TP, I\+\_\+\+TP $>$\+::read\+Matrix\+\_\+\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classmui_1_1sampler__rbf_a9f64cf910a43b9c3f5485ec1393d459c}\label{classmui_1_1sampler__rbf_a9f64cf910a43b9c3f5485ec1393d459c}} 
+\index{mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$@{mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$}!s\_@{s\_}}
+\index{s\_@{s\_}!mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$@{mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$}}
+\doxysubsubsection{\texorpdfstring{s\_}{s\_}}
+{\footnotesize\ttfamily template$<$typename C\+O\+N\+F\+IG  = default\+\_\+config, typename O\+\_\+\+TP  = typename C\+O\+N\+F\+I\+G\+::\+R\+E\+AL, typename I\+\_\+\+TP  = O\+\_\+\+TP$>$ \\
+\mbox{\hyperlink{classmui_1_1sampler__rbf_a4c57e6ac3aff15e7d979429e7af7e15b}{R\+E\+AL}} \mbox{\hyperlink{classmui_1_1sampler__rbf}{mui\+::sampler\+\_\+rbf}}$<$ C\+O\+N\+F\+IG, O\+\_\+\+TP, I\+\_\+\+TP $>$\+::s\+\_\+\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classmui_1_1sampler__rbf_af42c4464b16239a0d657603f03921d03}\label{classmui_1_1sampler__rbf_af42c4464b16239a0d657603f03921d03}} 
+\index{mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$@{mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$}!smoothFunc\_@{smoothFunc\_}}
+\index{smoothFunc\_@{smoothFunc\_}!mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$@{mui::sampler\_rbf$<$ CONFIG, O\_TP, I\_TP $>$}}
+\doxysubsubsection{\texorpdfstring{smoothFunc\_}{smoothFunc\_}}
+{\footnotesize\ttfamily template$<$typename C\+O\+N\+F\+IG  = default\+\_\+config, typename O\+\_\+\+TP  = typename C\+O\+N\+F\+I\+G\+::\+R\+E\+AL, typename I\+\_\+\+TP  = O\+\_\+\+TP$>$ \\
+const bool \mbox{\hyperlink{classmui_1_1sampler__rbf}{mui\+::sampler\+\_\+rbf}}$<$ C\+O\+N\+F\+IG, O\+\_\+\+TP, I\+\_\+\+TP $>$\+::smooth\+Func\+\_\+\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{sampler__rbf_8h}{sampler\+\_\+rbf.\+h}}\end{DoxyCompactItemize}

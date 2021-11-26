@@ -1,0 +1,5 @@
+<map id="lib_mpi_helper.h" name="lib_mpi_helper.h">
+<area shape="rect" id="node1" title="MPI data types used internally by MUI." alt="" coords="26,5,157,32"/>
+<area shape="rect" id="node2" href="$lib__mpi__multidomain_8h.html" title="Provides helper functions for creating and synchronising multiple MUI interfaces for a single domain." alt="" coords="5,80,177,107"/>
+<area shape="rect" id="node3" href="$mui_8h.html" title="The main header file for MUI. Usually the only file that needs to be included in order to integrate i..." alt="" coords="62,155,121,181"/>
+</map>

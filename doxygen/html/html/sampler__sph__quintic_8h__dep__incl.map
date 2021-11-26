@@ -1,0 +1,4 @@
+<map id="sampler_sph_quintic.h" name="sampler_sph_quintic.h">
+<area shape="rect" id="node1" title="Spatial sampler that provides a value at a point using a Smoothed Particle Hydrodynamics (SPH) derive..." alt="" coords="5,5,173,32"/>
+<area shape="rect" id="node2" href="$mui_8h.html" title="The main header file for MUI. Usually the only file that needs to be included in order to integrate i..." alt="" coords="60,80,119,107"/>
+</map>

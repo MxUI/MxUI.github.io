@@ -1,0 +1,4 @@
+<map id="lib_mpi_multidomain.h" name="lib_mpi_multidomain.h">
+<area shape="rect" id="node1" title="Provides helper functions for creating and synchronising multiple MUI interfaces for a single domain." alt="" coords="5,5,177,32"/>
+<area shape="rect" id="node2" href="$mui_8h.html" title="The main header file for MUI. Usually the only file that needs to be included in order to integrate i..." alt="" coords="62,80,121,107"/>
+</map>

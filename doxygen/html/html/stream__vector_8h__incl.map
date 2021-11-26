@@ -1,0 +1,10 @@
+<map id="stream_vector.h" name="stream_vector.h">
+<area shape="rect" id="node1" title="Defines the stream in/out for std::vector data type." alt="" coords="37,5,165,32"/>
+<area shape="rect" id="node2" title=" " alt="" coords="22,80,85,107"/>
+<area shape="rect" id="node3" href="$stream_8h.html" title="Defines base stream class container_stream and associated functors." alt="" coords="109,80,189,107"/>
+<area shape="rect" id="node4" title=" " alt="" coords="5,155,83,181"/>
+<area shape="rect" id="node5" title=" " alt="" coords="107,155,192,181"/>
+<area shape="rect" id="node6" href="$endian__traits_8h.html" title="Support for dealing with big and little endian platforms." alt="" coords="217,155,335,181"/>
+<area shape="rect" id="node7" title=" " alt="" coords="193,229,260,256"/>
+<area shape="rect" id="node8" title=" " alt="" coords="285,229,363,256"/>
+</map>

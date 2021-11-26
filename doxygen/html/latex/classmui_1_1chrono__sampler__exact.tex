@@ -1,0 +1,100 @@
+\hypertarget{classmui_1_1chrono__sampler__exact}{}\doxysection{mui\+::chrono\+\_\+sampler\+\_\+exact$<$ C\+O\+N\+F\+IG $>$ Class Template Reference}
+\label{classmui_1_1chrono__sampler__exact}\index{mui::chrono\_sampler\_exact$<$ CONFIG $>$@{mui::chrono\_sampler\_exact$<$ CONFIG $>$}}
+
+
+{\ttfamily \#include $<$chrono\+\_\+sampler\+\_\+exact.\+h$>$}
+
+\doxysubsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+using \mbox{\hyperlink{classmui_1_1chrono__sampler__exact_ad55f9693aa8d6a9652d9b51639463d84}{R\+E\+AL}} = typename C\+O\+N\+F\+I\+G\+::\+R\+E\+AL
+\item 
+using \mbox{\hyperlink{classmui_1_1chrono__sampler__exact_a1765b8d8fec705157ac526e186727e9a}{I\+NT}} = typename C\+O\+N\+F\+I\+G\+::\+I\+NT
+\item 
+using \mbox{\hyperlink{classmui_1_1chrono__sampler__exact_a5f9178b26822fe901f8a1e97ada68d95}{time\+\_\+type}} = typename C\+O\+N\+F\+I\+G\+::time\+\_\+type
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classmui_1_1chrono__sampler__exact_ad1293d1816ab17b696ed8c1d665c9cae}{chrono\+\_\+sampler\+\_\+exact}} (\mbox{\hyperlink{classmui_1_1chrono__sampler__exact_a5f9178b26822fe901f8a1e97ada68d95}{time\+\_\+type}} tol=\mbox{\hyperlink{classmui_1_1chrono__sampler__exact_a5f9178b26822fe901f8a1e97ada68d95}{time\+\_\+type}}(std\+::numeric\+\_\+limits$<$ \mbox{\hyperlink{classmui_1_1chrono__sampler__exact_a5f9178b26822fe901f8a1e97ada68d95}{time\+\_\+type}} $>$\+::epsilon()))
+\item 
+{\footnotesize template$<$typename T\+Y\+PE $>$ }\\T\+Y\+PE \mbox{\hyperlink{classmui_1_1chrono__sampler__exact_a99cac87cbe819148dbe0f397b18c7f99}{filter}} (\mbox{\hyperlink{classmui_1_1chrono__sampler__exact_a5f9178b26822fe901f8a1e97ada68d95}{time\+\_\+type}} focus, const std\+::vector$<$ std\+::pair$<$ std\+::pair$<$ \mbox{\hyperlink{classmui_1_1chrono__sampler__exact_a5f9178b26822fe901f8a1e97ada68d95}{time\+\_\+type}}, \mbox{\hyperlink{classmui_1_1chrono__sampler__exact_a5f9178b26822fe901f8a1e97ada68d95}{time\+\_\+type}} $>$, T\+Y\+PE $>$ $>$ \&points) const
+\item 
+{\footnotesize template$<$typename T\+Y\+PE $>$ }\\T\+Y\+PE \mbox{\hyperlink{classmui_1_1chrono__sampler__exact_a339b351e1ac6c897e2924c6078dc64d6}{filter}} (std\+::pair$<$ \mbox{\hyperlink{classmui_1_1chrono__sampler__exact_a5f9178b26822fe901f8a1e97ada68d95}{time\+\_\+type}}, \mbox{\hyperlink{classmui_1_1chrono__sampler__exact_a5f9178b26822fe901f8a1e97ada68d95}{time\+\_\+type}} $>$ focus, const std\+::vector$<$ std\+::pair$<$ std\+::pair$<$ \mbox{\hyperlink{classmui_1_1chrono__sampler__exact_a5f9178b26822fe901f8a1e97ada68d95}{time\+\_\+type}}, \mbox{\hyperlink{classmui_1_1chrono__sampler__exact_a5f9178b26822fe901f8a1e97ada68d95}{time\+\_\+type}} $>$, T\+Y\+PE $>$ $>$ \&points) const
+\item 
+\mbox{\hyperlink{classmui_1_1chrono__sampler__exact_a5f9178b26822fe901f8a1e97ada68d95}{time\+\_\+type}} \mbox{\hyperlink{classmui_1_1chrono__sampler__exact_a1743254818f1f6fb5ef3eff5e7eef0c6}{get\+\_\+upper\+\_\+bound}} (\mbox{\hyperlink{classmui_1_1chrono__sampler__exact_a5f9178b26822fe901f8a1e97ada68d95}{time\+\_\+type}} focus) const
+\item 
+\mbox{\hyperlink{classmui_1_1chrono__sampler__exact_a5f9178b26822fe901f8a1e97ada68d95}{time\+\_\+type}} \mbox{\hyperlink{classmui_1_1chrono__sampler__exact_a1297822afb4c05df461926a4d234a61d}{get\+\_\+lower\+\_\+bound}} (\mbox{\hyperlink{classmui_1_1chrono__sampler__exact_a5f9178b26822fe901f8a1e97ada68d95}{time\+\_\+type}} focus) const
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Typedef Documentation}
+\mbox{\Hypertarget{classmui_1_1chrono__sampler__exact_a1765b8d8fec705157ac526e186727e9a}\label{classmui_1_1chrono__sampler__exact_a1765b8d8fec705157ac526e186727e9a}} 
+\index{mui::chrono\_sampler\_exact$<$ CONFIG $>$@{mui::chrono\_sampler\_exact$<$ CONFIG $>$}!INT@{INT}}
+\index{INT@{INT}!mui::chrono\_sampler\_exact$<$ CONFIG $>$@{mui::chrono\_sampler\_exact$<$ CONFIG $>$}}
+\doxysubsubsection{\texorpdfstring{INT}{INT}}
+{\footnotesize\ttfamily template$<$typename C\+O\+N\+F\+IG  = default\+\_\+config$>$ \\
+using \mbox{\hyperlink{classmui_1_1chrono__sampler__exact}{mui\+::chrono\+\_\+sampler\+\_\+exact}}$<$ C\+O\+N\+F\+IG $>$\+::\mbox{\hyperlink{classmui_1_1chrono__sampler__exact_a1765b8d8fec705157ac526e186727e9a}{I\+NT}} =  typename C\+O\+N\+F\+I\+G\+::\+I\+NT}
+
+\mbox{\Hypertarget{classmui_1_1chrono__sampler__exact_ad55f9693aa8d6a9652d9b51639463d84}\label{classmui_1_1chrono__sampler__exact_ad55f9693aa8d6a9652d9b51639463d84}} 
+\index{mui::chrono\_sampler\_exact$<$ CONFIG $>$@{mui::chrono\_sampler\_exact$<$ CONFIG $>$}!REAL@{REAL}}
+\index{REAL@{REAL}!mui::chrono\_sampler\_exact$<$ CONFIG $>$@{mui::chrono\_sampler\_exact$<$ CONFIG $>$}}
+\doxysubsubsection{\texorpdfstring{REAL}{REAL}}
+{\footnotesize\ttfamily template$<$typename C\+O\+N\+F\+IG  = default\+\_\+config$>$ \\
+using \mbox{\hyperlink{classmui_1_1chrono__sampler__exact}{mui\+::chrono\+\_\+sampler\+\_\+exact}}$<$ C\+O\+N\+F\+IG $>$\+::\mbox{\hyperlink{classmui_1_1chrono__sampler__exact_ad55f9693aa8d6a9652d9b51639463d84}{R\+E\+AL}} =  typename C\+O\+N\+F\+I\+G\+::\+R\+E\+AL}
+
+\mbox{\Hypertarget{classmui_1_1chrono__sampler__exact_a5f9178b26822fe901f8a1e97ada68d95}\label{classmui_1_1chrono__sampler__exact_a5f9178b26822fe901f8a1e97ada68d95}} 
+\index{mui::chrono\_sampler\_exact$<$ CONFIG $>$@{mui::chrono\_sampler\_exact$<$ CONFIG $>$}!time\_type@{time\_type}}
+\index{time\_type@{time\_type}!mui::chrono\_sampler\_exact$<$ CONFIG $>$@{mui::chrono\_sampler\_exact$<$ CONFIG $>$}}
+\doxysubsubsection{\texorpdfstring{time\_type}{time\_type}}
+{\footnotesize\ttfamily template$<$typename C\+O\+N\+F\+IG  = default\+\_\+config$>$ \\
+using \mbox{\hyperlink{classmui_1_1chrono__sampler__exact}{mui\+::chrono\+\_\+sampler\+\_\+exact}}$<$ C\+O\+N\+F\+IG $>$\+::\mbox{\hyperlink{classmui_1_1chrono__sampler__exact_a5f9178b26822fe901f8a1e97ada68d95}{time\+\_\+type}} =  typename C\+O\+N\+F\+I\+G\+::time\+\_\+type}
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classmui_1_1chrono__sampler__exact_ad1293d1816ab17b696ed8c1d665c9cae}\label{classmui_1_1chrono__sampler__exact_ad1293d1816ab17b696ed8c1d665c9cae}} 
+\index{mui::chrono\_sampler\_exact$<$ CONFIG $>$@{mui::chrono\_sampler\_exact$<$ CONFIG $>$}!chrono\_sampler\_exact@{chrono\_sampler\_exact}}
+\index{chrono\_sampler\_exact@{chrono\_sampler\_exact}!mui::chrono\_sampler\_exact$<$ CONFIG $>$@{mui::chrono\_sampler\_exact$<$ CONFIG $>$}}
+\doxysubsubsection{\texorpdfstring{chrono\_sampler\_exact()}{chrono\_sampler\_exact()}}
+{\footnotesize\ttfamily template$<$typename C\+O\+N\+F\+IG  = default\+\_\+config$>$ \\
+\mbox{\hyperlink{classmui_1_1chrono__sampler__exact}{mui\+::chrono\+\_\+sampler\+\_\+exact}}$<$ C\+O\+N\+F\+IG $>$\+::\mbox{\hyperlink{classmui_1_1chrono__sampler__exact}{chrono\+\_\+sampler\+\_\+exact}} (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classmui_1_1chrono__sampler__exact_a5f9178b26822fe901f8a1e97ada68d95}{time\+\_\+type}}}]{tol = {\ttfamily \mbox{\hyperlink{classmui_1_1chrono__sampler__exact_a5f9178b26822fe901f8a1e97ada68d95}{time\+\_\+type}}(std\+:\+:numeric\+\_\+limits$<$\mbox{\hyperlink{classmui_1_1chrono__sampler__exact_a5f9178b26822fe901f8a1e97ada68d95}{time\+\_\+type}}$>$\+:\+:epsilon())} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classmui_1_1chrono__sampler__exact_a339b351e1ac6c897e2924c6078dc64d6}\label{classmui_1_1chrono__sampler__exact_a339b351e1ac6c897e2924c6078dc64d6}} 
+\index{mui::chrono\_sampler\_exact$<$ CONFIG $>$@{mui::chrono\_sampler\_exact$<$ CONFIG $>$}!filter@{filter}}
+\index{filter@{filter}!mui::chrono\_sampler\_exact$<$ CONFIG $>$@{mui::chrono\_sampler\_exact$<$ CONFIG $>$}}
+\doxysubsubsection{\texorpdfstring{filter()}{filter()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$typename C\+O\+N\+F\+IG  = default\+\_\+config$>$ \\
+template$<$typename T\+Y\+PE $>$ \\
+T\+Y\+PE \mbox{\hyperlink{classmui_1_1chrono__sampler__exact}{mui\+::chrono\+\_\+sampler\+\_\+exact}}$<$ C\+O\+N\+F\+IG $>$\+::filter (\begin{DoxyParamCaption}\item[{std\+::pair$<$ \mbox{\hyperlink{classmui_1_1chrono__sampler__exact_a5f9178b26822fe901f8a1e97ada68d95}{time\+\_\+type}}, \mbox{\hyperlink{classmui_1_1chrono__sampler__exact_a5f9178b26822fe901f8a1e97ada68d95}{time\+\_\+type}} $>$}]{focus,  }\item[{const std\+::vector$<$ std\+::pair$<$ std\+::pair$<$ \mbox{\hyperlink{classmui_1_1chrono__sampler__exact_a5f9178b26822fe901f8a1e97ada68d95}{time\+\_\+type}}, \mbox{\hyperlink{classmui_1_1chrono__sampler__exact_a5f9178b26822fe901f8a1e97ada68d95}{time\+\_\+type}} $>$, T\+Y\+PE $>$ $>$ \&}]{points }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classmui_1_1chrono__sampler__exact_a99cac87cbe819148dbe0f397b18c7f99}\label{classmui_1_1chrono__sampler__exact_a99cac87cbe819148dbe0f397b18c7f99}} 
+\index{mui::chrono\_sampler\_exact$<$ CONFIG $>$@{mui::chrono\_sampler\_exact$<$ CONFIG $>$}!filter@{filter}}
+\index{filter@{filter}!mui::chrono\_sampler\_exact$<$ CONFIG $>$@{mui::chrono\_sampler\_exact$<$ CONFIG $>$}}
+\doxysubsubsection{\texorpdfstring{filter()}{filter()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$typename C\+O\+N\+F\+IG  = default\+\_\+config$>$ \\
+template$<$typename T\+Y\+PE $>$ \\
+T\+Y\+PE \mbox{\hyperlink{classmui_1_1chrono__sampler__exact}{mui\+::chrono\+\_\+sampler\+\_\+exact}}$<$ C\+O\+N\+F\+IG $>$\+::filter (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classmui_1_1chrono__sampler__exact_a5f9178b26822fe901f8a1e97ada68d95}{time\+\_\+type}}}]{focus,  }\item[{const std\+::vector$<$ std\+::pair$<$ std\+::pair$<$ \mbox{\hyperlink{classmui_1_1chrono__sampler__exact_a5f9178b26822fe901f8a1e97ada68d95}{time\+\_\+type}}, \mbox{\hyperlink{classmui_1_1chrono__sampler__exact_a5f9178b26822fe901f8a1e97ada68d95}{time\+\_\+type}} $>$, T\+Y\+PE $>$ $>$ \&}]{points }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classmui_1_1chrono__sampler__exact_a1297822afb4c05df461926a4d234a61d}\label{classmui_1_1chrono__sampler__exact_a1297822afb4c05df461926a4d234a61d}} 
+\index{mui::chrono\_sampler\_exact$<$ CONFIG $>$@{mui::chrono\_sampler\_exact$<$ CONFIG $>$}!get\_lower\_bound@{get\_lower\_bound}}
+\index{get\_lower\_bound@{get\_lower\_bound}!mui::chrono\_sampler\_exact$<$ CONFIG $>$@{mui::chrono\_sampler\_exact$<$ CONFIG $>$}}
+\doxysubsubsection{\texorpdfstring{get\_lower\_bound()}{get\_lower\_bound()}}
+{\footnotesize\ttfamily template$<$typename C\+O\+N\+F\+IG  = default\+\_\+config$>$ \\
+\mbox{\hyperlink{classmui_1_1chrono__sampler__exact_a5f9178b26822fe901f8a1e97ada68d95}{time\+\_\+type}} \mbox{\hyperlink{classmui_1_1chrono__sampler__exact}{mui\+::chrono\+\_\+sampler\+\_\+exact}}$<$ C\+O\+N\+F\+IG $>$\+::get\+\_\+lower\+\_\+bound (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classmui_1_1chrono__sampler__exact_a5f9178b26822fe901f8a1e97ada68d95}{time\+\_\+type}}}]{focus }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classmui_1_1chrono__sampler__exact_a1743254818f1f6fb5ef3eff5e7eef0c6}\label{classmui_1_1chrono__sampler__exact_a1743254818f1f6fb5ef3eff5e7eef0c6}} 
+\index{mui::chrono\_sampler\_exact$<$ CONFIG $>$@{mui::chrono\_sampler\_exact$<$ CONFIG $>$}!get\_upper\_bound@{get\_upper\_bound}}
+\index{get\_upper\_bound@{get\_upper\_bound}!mui::chrono\_sampler\_exact$<$ CONFIG $>$@{mui::chrono\_sampler\_exact$<$ CONFIG $>$}}
+\doxysubsubsection{\texorpdfstring{get\_upper\_bound()}{get\_upper\_bound()}}
+{\footnotesize\ttfamily template$<$typename C\+O\+N\+F\+IG  = default\+\_\+config$>$ \\
+\mbox{\hyperlink{classmui_1_1chrono__sampler__exact_a5f9178b26822fe901f8a1e97ada68d95}{time\+\_\+type}} \mbox{\hyperlink{classmui_1_1chrono__sampler__exact}{mui\+::chrono\+\_\+sampler\+\_\+exact}}$<$ C\+O\+N\+F\+IG $>$\+::get\+\_\+upper\+\_\+bound (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classmui_1_1chrono__sampler__exact_a5f9178b26822fe901f8a1e97ada68d95}{time\+\_\+type}}}]{focus }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{chrono__sampler__exact_8h}{chrono\+\_\+sampler\+\_\+exact.\+h}}\end{DoxyCompactItemize}

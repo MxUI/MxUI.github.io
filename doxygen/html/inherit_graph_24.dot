@@ -1,8 +1,0 @@
-digraph "Graphical Class Hierarchy"
-{
- // LATEX_PDF_SIZE
-  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
-  node [fontname="Helvetica",fontsize="10",shape=record];
-  rankdir="LR";
-  Node0 [label="mui::endian_traits\l\< T, typename std::enable\l_if\< std::is_floating_point\l\< T \>::value \>::type \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structmui_1_1endian__traits_3_01_t_00_01typename_01std_1_1enable__if_3_01std_1_1is__floating__po2204fe17b69811056c26bb26c4197e1a.html",tooltip=" "];
-}

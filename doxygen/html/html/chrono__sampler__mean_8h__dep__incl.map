@@ -1,0 +1,4 @@
+<map id="chrono_sampler_mean.h" name="chrono_sampler_mean.h">
+<area shape="rect" id="node1" title="Temporal sampler that averages in time with a range from [ now &#45; left, now + right ]." alt="" coords="5,5,188,32"/>
+<area shape="rect" id="node2" href="$mui_8h.html" title="The main header file for MUI. Usually the only file that needs to be included in order to integrate i..." alt="" coords="67,80,126,107"/>
+</map>

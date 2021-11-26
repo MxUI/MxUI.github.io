@@ -1,0 +1,217 @@
+\hypertarget{structmui_1_1bin__iterator}{}\doxysection{mui\+::bin\+\_\+iterator$<$ T, C\+O\+N\+F\+IG $>$ Struct Template Reference}
+\label{structmui_1_1bin__iterator}\index{mui::bin\_iterator$<$ T, CONFIG $>$@{mui::bin\_iterator$<$ T, CONFIG $>$}}
+
+
+{\ttfamily \#include $<$bin.\+h$>$}
+
+
+
+Inheritance diagram for mui\+::bin\+\_\+iterator$<$ T, C\+O\+N\+F\+IG $>$\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=220pt]{structmui_1_1bin__iterator__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for mui\+::bin\+\_\+iterator$<$ T, C\+O\+N\+F\+IG $>$\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=220pt]{structmui_1_1bin__iterator__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+using \mbox{\hyperlink{structmui_1_1bin__iterator_a647b888410c7aec82b750400f5d5c283}{P}} = std\+::pair$<$ typename C\+O\+N\+F\+I\+G\+::point\+\_\+type, T $>$
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{structmui_1_1bin__iterator_ad4a934e39ea52abb9b9df227826e784b}{bin\+\_\+iterator}} (const \mbox{\hyperlink{structmui_1_1bin__range}{bin\+\_\+range}}$<$ T, C\+O\+N\+F\+IG $>$ \&range\+\_\+)
+\item 
+\mbox{\hyperlink{structmui_1_1bin__iterator_a28e68216dd247d68b9c60f99c13631c5}{bin\+\_\+iterator}} (const \mbox{\hyperlink{structmui_1_1bin__range}{bin\+\_\+range}}$<$ T, C\+O\+N\+F\+IG $>$ \&range\+\_\+, int)
+\item 
+\mbox{\hyperlink{structmui_1_1bin__iterator_afb02d18499dea2d212b2d220f69ce749}{bin\+\_\+iterator}} (const \mbox{\hyperlink{structmui_1_1bin__iterator}{bin\+\_\+iterator}} \&)=default
+\item 
+\mbox{\hyperlink{structmui_1_1bin__iterator}{bin\+\_\+iterator}} \& \mbox{\hyperlink{structmui_1_1bin__iterator_a4d77cf5d472236ac4d8a35bb97d70011}{operator=}} (const \mbox{\hyperlink{structmui_1_1bin__iterator}{bin\+\_\+iterator}} \&)=default
+\item 
+\mbox{\hyperlink{structmui_1_1bin__iterator}{bin\+\_\+iterator}} \& \mbox{\hyperlink{structmui_1_1bin__iterator_abcbb2de1b131606af75b303f2d8e90e9}{operator++}} ()
+\item 
+\mbox{\hyperlink{structmui_1_1bin__iterator}{bin\+\_\+iterator}} \mbox{\hyperlink{structmui_1_1bin__iterator_a348e1d15c037b9e1302f16dc065928fb}{operator++}} (int)
+\item 
+void \mbox{\hyperlink{structmui_1_1bin__iterator_a9dd12ec01e52a6aac8a2aa511b4a0849}{invalidate}} ()
+\item 
+void \mbox{\hyperlink{structmui_1_1bin__iterator_add20c0285e60fb2bd9e7b82bb9fb4204}{validate}} ()
+\item 
+bool \mbox{\hyperlink{structmui_1_1bin__iterator_abb2f0a6ce3579fa7f33409da0b295ea1}{operator!=}} (const \mbox{\hyperlink{structmui_1_1bin__iterator}{bin\+\_\+iterator}} \&rhs) const
+\item 
+bool \mbox{\hyperlink{structmui_1_1bin__iterator_a12ed131569425fd91bd853eef3dd45ef}{operator==}} (const \mbox{\hyperlink{structmui_1_1bin__iterator}{bin\+\_\+iterator}} \&rhs) const
+\item 
+const \mbox{\hyperlink{structmui_1_1bin__iterator_a647b888410c7aec82b750400f5d5c283}{P}} \& \mbox{\hyperlink{structmui_1_1bin__iterator_a03e75c57f1b080531ea1da1ad7dc8039}{operator$\ast$}} () const
+\item 
+const \mbox{\hyperlink{structmui_1_1bin__iterator_a647b888410c7aec82b750400f5d5c283}{P}} $\ast$ \mbox{\hyperlink{structmui_1_1bin__iterator_a4bf91868a5ca5e0cca146a11ad1ac24b}{operator-\/$>$}} () const
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+const \mbox{\hyperlink{structmui_1_1bin__range}{bin\+\_\+range}}$<$ T, C\+O\+N\+F\+IG $>$ \& \mbox{\hyperlink{structmui_1_1bin__iterator_a371e739fe4b63c447a787572eb8ed055}{range}}
+\item 
+int \mbox{\hyperlink{structmui_1_1bin__iterator_a97ebdd9e81da980a9a455eef380ebf6f}{count}} \mbox{[}\mbox{\hyperlink{structmui_1_1bin__iterator_acb6d849efa422c9c07a5866c3031a3f8}{D}}-\/1\mbox{]}
+\item 
+std\+::size\+\_\+t \mbox{\hyperlink{structmui_1_1bin__iterator_ac6914757b751e94ba6763d82faabbc2c}{high}}
+\item 
+std\+::size\+\_\+t \mbox{\hyperlink{structmui_1_1bin__iterator_a78c714939432311507baacc85de506e4}{index}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static const int \mbox{\hyperlink{structmui_1_1bin__iterator_acb6d849efa422c9c07a5866c3031a3f8}{D}} = C\+O\+N\+F\+I\+G\+::D
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Typedef Documentation}
+\mbox{\Hypertarget{structmui_1_1bin__iterator_a647b888410c7aec82b750400f5d5c283}\label{structmui_1_1bin__iterator_a647b888410c7aec82b750400f5d5c283}} 
+\index{mui::bin\_iterator$<$ T, CONFIG $>$@{mui::bin\_iterator$<$ T, CONFIG $>$}!P@{P}}
+\index{P@{P}!mui::bin\_iterator$<$ T, CONFIG $>$@{mui::bin\_iterator$<$ T, CONFIG $>$}}
+\doxysubsubsection{\texorpdfstring{P}{P}}
+{\footnotesize\ttfamily template$<$typename T , typename C\+O\+N\+F\+IG $>$ \\
+using \mbox{\hyperlink{structmui_1_1bin__iterator}{mui\+::bin\+\_\+iterator}}$<$ T, C\+O\+N\+F\+IG $>$\+::\mbox{\hyperlink{structmui_1_1bin__iterator_a647b888410c7aec82b750400f5d5c283}{P}} =  std\+::pair$<$typename C\+O\+N\+F\+I\+G\+::point\+\_\+type,T$>$}
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{structmui_1_1bin__iterator_ad4a934e39ea52abb9b9df227826e784b}\label{structmui_1_1bin__iterator_ad4a934e39ea52abb9b9df227826e784b}} 
+\index{mui::bin\_iterator$<$ T, CONFIG $>$@{mui::bin\_iterator$<$ T, CONFIG $>$}!bin\_iterator@{bin\_iterator}}
+\index{bin\_iterator@{bin\_iterator}!mui::bin\_iterator$<$ T, CONFIG $>$@{mui::bin\_iterator$<$ T, CONFIG $>$}}
+\doxysubsubsection{\texorpdfstring{bin\_iterator()}{bin\_iterator()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily template$<$typename T , typename C\+O\+N\+F\+IG $>$ \\
+\mbox{\hyperlink{structmui_1_1bin__iterator}{mui\+::bin\+\_\+iterator}}$<$ T, C\+O\+N\+F\+IG $>$\+::\mbox{\hyperlink{structmui_1_1bin__iterator}{bin\+\_\+iterator}} (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{structmui_1_1bin__range}{bin\+\_\+range}}$<$ T, C\+O\+N\+F\+IG $>$ \&}]{range\+\_\+ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{structmui_1_1bin__iterator_a28e68216dd247d68b9c60f99c13631c5}\label{structmui_1_1bin__iterator_a28e68216dd247d68b9c60f99c13631c5}} 
+\index{mui::bin\_iterator$<$ T, CONFIG $>$@{mui::bin\_iterator$<$ T, CONFIG $>$}!bin\_iterator@{bin\_iterator}}
+\index{bin\_iterator@{bin\_iterator}!mui::bin\_iterator$<$ T, CONFIG $>$@{mui::bin\_iterator$<$ T, CONFIG $>$}}
+\doxysubsubsection{\texorpdfstring{bin\_iterator()}{bin\_iterator()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily template$<$typename T , typename C\+O\+N\+F\+IG $>$ \\
+\mbox{\hyperlink{structmui_1_1bin__iterator}{mui\+::bin\+\_\+iterator}}$<$ T, C\+O\+N\+F\+IG $>$\+::\mbox{\hyperlink{structmui_1_1bin__iterator}{bin\+\_\+iterator}} (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{structmui_1_1bin__range}{bin\+\_\+range}}$<$ T, C\+O\+N\+F\+IG $>$ \&}]{range\+\_\+,  }\item[{int}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [explicit]}}
+
+\mbox{\Hypertarget{structmui_1_1bin__iterator_afb02d18499dea2d212b2d220f69ce749}\label{structmui_1_1bin__iterator_afb02d18499dea2d212b2d220f69ce749}} 
+\index{mui::bin\_iterator$<$ T, CONFIG $>$@{mui::bin\_iterator$<$ T, CONFIG $>$}!bin\_iterator@{bin\_iterator}}
+\index{bin\_iterator@{bin\_iterator}!mui::bin\_iterator$<$ T, CONFIG $>$@{mui::bin\_iterator$<$ T, CONFIG $>$}}
+\doxysubsubsection{\texorpdfstring{bin\_iterator()}{bin\_iterator()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily template$<$typename T , typename C\+O\+N\+F\+IG $>$ \\
+\mbox{\hyperlink{structmui_1_1bin__iterator}{mui\+::bin\+\_\+iterator}}$<$ T, C\+O\+N\+F\+IG $>$\+::\mbox{\hyperlink{structmui_1_1bin__iterator}{bin\+\_\+iterator}} (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{structmui_1_1bin__iterator}{bin\+\_\+iterator}}$<$ T, C\+O\+N\+F\+IG $>$ \&}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [default]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{structmui_1_1bin__iterator_a9dd12ec01e52a6aac8a2aa511b4a0849}\label{structmui_1_1bin__iterator_a9dd12ec01e52a6aac8a2aa511b4a0849}} 
+\index{mui::bin\_iterator$<$ T, CONFIG $>$@{mui::bin\_iterator$<$ T, CONFIG $>$}!invalidate@{invalidate}}
+\index{invalidate@{invalidate}!mui::bin\_iterator$<$ T, CONFIG $>$@{mui::bin\_iterator$<$ T, CONFIG $>$}}
+\doxysubsubsection{\texorpdfstring{invalidate()}{invalidate()}}
+{\footnotesize\ttfamily template$<$typename T , typename C\+O\+N\+F\+IG $>$ \\
+void \mbox{\hyperlink{structmui_1_1bin__iterator}{mui\+::bin\+\_\+iterator}}$<$ T, C\+O\+N\+F\+IG $>$\+::invalidate\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{structmui_1_1bin__iterator_abb2f0a6ce3579fa7f33409da0b295ea1}\label{structmui_1_1bin__iterator_abb2f0a6ce3579fa7f33409da0b295ea1}} 
+\index{mui::bin\_iterator$<$ T, CONFIG $>$@{mui::bin\_iterator$<$ T, CONFIG $>$}!operator"!=@{operator"!=}}
+\index{operator"!=@{operator"!=}!mui::bin\_iterator$<$ T, CONFIG $>$@{mui::bin\_iterator$<$ T, CONFIG $>$}}
+\doxysubsubsection{\texorpdfstring{operator"!=()}{operator!=()}}
+{\footnotesize\ttfamily template$<$typename T , typename C\+O\+N\+F\+IG $>$ \\
+bool \mbox{\hyperlink{structmui_1_1bin__iterator}{mui\+::bin\+\_\+iterator}}$<$ T, C\+O\+N\+F\+IG $>$\+::operator!= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{structmui_1_1bin__iterator}{bin\+\_\+iterator}}$<$ T, C\+O\+N\+F\+IG $>$ \&}]{rhs }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{structmui_1_1bin__iterator_a03e75c57f1b080531ea1da1ad7dc8039}\label{structmui_1_1bin__iterator_a03e75c57f1b080531ea1da1ad7dc8039}} 
+\index{mui::bin\_iterator$<$ T, CONFIG $>$@{mui::bin\_iterator$<$ T, CONFIG $>$}!operator$\ast$@{operator$\ast$}}
+\index{operator$\ast$@{operator$\ast$}!mui::bin\_iterator$<$ T, CONFIG $>$@{mui::bin\_iterator$<$ T, CONFIG $>$}}
+\doxysubsubsection{\texorpdfstring{operator$\ast$()}{operator*()}}
+{\footnotesize\ttfamily template$<$typename T , typename C\+O\+N\+F\+IG $>$ \\
+const \mbox{\hyperlink{structmui_1_1bin__iterator}{bin\+\_\+iterator}}$<$ T, C\+O\+N\+F\+IG $>$\+::\mbox{\hyperlink{structmui_1_1bin__iterator_a647b888410c7aec82b750400f5d5c283}{P}} \& \mbox{\hyperlink{structmui_1_1bin__iterator}{mui\+::bin\+\_\+iterator}}$<$ T, C\+O\+N\+F\+IG $>$\+::operator$\ast$\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{structmui_1_1bin__iterator_abcbb2de1b131606af75b303f2d8e90e9}\label{structmui_1_1bin__iterator_abcbb2de1b131606af75b303f2d8e90e9}} 
+\index{mui::bin\_iterator$<$ T, CONFIG $>$@{mui::bin\_iterator$<$ T, CONFIG $>$}!operator++@{operator++}}
+\index{operator++@{operator++}!mui::bin\_iterator$<$ T, CONFIG $>$@{mui::bin\_iterator$<$ T, CONFIG $>$}}
+\doxysubsubsection{\texorpdfstring{operator++()}{operator++()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$typename T , typename C\+O\+N\+F\+IG $>$ \\
+\mbox{\hyperlink{structmui_1_1bin__iterator}{bin\+\_\+iterator}}$<$ T, C\+O\+N\+F\+IG $>$ \& \mbox{\hyperlink{structmui_1_1bin__iterator}{mui\+::bin\+\_\+iterator}}$<$ T, C\+O\+N\+F\+IG $>$\+::operator++\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{structmui_1_1bin__iterator_a348e1d15c037b9e1302f16dc065928fb}\label{structmui_1_1bin__iterator_a348e1d15c037b9e1302f16dc065928fb}} 
+\index{mui::bin\_iterator$<$ T, CONFIG $>$@{mui::bin\_iterator$<$ T, CONFIG $>$}!operator++@{operator++}}
+\index{operator++@{operator++}!mui::bin\_iterator$<$ T, CONFIG $>$@{mui::bin\_iterator$<$ T, CONFIG $>$}}
+\doxysubsubsection{\texorpdfstring{operator++()}{operator++()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$typename T , typename C\+O\+N\+F\+IG $>$ \\
+\mbox{\hyperlink{structmui_1_1bin__iterator}{bin\+\_\+iterator}} \mbox{\hyperlink{structmui_1_1bin__iterator}{mui\+::bin\+\_\+iterator}}$<$ T, C\+O\+N\+F\+IG $>$\+::operator++ (\begin{DoxyParamCaption}\item[{int}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{structmui_1_1bin__iterator_a4bf91868a5ca5e0cca146a11ad1ac24b}\label{structmui_1_1bin__iterator_a4bf91868a5ca5e0cca146a11ad1ac24b}} 
+\index{mui::bin\_iterator$<$ T, CONFIG $>$@{mui::bin\_iterator$<$ T, CONFIG $>$}!operator-\/$>$@{operator-\/$>$}}
+\index{operator-\/$>$@{operator-\/$>$}!mui::bin\_iterator$<$ T, CONFIG $>$@{mui::bin\_iterator$<$ T, CONFIG $>$}}
+\doxysubsubsection{\texorpdfstring{operator-\/$>$()}{operator->()}}
+{\footnotesize\ttfamily template$<$typename T , typename C\+O\+N\+F\+IG $>$ \\
+const \mbox{\hyperlink{structmui_1_1bin__iterator}{bin\+\_\+iterator}}$<$ T, C\+O\+N\+F\+IG $>$\+::\mbox{\hyperlink{structmui_1_1bin__iterator_a647b888410c7aec82b750400f5d5c283}{P}} $\ast$ \mbox{\hyperlink{structmui_1_1bin__iterator}{mui\+::bin\+\_\+iterator}}$<$ T, C\+O\+N\+F\+IG $>$\+::operator-\/$>$\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{structmui_1_1bin__iterator_a4d77cf5d472236ac4d8a35bb97d70011}\label{structmui_1_1bin__iterator_a4d77cf5d472236ac4d8a35bb97d70011}} 
+\index{mui::bin\_iterator$<$ T, CONFIG $>$@{mui::bin\_iterator$<$ T, CONFIG $>$}!operator=@{operator=}}
+\index{operator=@{operator=}!mui::bin\_iterator$<$ T, CONFIG $>$@{mui::bin\_iterator$<$ T, CONFIG $>$}}
+\doxysubsubsection{\texorpdfstring{operator=()}{operator=()}}
+{\footnotesize\ttfamily template$<$typename T , typename C\+O\+N\+F\+IG $>$ \\
+\mbox{\hyperlink{structmui_1_1bin__iterator}{bin\+\_\+iterator}}\& \mbox{\hyperlink{structmui_1_1bin__iterator}{mui\+::bin\+\_\+iterator}}$<$ T, C\+O\+N\+F\+IG $>$\+::operator= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{structmui_1_1bin__iterator}{bin\+\_\+iterator}}$<$ T, C\+O\+N\+F\+IG $>$ \&}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [default]}}
+
+\mbox{\Hypertarget{structmui_1_1bin__iterator_a12ed131569425fd91bd853eef3dd45ef}\label{structmui_1_1bin__iterator_a12ed131569425fd91bd853eef3dd45ef}} 
+\index{mui::bin\_iterator$<$ T, CONFIG $>$@{mui::bin\_iterator$<$ T, CONFIG $>$}!operator==@{operator==}}
+\index{operator==@{operator==}!mui::bin\_iterator$<$ T, CONFIG $>$@{mui::bin\_iterator$<$ T, CONFIG $>$}}
+\doxysubsubsection{\texorpdfstring{operator==()}{operator==()}}
+{\footnotesize\ttfamily template$<$typename T , typename C\+O\+N\+F\+IG $>$ \\
+bool \mbox{\hyperlink{structmui_1_1bin__iterator}{mui\+::bin\+\_\+iterator}}$<$ T, C\+O\+N\+F\+IG $>$\+::operator== (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{structmui_1_1bin__iterator}{bin\+\_\+iterator}}$<$ T, C\+O\+N\+F\+IG $>$ \&}]{rhs }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{structmui_1_1bin__iterator_add20c0285e60fb2bd9e7b82bb9fb4204}\label{structmui_1_1bin__iterator_add20c0285e60fb2bd9e7b82bb9fb4204}} 
+\index{mui::bin\_iterator$<$ T, CONFIG $>$@{mui::bin\_iterator$<$ T, CONFIG $>$}!validate@{validate}}
+\index{validate@{validate}!mui::bin\_iterator$<$ T, CONFIG $>$@{mui::bin\_iterator$<$ T, CONFIG $>$}}
+\doxysubsubsection{\texorpdfstring{validate()}{validate()}}
+{\footnotesize\ttfamily template$<$typename T , typename C\+O\+N\+F\+IG $>$ \\
+void \mbox{\hyperlink{structmui_1_1bin__iterator}{mui\+::bin\+\_\+iterator}}$<$ T, C\+O\+N\+F\+IG $>$\+::validate\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{structmui_1_1bin__iterator_a97ebdd9e81da980a9a455eef380ebf6f}\label{structmui_1_1bin__iterator_a97ebdd9e81da980a9a455eef380ebf6f}} 
+\index{mui::bin\_iterator$<$ T, CONFIG $>$@{mui::bin\_iterator$<$ T, CONFIG $>$}!count@{count}}
+\index{count@{count}!mui::bin\_iterator$<$ T, CONFIG $>$@{mui::bin\_iterator$<$ T, CONFIG $>$}}
+\doxysubsubsection{\texorpdfstring{count}{count}}
+{\footnotesize\ttfamily template$<$typename T , typename C\+O\+N\+F\+IG $>$ \\
+int \mbox{\hyperlink{structmui_1_1bin__iterator}{mui\+::bin\+\_\+iterator}}$<$ T, C\+O\+N\+F\+IG $>$\+::count\mbox{[}\mbox{\hyperlink{structmui_1_1bin__iterator_acb6d849efa422c9c07a5866c3031a3f8}{D}}-\/1\mbox{]}}
+
+\mbox{\Hypertarget{structmui_1_1bin__iterator_acb6d849efa422c9c07a5866c3031a3f8}\label{structmui_1_1bin__iterator_acb6d849efa422c9c07a5866c3031a3f8}} 
+\index{mui::bin\_iterator$<$ T, CONFIG $>$@{mui::bin\_iterator$<$ T, CONFIG $>$}!D@{D}}
+\index{D@{D}!mui::bin\_iterator$<$ T, CONFIG $>$@{mui::bin\_iterator$<$ T, CONFIG $>$}}
+\doxysubsubsection{\texorpdfstring{D}{D}}
+{\footnotesize\ttfamily template$<$typename T , typename C\+O\+N\+F\+IG $>$ \\
+const int \mbox{\hyperlink{structmui_1_1bin__iterator}{mui\+::bin\+\_\+iterator}}$<$ T, C\+O\+N\+F\+IG $>$\+::D = C\+O\+N\+F\+I\+G\+::D\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{structmui_1_1bin__iterator_ac6914757b751e94ba6763d82faabbc2c}\label{structmui_1_1bin__iterator_ac6914757b751e94ba6763d82faabbc2c}} 
+\index{mui::bin\_iterator$<$ T, CONFIG $>$@{mui::bin\_iterator$<$ T, CONFIG $>$}!high@{high}}
+\index{high@{high}!mui::bin\_iterator$<$ T, CONFIG $>$@{mui::bin\_iterator$<$ T, CONFIG $>$}}
+\doxysubsubsection{\texorpdfstring{high}{high}}
+{\footnotesize\ttfamily template$<$typename T , typename C\+O\+N\+F\+IG $>$ \\
+std\+::size\+\_\+t \mbox{\hyperlink{structmui_1_1bin__iterator}{mui\+::bin\+\_\+iterator}}$<$ T, C\+O\+N\+F\+IG $>$\+::high}
+
+\mbox{\Hypertarget{structmui_1_1bin__iterator_a78c714939432311507baacc85de506e4}\label{structmui_1_1bin__iterator_a78c714939432311507baacc85de506e4}} 
+\index{mui::bin\_iterator$<$ T, CONFIG $>$@{mui::bin\_iterator$<$ T, CONFIG $>$}!index@{index}}
+\index{index@{index}!mui::bin\_iterator$<$ T, CONFIG $>$@{mui::bin\_iterator$<$ T, CONFIG $>$}}
+\doxysubsubsection{\texorpdfstring{index}{index}}
+{\footnotesize\ttfamily template$<$typename T , typename C\+O\+N\+F\+IG $>$ \\
+std\+::size\+\_\+t \mbox{\hyperlink{structmui_1_1bin__iterator}{mui\+::bin\+\_\+iterator}}$<$ T, C\+O\+N\+F\+IG $>$\+::index}
+
+\mbox{\Hypertarget{structmui_1_1bin__iterator_a371e739fe4b63c447a787572eb8ed055}\label{structmui_1_1bin__iterator_a371e739fe4b63c447a787572eb8ed055}} 
+\index{mui::bin\_iterator$<$ T, CONFIG $>$@{mui::bin\_iterator$<$ T, CONFIG $>$}!range@{range}}
+\index{range@{range}!mui::bin\_iterator$<$ T, CONFIG $>$@{mui::bin\_iterator$<$ T, CONFIG $>$}}
+\doxysubsubsection{\texorpdfstring{range}{range}}
+{\footnotesize\ttfamily template$<$typename T , typename C\+O\+N\+F\+IG $>$ \\
+const \mbox{\hyperlink{structmui_1_1bin__range}{bin\+\_\+range}}$<$T,C\+O\+N\+F\+IG$>$\& \mbox{\hyperlink{structmui_1_1bin__iterator}{mui\+::bin\+\_\+iterator}}$<$ T, C\+O\+N\+F\+IG $>$\+::range}
+
+
+
+The documentation for this struct was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{bin_8h}{bin.\+h}}\end{DoxyCompactItemize}

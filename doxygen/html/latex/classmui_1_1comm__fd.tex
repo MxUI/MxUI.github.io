@@ -1,0 +1,119 @@
+\hypertarget{classmui_1_1comm__fd}{}\doxysection{mui\+::comm\+\_\+fd Class Reference}
+\label{classmui_1_1comm__fd}\index{mui::comm\_fd@{mui::comm\_fd}}
+
+
+{\ttfamily \#include $<$comm\+\_\+tcp.\+h$>$}
+
+
+
+Inheritance diagram for mui\+::comm\+\_\+fd\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=192pt]{classmui_1_1comm__fd__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for mui\+::comm\+\_\+fd\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=192pt]{classmui_1_1comm__fd__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classmui_1_1comm__fd_a8b867ed149ab5c043c0ca5fbddd986c0}{comm\+\_\+fd}} (int \mbox{\hyperlink{classmui_1_1comm__fd_ae149073567b5f9997fa3f4bd5fae0336}{local\+\_\+rank}}, int \mbox{\hyperlink{classmui_1_1comm__fd_a9c119bf4de88c8047488750deb2e78ef}{local\+\_\+size}}, std\+::vector$<$ \mbox{\hyperlink{classmui_1_1unique__fd__}{unique\+\_\+fd\+\_\+}} $>$ \&\&wfds, std\+::vector$<$ \mbox{\hyperlink{classmui_1_1unique__fd__}{unique\+\_\+fd\+\_\+}} $>$ \&\&rfds)
+\item 
+\mbox{\hyperlink{classmui_1_1comm__fd_af584f7becf55e3df14581571ffc71100}{$\sim$comm\+\_\+fd}} ()
+\item 
+int \mbox{\hyperlink{classmui_1_1comm__fd_ae149073567b5f9997fa3f4bd5fae0336}{local\+\_\+rank}} () const
+\item 
+int \mbox{\hyperlink{classmui_1_1comm__fd_a9c119bf4de88c8047488750deb2e78ef}{local\+\_\+size}} () const
+\item 
+int \mbox{\hyperlink{classmui_1_1comm__fd_a6d5e989af8268c87b7c7bcd18a0a9a11}{remote\+\_\+size}} () const
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classmui_1_1comm__fd_a025e0264f0424a2b28f3c14ecde5ba24}{send\+\_\+impl\+\_\+}} (\mbox{\hyperlink{structmui_1_1message}{message}} msg, const std\+::vector$<$ bool $>$ \&dest)
+\item 
+\mbox{\hyperlink{structmui_1_1message}{message}} \mbox{\hyperlink{classmui_1_1comm__fd_a426bda7ebea0817e24fef87552993756}{recv\+\_\+impl\+\_\+}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classmui_1_1comm__fd_a8b867ed149ab5c043c0ca5fbddd986c0}\label{classmui_1_1comm__fd_a8b867ed149ab5c043c0ca5fbddd986c0}} 
+\index{mui::comm\_fd@{mui::comm\_fd}!comm\_fd@{comm\_fd}}
+\index{comm\_fd@{comm\_fd}!mui::comm\_fd@{mui::comm\_fd}}
+\doxysubsubsection{\texorpdfstring{comm\_fd()}{comm\_fd()}}
+{\footnotesize\ttfamily mui\+::comm\+\_\+fd\+::comm\+\_\+fd (\begin{DoxyParamCaption}\item[{int}]{local\+\_\+rank,  }\item[{int}]{local\+\_\+size,  }\item[{std\+::vector$<$ \mbox{\hyperlink{classmui_1_1unique__fd__}{unique\+\_\+fd\+\_\+}} $>$ \&\&}]{wfds,  }\item[{std\+::vector$<$ \mbox{\hyperlink{classmui_1_1unique__fd__}{unique\+\_\+fd\+\_\+}} $>$ \&\&}]{rfds }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classmui_1_1comm__fd_af584f7becf55e3df14581571ffc71100}\label{classmui_1_1comm__fd_af584f7becf55e3df14581571ffc71100}} 
+\index{mui::comm\_fd@{mui::comm\_fd}!````~comm\_fd@{$\sim$comm\_fd}}
+\index{````~comm\_fd@{$\sim$comm\_fd}!mui::comm\_fd@{mui::comm\_fd}}
+\doxysubsubsection{\texorpdfstring{$\sim$comm\_fd()}{~comm\_fd()}}
+{\footnotesize\ttfamily mui\+::comm\+\_\+fd\+::$\sim$comm\+\_\+fd (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classmui_1_1comm__fd_ae149073567b5f9997fa3f4bd5fae0336}\label{classmui_1_1comm__fd_ae149073567b5f9997fa3f4bd5fae0336}} 
+\index{mui::comm\_fd@{mui::comm\_fd}!local\_rank@{local\_rank}}
+\index{local\_rank@{local\_rank}!mui::comm\_fd@{mui::comm\_fd}}
+\doxysubsubsection{\texorpdfstring{local\_rank()}{local\_rank()}}
+{\footnotesize\ttfamily int mui\+::comm\+\_\+fd\+::local\+\_\+rank (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{classmui_1_1communicator_a83311811022225d758dd86866e620466}{mui\+::communicator}}.
+
+\mbox{\Hypertarget{classmui_1_1comm__fd_a9c119bf4de88c8047488750deb2e78ef}\label{classmui_1_1comm__fd_a9c119bf4de88c8047488750deb2e78ef}} 
+\index{mui::comm\_fd@{mui::comm\_fd}!local\_size@{local\_size}}
+\index{local\_size@{local\_size}!mui::comm\_fd@{mui::comm\_fd}}
+\doxysubsubsection{\texorpdfstring{local\_size()}{local\_size()}}
+{\footnotesize\ttfamily int mui\+::comm\+\_\+fd\+::local\+\_\+size (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{classmui_1_1communicator_aa98faead0a9f63b8edb8b987477998e1}{mui\+::communicator}}.
+
+\mbox{\Hypertarget{classmui_1_1comm__fd_a426bda7ebea0817e24fef87552993756}\label{classmui_1_1comm__fd_a426bda7ebea0817e24fef87552993756}} 
+\index{mui::comm\_fd@{mui::comm\_fd}!recv\_impl\_@{recv\_impl\_}}
+\index{recv\_impl\_@{recv\_impl\_}!mui::comm\_fd@{mui::comm\_fd}}
+\doxysubsubsection{\texorpdfstring{recv\_impl\_()}{recv\_impl\_()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{structmui_1_1message}{message}} mui\+::comm\+\_\+fd\+::recv\+\_\+impl\+\_\+ (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{classmui_1_1communicator_ab52ebf7dd059acdd144493cd76c62c5f}{mui\+::communicator}}.
+
+\mbox{\Hypertarget{classmui_1_1comm__fd_a6d5e989af8268c87b7c7bcd18a0a9a11}\label{classmui_1_1comm__fd_a6d5e989af8268c87b7c7bcd18a0a9a11}} 
+\index{mui::comm\_fd@{mui::comm\_fd}!remote\_size@{remote\_size}}
+\index{remote\_size@{remote\_size}!mui::comm\_fd@{mui::comm\_fd}}
+\doxysubsubsection{\texorpdfstring{remote\_size()}{remote\_size()}}
+{\footnotesize\ttfamily int mui\+::comm\+\_\+fd\+::remote\+\_\+size (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{classmui_1_1communicator_a8683d36801b78685ce5a58da2c6a6195}{mui\+::communicator}}.
+
+\mbox{\Hypertarget{classmui_1_1comm__fd_a025e0264f0424a2b28f3c14ecde5ba24}\label{classmui_1_1comm__fd_a025e0264f0424a2b28f3c14ecde5ba24}} 
+\index{mui::comm\_fd@{mui::comm\_fd}!send\_impl\_@{send\_impl\_}}
+\index{send\_impl\_@{send\_impl\_}!mui::comm\_fd@{mui::comm\_fd}}
+\doxysubsubsection{\texorpdfstring{send\_impl\_()}{send\_impl\_()}}
+{\footnotesize\ttfamily void mui\+::comm\+\_\+fd\+::send\+\_\+impl\+\_\+ (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structmui_1_1message}{message}}}]{msg,  }\item[{const std\+::vector$<$ bool $>$ \&}]{dest }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{classmui_1_1communicator_a1fccb014ae855d7b7d0fc53f7f22b9aa}{mui\+::communicator}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{comm__tcp_8h}{comm\+\_\+tcp.\+h}}\end{DoxyCompactItemize}

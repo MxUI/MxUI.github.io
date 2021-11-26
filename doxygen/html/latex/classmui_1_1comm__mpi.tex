@@ -1,0 +1,247 @@
+\hypertarget{classmui_1_1comm__mpi}{}\doxysection{mui\+::comm\+\_\+mpi Class Reference}
+\label{classmui_1_1comm__mpi}\index{mui::comm\_mpi@{mui::comm\_mpi}}
+
+
+{\ttfamily \#include $<$comm\+\_\+mpi.\+h$>$}
+
+
+
+Inheritance diagram for mui\+::comm\+\_\+mpi\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=210pt]{classmui_1_1comm__mpi__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for mui\+::comm\+\_\+mpi\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=192pt]{classmui_1_1comm__mpi__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classmui_1_1comm__mpi_a6116417b53d8634c453f3fa2e767c40d}{comm\+\_\+mpi}} (const char U\+RI\mbox{[}$\,$\mbox{]}, M\+P\+I\+\_\+\+Comm world)
+\item 
+virtual \mbox{\hyperlink{classmui_1_1comm__mpi_a3e55a5ec5ae58ca0f59c7e82afbd391d}{$\sim$comm\+\_\+mpi}} ()
+\item 
+void \mbox{\hyperlink{classmui_1_1comm__mpi_a4cb3bd6ed04dfea6bcf8ab8136beafaf}{init}} (const char U\+RI\mbox{[}$\,$\mbox{]}, M\+P\+I\+\_\+\+Comm world)
+\item 
+void \mbox{\hyperlink{classmui_1_1comm__mpi_a7f6419844f743488c069c600ad57d47f}{finalize}} ()
+\item 
+virtual int \mbox{\hyperlink{classmui_1_1comm__mpi_a580ce0c15f414fe6d80efa74cefa2338}{local\+\_\+size}} () const
+\item 
+virtual int \mbox{\hyperlink{classmui_1_1comm__mpi_ab0cf03ad7dbe099e0859a920f2711709}{local\+\_\+rank}} () const
+\item 
+virtual int \mbox{\hyperlink{classmui_1_1comm__mpi_abbf8ab973f51af297cc7ecf145f6cd84}{remote\+\_\+size}} () const
+\item 
+virtual int \mbox{\hyperlink{classmui_1_1comm__mpi_ad96c274b259a5aa4a4c18882dace97a7}{global\+\_\+size}} () const
+\item 
+virtual int \mbox{\hyperlink{classmui_1_1comm__mpi_ad2413502326fd78d453978abf96ad9de}{global\+\_\+rank}} () const
+\item 
+virtual std\+::string \mbox{\hyperlink{classmui_1_1comm__mpi_acd0614229030dc13e34faa50f8ed818a}{uri\+\_\+host}} () const
+\item 
+virtual std\+::string \mbox{\hyperlink{classmui_1_1comm__mpi_a5aa7a8df2de0eb2fa870ef57f0419ad5}{uri\+\_\+path}} () const
+\item 
+virtual std\+::string \mbox{\hyperlink{classmui_1_1comm__mpi_aef4dd35bd684d4b84f2e0aae8cc12e0a}{uri\+\_\+protocol}} () const
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+M\+P\+I\+\_\+\+Comm \mbox{\hyperlink{classmui_1_1comm__mpi_a54674e884ecca1e64d8ccdc6798c589e}{domain\+\_\+local\+\_\+}}
+\item 
+M\+P\+I\+\_\+\+Comm \mbox{\hyperlink{classmui_1_1comm__mpi_a414000a7c43087ca378d85c45dbaebc9}{domain\+\_\+remote\+\_\+}}
+\item 
+int \mbox{\hyperlink{classmui_1_1comm__mpi_ae9f2f6f5e3ea067feb9534dd2b5f0b40}{local\+\_\+size\+\_\+}}
+\item 
+int \mbox{\hyperlink{classmui_1_1comm__mpi_a143de5dac5348ae4e3929ed3a3d8459d}{local\+\_\+rank\+\_\+}}
+\item 
+int \mbox{\hyperlink{classmui_1_1comm__mpi_a7d9f55e3220ea9b5975cccc06645abf7}{remote\+\_\+size\+\_\+}}
+\item 
+int \mbox{\hyperlink{classmui_1_1comm__mpi_a69f9224cba14db3d63ef24a0e9cd1693}{global\+\_\+size\+\_\+}}
+\item 
+int \mbox{\hyperlink{classmui_1_1comm__mpi_a43678dec5d23ec36d1833e5c9c1b1f94}{global\+\_\+rank\+\_\+}}
+\item 
+std\+::string \mbox{\hyperlink{classmui_1_1comm__mpi_a7628ea60122271367e59b2a7dc9bfa28}{uri\+\_\+host\+\_\+}}
+\item 
+std\+::string \mbox{\hyperlink{classmui_1_1comm__mpi_ab66bb27c842ae41fad0fce44e0679555}{uri\+\_\+path\+\_\+}}
+\item 
+std\+::string \mbox{\hyperlink{classmui_1_1comm__mpi_a502862715beb5e2e6e10b8d599e9f7b1}{uri\+\_\+protocol\+\_\+}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classmui_1_1comm__mpi_a6116417b53d8634c453f3fa2e767c40d}\label{classmui_1_1comm__mpi_a6116417b53d8634c453f3fa2e767c40d}} 
+\index{mui::comm\_mpi@{mui::comm\_mpi}!comm\_mpi@{comm\_mpi}}
+\index{comm\_mpi@{comm\_mpi}!mui::comm\_mpi@{mui::comm\_mpi}}
+\doxysubsubsection{\texorpdfstring{comm\_mpi()}{comm\_mpi()}}
+{\footnotesize\ttfamily mui\+::comm\+\_\+mpi\+::comm\+\_\+mpi (\begin{DoxyParamCaption}\item[{const char}]{U\+RI\mbox{[}$\,$\mbox{]},  }\item[{M\+P\+I\+\_\+\+Comm}]{world }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classmui_1_1comm__mpi_a3e55a5ec5ae58ca0f59c7e82afbd391d}\label{classmui_1_1comm__mpi_a3e55a5ec5ae58ca0f59c7e82afbd391d}} 
+\index{mui::comm\_mpi@{mui::comm\_mpi}!````~comm\_mpi@{$\sim$comm\_mpi}}
+\index{````~comm\_mpi@{$\sim$comm\_mpi}!mui::comm\_mpi@{mui::comm\_mpi}}
+\doxysubsubsection{\texorpdfstring{$\sim$comm\_mpi()}{~comm\_mpi()}}
+{\footnotesize\ttfamily virtual mui\+::comm\+\_\+mpi\+::$\sim$comm\+\_\+mpi (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classmui_1_1comm__mpi_a7f6419844f743488c069c600ad57d47f}\label{classmui_1_1comm__mpi_a7f6419844f743488c069c600ad57d47f}} 
+\index{mui::comm\_mpi@{mui::comm\_mpi}!finalize@{finalize}}
+\index{finalize@{finalize}!mui::comm\_mpi@{mui::comm\_mpi}}
+\doxysubsubsection{\texorpdfstring{finalize()}{finalize()}}
+{\footnotesize\ttfamily void mui\+::comm\+\_\+mpi\+::finalize (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classmui_1_1comm__mpi_ad2413502326fd78d453978abf96ad9de}\label{classmui_1_1comm__mpi_ad2413502326fd78d453978abf96ad9de}} 
+\index{mui::comm\_mpi@{mui::comm\_mpi}!global\_rank@{global\_rank}}
+\index{global\_rank@{global\_rank}!mui::comm\_mpi@{mui::comm\_mpi}}
+\doxysubsubsection{\texorpdfstring{global\_rank()}{global\_rank()}}
+{\footnotesize\ttfamily virtual int mui\+::comm\+\_\+mpi\+::global\+\_\+rank (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+\mbox{\Hypertarget{classmui_1_1comm__mpi_ad96c274b259a5aa4a4c18882dace97a7}\label{classmui_1_1comm__mpi_ad96c274b259a5aa4a4c18882dace97a7}} 
+\index{mui::comm\_mpi@{mui::comm\_mpi}!global\_size@{global\_size}}
+\index{global\_size@{global\_size}!mui::comm\_mpi@{mui::comm\_mpi}}
+\doxysubsubsection{\texorpdfstring{global\_size()}{global\_size()}}
+{\footnotesize\ttfamily virtual int mui\+::comm\+\_\+mpi\+::global\+\_\+size (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+\mbox{\Hypertarget{classmui_1_1comm__mpi_a4cb3bd6ed04dfea6bcf8ab8136beafaf}\label{classmui_1_1comm__mpi_a4cb3bd6ed04dfea6bcf8ab8136beafaf}} 
+\index{mui::comm\_mpi@{mui::comm\_mpi}!init@{init}}
+\index{init@{init}!mui::comm\_mpi@{mui::comm\_mpi}}
+\doxysubsubsection{\texorpdfstring{init()}{init()}}
+{\footnotesize\ttfamily void mui\+::comm\+\_\+mpi\+::init (\begin{DoxyParamCaption}\item[{const char}]{U\+RI\mbox{[}$\,$\mbox{]},  }\item[{M\+P\+I\+\_\+\+Comm}]{world }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classmui_1_1comm__mpi_ab0cf03ad7dbe099e0859a920f2711709}\label{classmui_1_1comm__mpi_ab0cf03ad7dbe099e0859a920f2711709}} 
+\index{mui::comm\_mpi@{mui::comm\_mpi}!local\_rank@{local\_rank}}
+\index{local\_rank@{local\_rank}!mui::comm\_mpi@{mui::comm\_mpi}}
+\doxysubsubsection{\texorpdfstring{local\_rank()}{local\_rank()}}
+{\footnotesize\ttfamily virtual int mui\+::comm\+\_\+mpi\+::local\+\_\+rank (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{classmui_1_1communicator_a83311811022225d758dd86866e620466}{mui\+::communicator}}.
+
+\mbox{\Hypertarget{classmui_1_1comm__mpi_a580ce0c15f414fe6d80efa74cefa2338}\label{classmui_1_1comm__mpi_a580ce0c15f414fe6d80efa74cefa2338}} 
+\index{mui::comm\_mpi@{mui::comm\_mpi}!local\_size@{local\_size}}
+\index{local\_size@{local\_size}!mui::comm\_mpi@{mui::comm\_mpi}}
+\doxysubsubsection{\texorpdfstring{local\_size()}{local\_size()}}
+{\footnotesize\ttfamily virtual int mui\+::comm\+\_\+mpi\+::local\+\_\+size (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{classmui_1_1communicator_aa98faead0a9f63b8edb8b987477998e1}{mui\+::communicator}}.
+
+\mbox{\Hypertarget{classmui_1_1comm__mpi_abbf8ab973f51af297cc7ecf145f6cd84}\label{classmui_1_1comm__mpi_abbf8ab973f51af297cc7ecf145f6cd84}} 
+\index{mui::comm\_mpi@{mui::comm\_mpi}!remote\_size@{remote\_size}}
+\index{remote\_size@{remote\_size}!mui::comm\_mpi@{mui::comm\_mpi}}
+\doxysubsubsection{\texorpdfstring{remote\_size()}{remote\_size()}}
+{\footnotesize\ttfamily virtual int mui\+::comm\+\_\+mpi\+::remote\+\_\+size (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{classmui_1_1communicator_a8683d36801b78685ce5a58da2c6a6195}{mui\+::communicator}}.
+
+\mbox{\Hypertarget{classmui_1_1comm__mpi_acd0614229030dc13e34faa50f8ed818a}\label{classmui_1_1comm__mpi_acd0614229030dc13e34faa50f8ed818a}} 
+\index{mui::comm\_mpi@{mui::comm\_mpi}!uri\_host@{uri\_host}}
+\index{uri\_host@{uri\_host}!mui::comm\_mpi@{mui::comm\_mpi}}
+\doxysubsubsection{\texorpdfstring{uri\_host()}{uri\_host()}}
+{\footnotesize\ttfamily virtual std\+::string mui\+::comm\+\_\+mpi\+::uri\+\_\+host (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{classmui_1_1communicator_a7c0bb2e371ecaff8725b8009c933231d}{mui\+::communicator}}.
+
+\mbox{\Hypertarget{classmui_1_1comm__mpi_a5aa7a8df2de0eb2fa870ef57f0419ad5}\label{classmui_1_1comm__mpi_a5aa7a8df2de0eb2fa870ef57f0419ad5}} 
+\index{mui::comm\_mpi@{mui::comm\_mpi}!uri\_path@{uri\_path}}
+\index{uri\_path@{uri\_path}!mui::comm\_mpi@{mui::comm\_mpi}}
+\doxysubsubsection{\texorpdfstring{uri\_path()}{uri\_path()}}
+{\footnotesize\ttfamily virtual std\+::string mui\+::comm\+\_\+mpi\+::uri\+\_\+path (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{classmui_1_1communicator_a3f73c05e3840b9a2c8d627e14b5e55db}{mui\+::communicator}}.
+
+\mbox{\Hypertarget{classmui_1_1comm__mpi_aef4dd35bd684d4b84f2e0aae8cc12e0a}\label{classmui_1_1comm__mpi_aef4dd35bd684d4b84f2e0aae8cc12e0a}} 
+\index{mui::comm\_mpi@{mui::comm\_mpi}!uri\_protocol@{uri\_protocol}}
+\index{uri\_protocol@{uri\_protocol}!mui::comm\_mpi@{mui::comm\_mpi}}
+\doxysubsubsection{\texorpdfstring{uri\_protocol()}{uri\_protocol()}}
+{\footnotesize\ttfamily virtual std\+::string mui\+::comm\+\_\+mpi\+::uri\+\_\+protocol (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{classmui_1_1communicator_a1d0e4dc7f42c845a07c4ae18ce95c457}{mui\+::communicator}}.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classmui_1_1comm__mpi_a54674e884ecca1e64d8ccdc6798c589e}\label{classmui_1_1comm__mpi_a54674e884ecca1e64d8ccdc6798c589e}} 
+\index{mui::comm\_mpi@{mui::comm\_mpi}!domain\_local\_@{domain\_local\_}}
+\index{domain\_local\_@{domain\_local\_}!mui::comm\_mpi@{mui::comm\_mpi}}
+\doxysubsubsection{\texorpdfstring{domain\_local\_}{domain\_local\_}}
+{\footnotesize\ttfamily M\+P\+I\+\_\+\+Comm mui\+::comm\+\_\+mpi\+::domain\+\_\+local\+\_\+\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classmui_1_1comm__mpi_a414000a7c43087ca378d85c45dbaebc9}\label{classmui_1_1comm__mpi_a414000a7c43087ca378d85c45dbaebc9}} 
+\index{mui::comm\_mpi@{mui::comm\_mpi}!domain\_remote\_@{domain\_remote\_}}
+\index{domain\_remote\_@{domain\_remote\_}!mui::comm\_mpi@{mui::comm\_mpi}}
+\doxysubsubsection{\texorpdfstring{domain\_remote\_}{domain\_remote\_}}
+{\footnotesize\ttfamily M\+P\+I\+\_\+\+Comm mui\+::comm\+\_\+mpi\+::domain\+\_\+remote\+\_\+\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classmui_1_1comm__mpi_a43678dec5d23ec36d1833e5c9c1b1f94}\label{classmui_1_1comm__mpi_a43678dec5d23ec36d1833e5c9c1b1f94}} 
+\index{mui::comm\_mpi@{mui::comm\_mpi}!global\_rank\_@{global\_rank\_}}
+\index{global\_rank\_@{global\_rank\_}!mui::comm\_mpi@{mui::comm\_mpi}}
+\doxysubsubsection{\texorpdfstring{global\_rank\_}{global\_rank\_}}
+{\footnotesize\ttfamily int mui\+::comm\+\_\+mpi\+::global\+\_\+rank\+\_\+\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classmui_1_1comm__mpi_a69f9224cba14db3d63ef24a0e9cd1693}\label{classmui_1_1comm__mpi_a69f9224cba14db3d63ef24a0e9cd1693}} 
+\index{mui::comm\_mpi@{mui::comm\_mpi}!global\_size\_@{global\_size\_}}
+\index{global\_size\_@{global\_size\_}!mui::comm\_mpi@{mui::comm\_mpi}}
+\doxysubsubsection{\texorpdfstring{global\_size\_}{global\_size\_}}
+{\footnotesize\ttfamily int mui\+::comm\+\_\+mpi\+::global\+\_\+size\+\_\+\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classmui_1_1comm__mpi_a143de5dac5348ae4e3929ed3a3d8459d}\label{classmui_1_1comm__mpi_a143de5dac5348ae4e3929ed3a3d8459d}} 
+\index{mui::comm\_mpi@{mui::comm\_mpi}!local\_rank\_@{local\_rank\_}}
+\index{local\_rank\_@{local\_rank\_}!mui::comm\_mpi@{mui::comm\_mpi}}
+\doxysubsubsection{\texorpdfstring{local\_rank\_}{local\_rank\_}}
+{\footnotesize\ttfamily int mui\+::comm\+\_\+mpi\+::local\+\_\+rank\+\_\+\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classmui_1_1comm__mpi_ae9f2f6f5e3ea067feb9534dd2b5f0b40}\label{classmui_1_1comm__mpi_ae9f2f6f5e3ea067feb9534dd2b5f0b40}} 
+\index{mui::comm\_mpi@{mui::comm\_mpi}!local\_size\_@{local\_size\_}}
+\index{local\_size\_@{local\_size\_}!mui::comm\_mpi@{mui::comm\_mpi}}
+\doxysubsubsection{\texorpdfstring{local\_size\_}{local\_size\_}}
+{\footnotesize\ttfamily int mui\+::comm\+\_\+mpi\+::local\+\_\+size\+\_\+\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classmui_1_1comm__mpi_a7d9f55e3220ea9b5975cccc06645abf7}\label{classmui_1_1comm__mpi_a7d9f55e3220ea9b5975cccc06645abf7}} 
+\index{mui::comm\_mpi@{mui::comm\_mpi}!remote\_size\_@{remote\_size\_}}
+\index{remote\_size\_@{remote\_size\_}!mui::comm\_mpi@{mui::comm\_mpi}}
+\doxysubsubsection{\texorpdfstring{remote\_size\_}{remote\_size\_}}
+{\footnotesize\ttfamily int mui\+::comm\+\_\+mpi\+::remote\+\_\+size\+\_\+\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classmui_1_1comm__mpi_a7628ea60122271367e59b2a7dc9bfa28}\label{classmui_1_1comm__mpi_a7628ea60122271367e59b2a7dc9bfa28}} 
+\index{mui::comm\_mpi@{mui::comm\_mpi}!uri\_host\_@{uri\_host\_}}
+\index{uri\_host\_@{uri\_host\_}!mui::comm\_mpi@{mui::comm\_mpi}}
+\doxysubsubsection{\texorpdfstring{uri\_host\_}{uri\_host\_}}
+{\footnotesize\ttfamily std\+::string mui\+::comm\+\_\+mpi\+::uri\+\_\+host\+\_\+\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classmui_1_1comm__mpi_ab66bb27c842ae41fad0fce44e0679555}\label{classmui_1_1comm__mpi_ab66bb27c842ae41fad0fce44e0679555}} 
+\index{mui::comm\_mpi@{mui::comm\_mpi}!uri\_path\_@{uri\_path\_}}
+\index{uri\_path\_@{uri\_path\_}!mui::comm\_mpi@{mui::comm\_mpi}}
+\doxysubsubsection{\texorpdfstring{uri\_path\_}{uri\_path\_}}
+{\footnotesize\ttfamily std\+::string mui\+::comm\+\_\+mpi\+::uri\+\_\+path\+\_\+\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classmui_1_1comm__mpi_a502862715beb5e2e6e10b8d599e9f7b1}\label{classmui_1_1comm__mpi_a502862715beb5e2e6e10b8d599e9f7b1}} 
+\index{mui::comm\_mpi@{mui::comm\_mpi}!uri\_protocol\_@{uri\_protocol\_}}
+\index{uri\_protocol\_@{uri\_protocol\_}!mui::comm\_mpi@{mui::comm\_mpi}}
+\doxysubsubsection{\texorpdfstring{uri\_protocol\_}{uri\_protocol\_}}
+{\footnotesize\ttfamily std\+::string mui\+::comm\+\_\+mpi\+::uri\+\_\+protocol\+\_\+\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{comm__mpi_8h}{comm\+\_\+mpi.\+h}}\end{DoxyCompactItemize}

@@ -1,0 +1,131 @@
+\hypertarget{classmui_1_1span}{}\doxysection{mui\+::span$<$ C\+O\+N\+F\+IG $>$ Class Template Reference}
+\label{classmui_1_1span}\index{mui::span$<$ CONFIG $>$@{mui::span$<$ CONFIG $>$}}
+
+
+{\ttfamily \#include $<$span.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classmui_1_1span_a0d3a14ad0a07096e4b4f55be5df00029}{span}} ()
+\item 
+\mbox{\hyperlink{classmui_1_1span}{span}} \mbox{\hyperlink{classmui_1_1span_a66882baecb835ef0a513d90c7f316772}{operator$\vert$$\vert$}} (const \mbox{\hyperlink{classmui_1_1geometry_1_1any__shape}{geometry\+::any\+\_\+shape}}$<$ C\+O\+N\+F\+IG $>$ \&s)
+\item 
+void \mbox{\hyperlink{classmui_1_1span_af444880d921d785164b4a661c1c67828}{operator\&\&}} (const \mbox{\hyperlink{classmui_1_1geometry_1_1any__shape}{geometry\+::any\+\_\+shape}}$<$ C\+O\+N\+F\+IG $>$ \&s)
+\item 
+void \mbox{\hyperlink{classmui_1_1span_aefd319e26055d859c2c38134adace914}{reset}} ()
+\item 
+bool \mbox{\hyperlink{classmui_1_1span_a70eb8c64b35137c63b1862f94ddcc6a5}{collide}} (const \mbox{\hyperlink{classmui_1_1geometry_1_1any__shape}{geometry\+::any\+\_\+shape}}$<$ C\+O\+N\+F\+IG $>$ \&other) const
+\item 
+bool \mbox{\hyperlink{classmui_1_1span_aac34fb8df6ebc8ae9eed782f7e6141ea}{collide}} (const \mbox{\hyperlink{classmui_1_1span}{span}} \&other) const
+\item 
+\mbox{\hyperlink{classmui_1_1geometry_1_1box}{geometry\+::box}}$<$ C\+O\+N\+F\+IG $>$ \mbox{\hyperlink{classmui_1_1span_a15a9322c12cffb05745ba5f6036a9238}{bbox}} () const
+\item 
+void \mbox{\hyperlink{classmui_1_1span_ad9386445bbcad54a7aefcf1493d98cb1}{serialize}} (\mbox{\hyperlink{classmui_1_1ostream}{ostream}} \&stream) const
+\item 
+void \mbox{\hyperlink{classmui_1_1span_a18c5604de701f271a7a7a4c7c3bb38b1}{deserialize}} (\mbox{\hyperlink{classmui_1_1istream}{istream}} \&stream)
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Types}
+\begin{DoxyCompactItemize}
+\item 
+using \mbox{\hyperlink{classmui_1_1span_a255f188b78cfdd6c0be79119c4bcfe82}{container}} = std\+::vector$<$ \mbox{\hyperlink{classmui_1_1geometry_1_1any__shape}{geometry\+::any\+\_\+shape}}$<$ C\+O\+N\+F\+IG $>$ $>$
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classmui_1_1span_a255f188b78cfdd6c0be79119c4bcfe82}{container}} \mbox{\hyperlink{classmui_1_1span_a3ddce7b2d0f2a46b88f8fd4b4eedf3df}{parts}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Typedef Documentation}
+\mbox{\Hypertarget{classmui_1_1span_a255f188b78cfdd6c0be79119c4bcfe82}\label{classmui_1_1span_a255f188b78cfdd6c0be79119c4bcfe82}} 
+\index{mui::span$<$ CONFIG $>$@{mui::span$<$ CONFIG $>$}!container@{container}}
+\index{container@{container}!mui::span$<$ CONFIG $>$@{mui::span$<$ CONFIG $>$}}
+\doxysubsubsection{\texorpdfstring{container}{container}}
+{\footnotesize\ttfamily template$<$class C\+O\+N\+F\+IG $>$ \\
+using \mbox{\hyperlink{classmui_1_1span}{mui\+::span}}$<$ C\+O\+N\+F\+IG $>$\+::\mbox{\hyperlink{classmui_1_1span_a255f188b78cfdd6c0be79119c4bcfe82}{container}} =  std\+::vector$<$\mbox{\hyperlink{classmui_1_1geometry_1_1any__shape}{geometry\+::any\+\_\+shape}}$<$C\+O\+N\+F\+IG$>$ $>$\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classmui_1_1span_a0d3a14ad0a07096e4b4f55be5df00029}\label{classmui_1_1span_a0d3a14ad0a07096e4b4f55be5df00029}} 
+\index{mui::span$<$ CONFIG $>$@{mui::span$<$ CONFIG $>$}!span@{span}}
+\index{span@{span}!mui::span$<$ CONFIG $>$@{mui::span$<$ CONFIG $>$}}
+\doxysubsubsection{\texorpdfstring{span()}{span()}}
+{\footnotesize\ttfamily template$<$class C\+O\+N\+F\+IG $>$ \\
+\mbox{\hyperlink{classmui_1_1span}{mui\+::span}}$<$ C\+O\+N\+F\+IG $>$\+::\mbox{\hyperlink{classmui_1_1span}{span}} (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classmui_1_1span_a15a9322c12cffb05745ba5f6036a9238}\label{classmui_1_1span_a15a9322c12cffb05745ba5f6036a9238}} 
+\index{mui::span$<$ CONFIG $>$@{mui::span$<$ CONFIG $>$}!bbox@{bbox}}
+\index{bbox@{bbox}!mui::span$<$ CONFIG $>$@{mui::span$<$ CONFIG $>$}}
+\doxysubsubsection{\texorpdfstring{bbox()}{bbox()}}
+{\footnotesize\ttfamily template$<$class C\+O\+N\+F\+IG $>$ \\
+\mbox{\hyperlink{classmui_1_1geometry_1_1box}{geometry\+::box}}$<$C\+O\+N\+F\+IG$>$ \mbox{\hyperlink{classmui_1_1span}{mui\+::span}}$<$ C\+O\+N\+F\+IG $>$\+::bbox (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classmui_1_1span_a70eb8c64b35137c63b1862f94ddcc6a5}\label{classmui_1_1span_a70eb8c64b35137c63b1862f94ddcc6a5}} 
+\index{mui::span$<$ CONFIG $>$@{mui::span$<$ CONFIG $>$}!collide@{collide}}
+\index{collide@{collide}!mui::span$<$ CONFIG $>$@{mui::span$<$ CONFIG $>$}}
+\doxysubsubsection{\texorpdfstring{collide()}{collide()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$class C\+O\+N\+F\+IG $>$ \\
+bool \mbox{\hyperlink{classmui_1_1span}{mui\+::span}}$<$ C\+O\+N\+F\+IG $>$\+::collide (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classmui_1_1geometry_1_1any__shape}{geometry\+::any\+\_\+shape}}$<$ C\+O\+N\+F\+IG $>$ \&}]{other }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classmui_1_1span_aac34fb8df6ebc8ae9eed782f7e6141ea}\label{classmui_1_1span_aac34fb8df6ebc8ae9eed782f7e6141ea}} 
+\index{mui::span$<$ CONFIG $>$@{mui::span$<$ CONFIG $>$}!collide@{collide}}
+\index{collide@{collide}!mui::span$<$ CONFIG $>$@{mui::span$<$ CONFIG $>$}}
+\doxysubsubsection{\texorpdfstring{collide()}{collide()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$class C\+O\+N\+F\+IG $>$ \\
+bool \mbox{\hyperlink{classmui_1_1span}{mui\+::span}}$<$ C\+O\+N\+F\+IG $>$\+::collide (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classmui_1_1span}{span}}$<$ C\+O\+N\+F\+IG $>$ \&}]{other }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classmui_1_1span_a18c5604de701f271a7a7a4c7c3bb38b1}\label{classmui_1_1span_a18c5604de701f271a7a7a4c7c3bb38b1}} 
+\index{mui::span$<$ CONFIG $>$@{mui::span$<$ CONFIG $>$}!deserialize@{deserialize}}
+\index{deserialize@{deserialize}!mui::span$<$ CONFIG $>$@{mui::span$<$ CONFIG $>$}}
+\doxysubsubsection{\texorpdfstring{deserialize()}{deserialize()}}
+{\footnotesize\ttfamily template$<$class C\+O\+N\+F\+IG $>$ \\
+void \mbox{\hyperlink{classmui_1_1span}{mui\+::span}}$<$ C\+O\+N\+F\+IG $>$\+::deserialize (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classmui_1_1istream}{istream}} \&}]{stream }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classmui_1_1span_af444880d921d785164b4a661c1c67828}\label{classmui_1_1span_af444880d921d785164b4a661c1c67828}} 
+\index{mui::span$<$ CONFIG $>$@{mui::span$<$ CONFIG $>$}!operator\&\&@{operator\&\&}}
+\index{operator\&\&@{operator\&\&}!mui::span$<$ CONFIG $>$@{mui::span$<$ CONFIG $>$}}
+\doxysubsubsection{\texorpdfstring{operator\&\&()}{operator\&\&()}}
+{\footnotesize\ttfamily template$<$class C\+O\+N\+F\+IG $>$ \\
+void \mbox{\hyperlink{classmui_1_1span}{mui\+::span}}$<$ C\+O\+N\+F\+IG $>$\+::operator\&\& (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classmui_1_1geometry_1_1any__shape}{geometry\+::any\+\_\+shape}}$<$ C\+O\+N\+F\+IG $>$ \&}]{s }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classmui_1_1span_a66882baecb835ef0a513d90c7f316772}\label{classmui_1_1span_a66882baecb835ef0a513d90c7f316772}} 
+\index{mui::span$<$ CONFIG $>$@{mui::span$<$ CONFIG $>$}!operator\texttt{"|}\texttt{"|}@{operator\texttt{"|}\texttt{"|}}}
+\index{operator\texttt{"|}\texttt{"|}@{operator\texttt{"|}\texttt{"|}}!mui::span$<$ CONFIG $>$@{mui::span$<$ CONFIG $>$}}
+\doxysubsubsection{\texorpdfstring{operator\texttt{"|}\texttt{"|}()}{operator||()}}
+{\footnotesize\ttfamily template$<$class C\+O\+N\+F\+IG $>$ \\
+\mbox{\hyperlink{classmui_1_1span}{span}} \mbox{\hyperlink{classmui_1_1span}{mui\+::span}}$<$ C\+O\+N\+F\+IG $>$\+::operator$\vert$$\vert$ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classmui_1_1geometry_1_1any__shape}{geometry\+::any\+\_\+shape}}$<$ C\+O\+N\+F\+IG $>$ \&}]{s }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classmui_1_1span_aefd319e26055d859c2c38134adace914}\label{classmui_1_1span_aefd319e26055d859c2c38134adace914}} 
+\index{mui::span$<$ CONFIG $>$@{mui::span$<$ CONFIG $>$}!reset@{reset}}
+\index{reset@{reset}!mui::span$<$ CONFIG $>$@{mui::span$<$ CONFIG $>$}}
+\doxysubsubsection{\texorpdfstring{reset()}{reset()}}
+{\footnotesize\ttfamily template$<$class C\+O\+N\+F\+IG $>$ \\
+void \mbox{\hyperlink{classmui_1_1span}{mui\+::span}}$<$ C\+O\+N\+F\+IG $>$\+::reset (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classmui_1_1span_ad9386445bbcad54a7aefcf1493d98cb1}\label{classmui_1_1span_ad9386445bbcad54a7aefcf1493d98cb1}} 
+\index{mui::span$<$ CONFIG $>$@{mui::span$<$ CONFIG $>$}!serialize@{serialize}}
+\index{serialize@{serialize}!mui::span$<$ CONFIG $>$@{mui::span$<$ CONFIG $>$}}
+\doxysubsubsection{\texorpdfstring{serialize()}{serialize()}}
+{\footnotesize\ttfamily template$<$class C\+O\+N\+F\+IG $>$ \\
+void \mbox{\hyperlink{classmui_1_1span}{mui\+::span}}$<$ C\+O\+N\+F\+IG $>$\+::serialize (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classmui_1_1ostream}{ostream}} \&}]{stream }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classmui_1_1span_a3ddce7b2d0f2a46b88f8fd4b4eedf3df}\label{classmui_1_1span_a3ddce7b2d0f2a46b88f8fd4b4eedf3df}} 
+\index{mui::span$<$ CONFIG $>$@{mui::span$<$ CONFIG $>$}!parts@{parts}}
+\index{parts@{parts}!mui::span$<$ CONFIG $>$@{mui::span$<$ CONFIG $>$}}
+\doxysubsubsection{\texorpdfstring{parts}{parts}}
+{\footnotesize\ttfamily template$<$class C\+O\+N\+F\+IG $>$ \\
+\mbox{\hyperlink{classmui_1_1span_a255f188b78cfdd6c0be79119c4bcfe82}{container}} \mbox{\hyperlink{classmui_1_1span}{mui\+::span}}$<$ C\+O\+N\+F\+IG $>$\+::parts\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{span_8h}{span.\+h}}\end{DoxyCompactItemize}

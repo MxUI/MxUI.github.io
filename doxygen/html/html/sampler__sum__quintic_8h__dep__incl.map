@@ -1,0 +1,4 @@
+<map id="sampler_sum_quintic.h" name="sampler_sum_quintic.h">
+<area shape="rect" id="node1" title="Spatial sampler that provides a value at a point using summation with a quintic kernel." alt="" coords="5,5,179,32"/>
+<area shape="rect" id="node2" href="$mui_8h.html" title="The main header file for MUI. Usually the only file that needs to be included in order to integrate i..." alt="" coords="63,80,121,107"/>
+</map>

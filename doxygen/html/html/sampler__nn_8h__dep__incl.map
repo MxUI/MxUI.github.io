@@ -1,0 +1,4 @@
+<map id="sampler_nn.h" name="sampler_nn.h">
+<area shape="rect" id="node1" title="Spatial sampler that provides a value at a point using a nearest neighbour interpolation." alt="" coords="5,5,116,32"/>
+<area shape="rect" id="node2" href="$mui_8h.html" title="The main header file for MUI. Usually the only file that needs to be included in order to integrate i..." alt="" coords="31,80,90,107"/>
+</map>
