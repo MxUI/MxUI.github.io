@@ -27,6 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="MUI_logo.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Multiscale Universal Interface
+   &#160;<span id="projectnumber">1.2</span>
    </div>
    <div id="projectbrief">A Concurrent Framework for Coupling Heterogeneous Solvers</div>
   </td>
@@ -156,7 +157,7 @@ $(document).ready(function(){initNavTree('sampler__exact_8h_source.html',''); in
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160; </div>
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    <span class="keyword">template</span>&lt;<span class="keyword">template</span>&lt;<span class="keyword">typename</span>,<span class="keyword">typename</span>&gt; <span class="keyword">class </span>CONTAINER&gt;</div>
 <div class="line"><a name="l00077"></a><span class="lineno"><a class="line" href="classmui_1_1sampler__exact.html#ae671389d5160ae30189fb72aec8f4a81">   77</a></span>&#160;    <span class="keyword">inline</span> <a class="code" href="classmui_1_1sampler__exact.html#a15a7687e2c1821509079ec71fedf54cb">OTYPE</a> <a class="code" href="classmui_1_1sampler__exact.html#ae671389d5160ae30189fb72aec8f4a81">filter</a>( <a class="code" href="classmui_1_1sampler__exact.html#a0d33e1eea1214c8478573a2cba105905">point_type</a> focus, <span class="keyword">const</span> CONTAINER&lt;ITYPE,CONFIG&gt; &amp;data_points )<span class="keyword"> const </span>{</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;        <span class="keywordflow">for</span>( <span class="keywordtype">size_t</span> i = 0 ; i &lt; data_points.size() ; i++ ) {</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;      <span class="keywordflow">for</span>( <span class="keywordtype">size_t</span> i = 0 ; i &lt; data_points.size() ; i++ ) {</div>
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;            <span class="keywordflow">if</span> ( <a class="code" href="namespacemui.html#afc24552d3db09a672443b14f96b2b8aa">norm</a>( focus - data_points[i].first ) &lt; <a class="code" href="classmui_1_1sampler__exact.html#a88cc43b85d889ff064c91962c9954497">point_tolerance</a> ) {</div>
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;                <span class="keywordflow">return</span> data_points[i].second;</div>
 <div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;            }</div>

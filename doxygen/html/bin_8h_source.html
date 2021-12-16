@@ -27,6 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="MUI_logo.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Multiscale Universal Interface
+   &#160;<span id="projectnumber">1.2</span>
    </div>
    <div id="projectbrief">A Concurrent Framework for Coupling Heterogeneous Solvers</div>
   </td>
@@ -331,7 +332,7 @@ $(document).ready(function(){initNavTree('bin_8h_source.html',''); initResizable
 <div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;        }</div>
 <div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160; </div>
 <div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;        <span class="keywordtype">size_t</span> zero_count=0;</div>
-<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;        REAL vol = abs(<a class="code" href="namespacemui.html#aca8bb75431ac5c48173731e02a5c6246">max</a>[0]-min[0]);</div>
+<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;        REAL vol = std::abs(<a class="code" href="namespacemui.html#aca8bb75431ac5c48173731e02a5c6246">max</a>[0]-min[0]);</div>
 <div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="namespacemui.html#a2e00c62074bb5b841ee769fdaca679a0">almost_equal</a>(vol, <span class="keyword">static_cast&lt;</span>REAL<span class="keyword">&gt;</span>(0))) { <span class="comment">// check if first dimension is zero size, if so set to 1</span></div>
 <div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;            vol = 1.0;</div>
 <div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;            zero_count++;</div>
@@ -388,56 +389,54 @@ $(document).ready(function(){initNavTree('bin_8h_source.html',''); initResizable
 <div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;        <span class="keywordflow">if</span>( initialize_query_(bx,lda,lh) ) <span class="keywordflow">return</span> map;</div>
 <div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;        map.reserve(lda[D-1]*12);</div>
 <div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;        <a class="code" href="namespacemui.html#af94c98a0248d6923c8681b4d2c39df6e">set_map_&lt;D-1&gt;::apply</a>( 0, lda, lh, displs, map );</div>
-<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;        map.shrink_to_fit();</div>
-<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;        <span class="keywordflow">return</span> map;</div>
-<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;    }</div>
-<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160; </div>
-<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;    <span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt;</div>
-<div class="line"><a name="l00315"></a><span class="lineno"><a class="line" href="structmui_1_1bin__t.html#abda7b56b8f16c788edef7ffa446945b9">  315</a></span>&#160;    <a class="code" href="structmui_1_1bin__range.html">bin_range&lt;T,CONFIG&gt;</a> <a class="code" href="structmui_1_1bin__t.html#abda7b56b8f16c788edef7ffa446945b9">query2</a>( <span class="keyword">const</span> <a class="code" href="classmui_1_1geometry_1_1box.html">geometry::box&lt;CONFIG&gt;</a>&amp; bx, <span class="keyword">const</span> std::vector&lt;std::pair&lt;point_type,T&gt; &gt;&amp; v )<span class="keyword"> const </span>{</div>
-<div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;        <span class="keywordtype">int</span> lda[D];</div>
-<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;        <span class="keywordtype">int</span> lh[D][2];</div>
-<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;        initialize_query_(bx,lda,lh);</div>
-<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="structmui_1_1bin__range.html">bin_range&lt;T,CONFIG&gt;</a>{lda,lh,displs,v};</div>
-<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;    }</div>
-<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160; </div>
-<div class="line"><a name="l00322"></a><span class="lineno"><a class="line" href="structmui_1_1bin__t.html#a10d7dcbebbd3e27e9b14c53657a58194">  322</a></span>&#160;    REAL <a class="code" href="structmui_1_1bin__t.html#a10d7dcbebbd3e27e9b14c53657a58194">domain_size</a>() {</div>
-<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;        REAL dim_size = <a class="code" href="namespacemui.html#afc24552d3db09a672443b14f96b2b8aa">norm</a>(<a class="code" href="namespacemui.html#aca8bb75431ac5c48173731e02a5c6246">max</a>-min);</div>
-<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;        <span class="comment">// Special case if domain only contains a single point</span></div>
-<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="namespacemui.html#a2e00c62074bb5b841ee769fdaca679a0">almost_equal</a>(dim_size, <span class="keyword">static_cast&lt;</span>REAL<span class="keyword">&gt;</span>(0)))</div>
-<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;            dim_size = 1.0;</div>
-<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;        <span class="keywordflow">return</span> dim_size;</div>
-<div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;    }</div>
-<div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160; </div>
-<div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;    <span class="keywordtype">bool</span> initialize_query_( <span class="keyword">const</span> <a class="code" href="classmui_1_1geometry_1_1box.html">geometry::box&lt;CONFIG&gt;</a>&amp; bx, <span class="keywordtype">int</span> lda[], <span class="keywordtype">int</span> lh[][2] )<span class="keyword"> const </span>{</div>
-<div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;        <span class="keywordtype">bool</span> broken = <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;        lda[0] = 1;</div>
-<div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;        <span class="keywordflow">for</span>( <span class="keywordtype">int</span> i=1; i&lt;CONFIG::D; ++i ) lda[i] = lda[i-1]*n[i-1];</div>
-<div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;        <span class="keywordflow">for</span>( <span class="keywordtype">int</span> i=0; i&lt;CONFIG::D; ++i ) {</div>
-<div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;            lh[i][0] = <span class="keyword">static_cast&lt;</span><span class="keywordtype">int</span><span class="keyword">&gt;</span>(<a class="code" href="namespacemui.html#aca8bb75431ac5c48173731e02a5c6246">std::max</a>(std::floor((bx.<a class="code" href="classmui_1_1geometry_1_1box.html#a548b6ae064a454c01d23052105bd62f4">get_min</a>()[i]-min[i])/h),<span class="keyword">typename</span> CONFIG::REAL(0)));</div>
-<div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;            lh[i][1] = <span class="keyword">static_cast&lt;</span><span class="keywordtype">int</span><span class="keyword">&gt;</span>(<a class="code" href="namespacemui_1_1dim.html#a4a9165384ff5faa33438dbd45aa99350">std::min</a>(std::ceil((bx.<a class="code" href="classmui_1_1geometry_1_1box.html#aac50a654e0e82789ba447ac9d360959d">get_max</a>()[i]-min[i])/h),<span class="keyword">typename</span> CONFIG::REAL(n[i])));</div>
-<div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;            <span class="keywordflow">if</span>( lh[i][0] &gt;= lh[i][1] ){</div>
-<div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;                lh[i][0] = lh[i][1];</div>
-<div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;                broken = <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;            }</div>
-<div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;        }</div>
-<div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;        <span class="keywordflow">return</span> broken;</div>
-<div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;    }</div>
-<div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160; </div>
-<div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;    <span class="keyword">inline</span> std::size_t get_index_( <span class="keyword">const</span> point_type&amp; pt )<span class="keyword"> const </span>{</div>
-<div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160;        std::size_t <a class="code" href="namespacemui_1_1dim.html#a712aced9b0e9ae81c112b61d1776f5fa">m</a> = 1, ret=0;</div>
-<div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160;        <span class="keywordflow">for</span>( <span class="keywordtype">int</span> i=0; i&lt;D; ++i ) {</div>
-<div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160;            std::size_t d = <span class="keyword">static_cast&lt;</span><span class="keywordtype">size_t</span><span class="keyword">&gt;</span>((std::floor((pt[i]-min[i])/h)));</div>
-<div class="line"><a name="l00350"></a><span class="lineno">  350</span>&#160;            d = <span class="keyword">static_cast&lt;</span><span class="keywordtype">size_t</span><span class="keyword">&gt;</span>(<a class="code" href="namespacemui_1_1dim.html#a4a9165384ff5faa33438dbd45aa99350">std::min</a>(d,n[i]-1)); <span class="comment">// the values may change here if (max[i]-min[i])/h is equal to a integer value.</span></div>
-<div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160;            ret += <a class="code" href="namespacemui_1_1dim.html#a712aced9b0e9ae81c112b61d1776f5fa">m</a>*d;</div>
-<div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;            <a class="code" href="namespacemui_1_1dim.html#a712aced9b0e9ae81c112b61d1776f5fa">m</a> *= n[i];</div>
-<div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160;        }</div>
-<div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;        <span class="keywordflow">return</span> ret;</div>
-<div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160;    }</div>
-<div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160;};</div>
-<div class="line"><a name="l00357"></a><span class="lineno">  357</span>&#160; </div>
-<div class="line"><a name="l00358"></a><span class="lineno">  358</span>&#160;}</div>
-<div class="line"><a name="l00359"></a><span class="lineno">  359</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;        <span class="keywordflow">return</span> map;</div>
+<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;    }</div>
+<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160; </div>
+<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;    <span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt;</div>
+<div class="line"><a name="l00314"></a><span class="lineno"><a class="line" href="structmui_1_1bin__t.html#abda7b56b8f16c788edef7ffa446945b9">  314</a></span>&#160;    <a class="code" href="structmui_1_1bin__range.html">bin_range&lt;T,CONFIG&gt;</a> <a class="code" href="structmui_1_1bin__t.html#abda7b56b8f16c788edef7ffa446945b9">query2</a>( <span class="keyword">const</span> <a class="code" href="classmui_1_1geometry_1_1box.html">geometry::box&lt;CONFIG&gt;</a>&amp; bx, <span class="keyword">const</span> std::vector&lt;std::pair&lt;point_type,T&gt; &gt;&amp; v )<span class="keyword"> const </span>{</div>
+<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;        <span class="keywordtype">int</span> lda[D];</div>
+<div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;        <span class="keywordtype">int</span> lh[D][2];</div>
+<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;        initialize_query_(bx,lda,lh);</div>
+<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="structmui_1_1bin__range.html">bin_range&lt;T,CONFIG&gt;</a>{lda,lh,displs,v};</div>
+<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;    }</div>
+<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160; </div>
+<div class="line"><a name="l00321"></a><span class="lineno"><a class="line" href="structmui_1_1bin__t.html#a10d7dcbebbd3e27e9b14c53657a58194">  321</a></span>&#160;    REAL <a class="code" href="structmui_1_1bin__t.html#a10d7dcbebbd3e27e9b14c53657a58194">domain_size</a>() {</div>
+<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;        REAL dim_size = <a class="code" href="namespacemui.html#afc24552d3db09a672443b14f96b2b8aa">norm</a>(<a class="code" href="namespacemui.html#aca8bb75431ac5c48173731e02a5c6246">max</a>-min);</div>
+<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;        <span class="comment">// Special case if domain only contains a single point</span></div>
+<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;        <span class="keywordflow">if</span>(dim_size == 0) dim_size = 1.0;</div>
+<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;        <span class="keywordflow">return</span> dim_size;</div>
+<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;    }</div>
+<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160; </div>
+<div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;    <span class="keywordtype">bool</span> initialize_query_( <span class="keyword">const</span> <a class="code" href="classmui_1_1geometry_1_1box.html">geometry::box&lt;CONFIG&gt;</a>&amp; bx, <span class="keywordtype">int</span> lda[], <span class="keywordtype">int</span> lh[][2] )<span class="keyword"> const </span>{</div>
+<div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;        <span class="keywordtype">bool</span> broken = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;        lda[0] = 1;</div>
+<div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;        <span class="keywordflow">for</span>( <span class="keywordtype">int</span> i=1; i&lt;CONFIG::D; ++i ) lda[i] = lda[i-1]*n[i-1];</div>
+<div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;        <span class="keywordflow">for</span>( <span class="keywordtype">int</span> i=0; i&lt;CONFIG::D; ++i ) {</div>
+<div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;            lh[i][0] = <span class="keyword">static_cast&lt;</span><span class="keywordtype">int</span><span class="keyword">&gt;</span>(<a class="code" href="namespacemui.html#aca8bb75431ac5c48173731e02a5c6246">std::max</a>(std::floor((bx.<a class="code" href="classmui_1_1geometry_1_1box.html#a548b6ae064a454c01d23052105bd62f4">get_min</a>()[i]-min[i])/h),<span class="keyword">typename</span> CONFIG::REAL(0)));</div>
+<div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;            lh[i][1] = <span class="keyword">static_cast&lt;</span><span class="keywordtype">int</span><span class="keyword">&gt;</span>(<a class="code" href="namespacemui_1_1dim.html#a4a9165384ff5faa33438dbd45aa99350">std::min</a>(std::ceil((bx.<a class="code" href="classmui_1_1geometry_1_1box.html#aac50a654e0e82789ba447ac9d360959d">get_max</a>()[i]-min[i])/h),<span class="keyword">typename</span> CONFIG::REAL(n[i])));</div>
+<div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;            <span class="keywordflow">if</span>( lh[i][0] &gt;= lh[i][1] ){</div>
+<div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;                lh[i][0] = lh[i][1];</div>
+<div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;                broken = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;            }</div>
+<div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;        }</div>
+<div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;        <span class="keywordflow">return</span> broken;</div>
+<div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;    }</div>
+<div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160; </div>
+<div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;    <span class="keyword">inline</span> std::size_t get_index_( <span class="keyword">const</span> point_type&amp; pt )<span class="keyword"> const </span>{</div>
+<div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;        std::size_t <a class="code" href="namespacemui_1_1dim.html#a712aced9b0e9ae81c112b61d1776f5fa">m</a> = 1, ret=0;</div>
+<div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;        <span class="keywordflow">for</span>( <span class="keywordtype">int</span> i=0; i&lt;D; ++i ) {</div>
+<div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160;            std::size_t d = <span class="keyword">static_cast&lt;</span><span class="keywordtype">size_t</span><span class="keyword">&gt;</span>((std::floor((pt[i]-min[i])/h)));</div>
+<div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160;            d = <span class="keyword">static_cast&lt;</span><span class="keywordtype">size_t</span><span class="keyword">&gt;</span>(<a class="code" href="namespacemui_1_1dim.html#a4a9165384ff5faa33438dbd45aa99350">std::min</a>(d,n[i]-1)); <span class="comment">// the values may change here if (max[i]-min[i])/h is equal to a integer value.</span></div>
+<div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160;            ret += <a class="code" href="namespacemui_1_1dim.html#a712aced9b0e9ae81c112b61d1776f5fa">m</a>*d;</div>
+<div class="line"><a name="l00350"></a><span class="lineno">  350</span>&#160;            <a class="code" href="namespacemui_1_1dim.html#a712aced9b0e9ae81c112b61d1776f5fa">m</a> *= n[i];</div>
+<div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160;        }</div>
+<div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;        <span class="keywordflow">return</span> ret;</div>
+<div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160;    }</div>
+<div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;};</div>
+<div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160; </div>
+<div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160;}</div>
+<div class="line"><a name="l00357"></a><span class="lineno">  357</span>&#160;<span class="preprocessor">#endif</span></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <div class="ttc" id="astructmui_1_1bin__range_html_a808a42cd40f43cf33068640f6b86bf27"><div class="ttname"><a href="structmui_1_1bin__range.html#a808a42cd40f43cf33068640f6b86bf27">mui::bin_range::D</a></div><div class="ttdeci">static const int D</div><div class="ttdef"><b>Definition:</b> bin.h:153</div></div>
@@ -469,7 +468,7 @@ $(document).ready(function(){initNavTree('bin_8h_source.html',''); initResizable
 <div class="ttc" id="astructmui_1_1bin__range_html_ad39d02903689c0911cffe91dc8634297"><div class="ttname"><a href="structmui_1_1bin__range.html#ad39d02903689c0911cffe91dc8634297">mui::bin_range::iterator</a></div><div class="ttdeci">bin_iterator&lt; T, CONFIG &gt; iterator</div><div class="ttdef"><b>Definition:</b> bin.h:154</div></div>
 <div class="ttc" id="astructmui_1_1bin__iterator_html_a4d77cf5d472236ac4d8a35bb97d70011"><div class="ttname"><a href="structmui_1_1bin__iterator.html#a4d77cf5d472236ac4d8a35bb97d70011">mui::bin_iterator::operator=</a></div><div class="ttdeci">bin_iterator &amp; operator=(const bin_iterator &amp;)=default</div></div>
 <div class="ttc" id="anamespacemui_1_1dim_html_a712aced9b0e9ae81c112b61d1776f5fa"><div class="ttname"><a href="namespacemui_1_1dim.html#a712aced9b0e9ae81c112b61d1776f5fa">mui::dim::m</a></div><div class="ttdeci">u u m</div><div class="ttdef"><b>Definition:</b> dim.h:281</div></div>
-<div class="ttc" id="astructmui_1_1bin__t_html_a10d7dcbebbd3e27e9b14c53657a58194"><div class="ttname"><a href="structmui_1_1bin__t.html#a10d7dcbebbd3e27e9b14c53657a58194">mui::bin_t::domain_size</a></div><div class="ttdeci">REAL domain_size()</div><div class="ttdef"><b>Definition:</b> bin.h:322</div></div>
+<div class="ttc" id="astructmui_1_1bin__t_html_a10d7dcbebbd3e27e9b14c53657a58194"><div class="ttname"><a href="structmui_1_1bin__t.html#a10d7dcbebbd3e27e9b14c53657a58194">mui::bin_t::domain_size</a></div><div class="ttdeci">REAL domain_size()</div><div class="ttdef"><b>Definition:</b> bin.h:321</div></div>
 <div class="ttc" id="astructmui_1_1bin__iterator_html_acb6d849efa422c9c07a5866c3031a3f8"><div class="ttname"><a href="structmui_1_1bin__iterator.html#acb6d849efa422c9c07a5866c3031a3f8">mui::bin_iterator::D</a></div><div class="ttdeci">static const int D</div><div class="ttdef"><b>Definition:</b> bin.h:123</div></div>
 <div class="ttc" id="anamespacemui_html_aca8bb75431ac5c48173731e02a5c6246"><div class="ttname"><a href="namespacemui.html#aca8bb75431ac5c48173731e02a5c6246">mui::max</a></div><div class="ttdeci">SCALAR max(vexpr&lt; E, SCALAR, D &gt; const &amp;u)</div><div class="ttdef"><b>Definition:</b> point.h:350</div></div>
 <div class="ttc" id="aclassmui_1_1geometry_1_1box_html_a548b6ae064a454c01d23052105bd62f4"><div class="ttname"><a href="classmui_1_1geometry_1_1box.html#a548b6ae064a454c01d23052105bd62f4">mui::geometry::box::get_min</a></div><div class="ttdeci">coordinate_type get_min() const</div><div class="ttdef"><b>Definition:</b> geometry.h:202</div></div>
@@ -483,7 +482,7 @@ $(document).ready(function(){initNavTree('bin_8h_source.html',''); initResizable
 <div class="ttc" id="anamespacemui_html"><div class="ttname"><a href="namespacemui.html">mui</a></div><div class="ttdef"><b>Definition:</b> bin.h:54</div></div>
 <div class="ttc" id="astructmui_1_1bin__t_html"><div class="ttname"><a href="structmui_1_1bin__t.html">mui::bin_t</a></div><div class="ttdef"><b>Definition:</b> bin.h:220</div></div>
 <div class="ttc" id="aconfig_8h_html"><div class="ttname"><a href="config_8h.html">config.h</a></div><div class="ttdoc">File containing data structures defining all data types used by an interface.</div></div>
-<div class="ttc" id="astructmui_1_1bin__t_html_abda7b56b8f16c788edef7ffa446945b9"><div class="ttname"><a href="structmui_1_1bin__t.html#abda7b56b8f16c788edef7ffa446945b9">mui::bin_t::query2</a></div><div class="ttdeci">bin_range&lt; T, CONFIG &gt; query2(const geometry::box&lt; CONFIG &gt; &amp;bx, const std::vector&lt; std::pair&lt; point_type, T &gt; &gt; &amp;v) const</div><div class="ttdef"><b>Definition:</b> bin.h:315</div></div>
+<div class="ttc" id="astructmui_1_1bin__t_html_abda7b56b8f16c788edef7ffa446945b9"><div class="ttname"><a href="structmui_1_1bin__t.html#abda7b56b8f16c788edef7ffa446945b9">mui::bin_t::query2</a></div><div class="ttdeci">bin_range&lt; T, CONFIG &gt; query2(const geometry::box&lt; CONFIG &gt; &amp;bx, const std::vector&lt; std::pair&lt; point_type, T &gt; &gt; &amp;v) const</div><div class="ttdef"><b>Definition:</b> bin.h:314</div></div>
 <div class="ttc" id="astructmui_1_1bin__iterator_html_a78c714939432311507baacc85de506e4"><div class="ttname"><a href="structmui_1_1bin__iterator.html#a78c714939432311507baacc85de506e4">mui::bin_iterator::index</a></div><div class="ttdeci">std::size_t index</div><div class="ttdef"><b>Definition:</b> bin.h:147</div></div>
 <div class="ttc" id="astructmui_1_1bin__range_html"><div class="ttname"><a href="structmui_1_1bin__range.html">mui::bin_range</a></div><div class="ttdef"><b>Definition:</b> bin.h:118</div></div>
 <div class="ttc" id="astructmui_1_1bin__range_html_a03f6cc1480f9233acea769dc0bfe26e9"><div class="ttname"><a href="structmui_1_1bin__range.html#a03f6cc1480f9233acea769dc0bfe26e9">mui::bin_range::displs</a></div><div class="ttdeci">const std::vector&lt; std::size_t &gt; &amp; displs</div><div class="ttdef"><b>Definition:</b> bin.h:171</div></div>

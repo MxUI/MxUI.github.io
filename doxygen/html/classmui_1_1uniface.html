@@ -27,6 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="MUI_logo.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Multiscale Universal Interface
+   &#160;<span id="projectnumber">1.2</span>
    </div>
    <div id="projectbrief">A Concurrent Framework for Coupling Heterogeneous Solvers</div>
   </td>
@@ -121,14 +122,14 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a83a87ba6918e8c36866057975ed7a097"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9452cc41125184ca4088d7c1b3b93ad1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmui_1_1uniface.html">uniface</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmui_1_1uniface.html#a9452cc41125184ca4088d7c1b3b93ad1">operator=</a> (const <a class="el" href="classmui_1_1uniface.html">uniface</a> &amp;)=delete</td></tr>
 <tr class="separator:a9452cc41125184ca4088d7c1b3b93ad1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaff2c12e09d2b1d81dda665d1371eeae"><td class="memTemplParams" colspan="2">template&lt;typename TYPE &gt; </td></tr>
-<tr class="memitem:aaff2c12e09d2b1d81dda665d1371eeae"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classmui_1_1uniface.html#aaff2c12e09d2b1d81dda665d1371eeae">push</a> (const std::string &amp;attr, const <a class="el" href="classmui_1_1uniface.html#abc356ab801269c69e38dc07179f85ef9">point_type</a> &amp;loc, const TYPE &amp;value)</td></tr>
-<tr class="memdesc:aaff2c12e09d2b1d81dda665d1371eeae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Push data with tag "attr" to buffer Push data with tag "attr" to buffer. If using CONFIG::FIXEDPOINTS=true, data must be pushed in the same order that the points were previously pushed.  <a href="classmui_1_1uniface.html#aaff2c12e09d2b1d81dda665d1371eeae">More...</a><br /></td></tr>
-<tr class="separator:aaff2c12e09d2b1d81dda665d1371eeae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae2c5dfc7a028fa8bbebefdc0a77c3243"><td class="memTemplParams" colspan="2">template&lt;typename TYPE &gt; </td></tr>
 <tr class="memitem:ae2c5dfc7a028fa8bbebefdc0a77c3243"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classmui_1_1uniface.html#ae2c5dfc7a028fa8bbebefdc0a77c3243">push</a> (const std::string &amp;attr, const TYPE &amp;value)</td></tr>
-<tr class="memdesc:ae2c5dfc7a028fa8bbebefdc0a77c3243"><td class="mdescLeft">&#160;</td><td class="mdescRight">Push the value <code>value</code> to the parameter <code>attr</code> Useful if, for example, you wish to pass a parameter rather than a field without an associated timestamp.  <a href="classmui_1_1uniface.html#ae2c5dfc7a028fa8bbebefdc0a77c3243">More...</a><br /></td></tr>
+<tr class="memdesc:ae2c5dfc7a028fa8bbebefdc0a77c3243"><td class="mdescLeft">&#160;</td><td class="mdescRight">Announce the value <code>value</code> with the parameter <code>attr</code> Useful if, for example, you wish to pass a parameter rather than a field without an associated timestamp.  <a href="classmui_1_1uniface.html#ae2c5dfc7a028fa8bbebefdc0a77c3243">More...</a><br /></td></tr>
 <tr class="separator:ae2c5dfc7a028fa8bbebefdc0a77c3243"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaff2c12e09d2b1d81dda665d1371eeae"><td class="memTemplParams" colspan="2">template&lt;typename TYPE &gt; </td></tr>
+<tr class="memitem:aaff2c12e09d2b1d81dda665d1371eeae"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classmui_1_1uniface.html#aaff2c12e09d2b1d81dda665d1371eeae">push</a> (const std::string &amp;attr, const <a class="el" href="classmui_1_1uniface.html#abc356ab801269c69e38dc07179f85ef9">point_type</a> &amp;loc, const TYPE &amp;value)</td></tr>
+<tr class="memdesc:aaff2c12e09d2b1d81dda665d1371eeae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Push data with tag "attr" to buffer Push data with tag "attr" to bcuffer. If using CONFIG::FIXEDPOINTS=true, data must be pushed in the same order that the points were previously pushed.  <a href="classmui_1_1uniface.html#aaff2c12e09d2b1d81dda665d1371eeae">More...</a><br /></td></tr>
+<tr class="separator:aaff2c12e09d2b1d81dda665d1371eeae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7f1cd967f1ed10c987c882f41474a54a"><td class="memTemplParams" colspan="2">template&lt;typename TYPE &gt; </td></tr>
 <tr class="memitem:a7f1cd967f1ed10c987c882f41474a54a"><td class="memTemplItemLeft" align="right" valign="top">TYPE&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classmui_1_1uniface.html#a7f1cd967f1ed10c987c882f41474a54a">fetch</a> (const std::string &amp;attr)</td></tr>
 <tr class="memdesc:a7f1cd967f1ed10c987c882f41474a54a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fetch a single parameter from the interface Overloaded <code>fetch</code> to fetch a single parameter of name <code>attr</code>. There is no barrier on this fetch as there is no time associated with the value.  <a href="classmui_1_1uniface.html#a7f1cd967f1ed10c987c882f41474a54a">More...</a><br /></td></tr>
@@ -175,18 +176,24 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a6fda4d5eb2aab7efd974c34df04b6343"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmui_1_1uniface.html#a6fda4d5eb2aab7efd974c34df04b6343">barrier</a> (<a class="el" href="classmui_1_1uniface.html#a65cbecf1936d7d61cb45f14b1138dc07">time_type</a> t1, <a class="el" href="classmui_1_1uniface.html#a65cbecf1936d7d61cb45f14b1138dc07">time_type</a> t2)</td></tr>
 <tr class="memdesc:a6fda4d5eb2aab7efd974c34df04b6343"><td class="mdescLeft">&#160;</td><td class="mdescRight">Blocking barrier at t1 (or t1,t2). Initiates receive from remote nodes.  <a href="classmui_1_1uniface.html#a6fda4d5eb2aab7efd974c34df04b6343">More...</a><br /></td></tr>
 <tr class="separator:a6fda4d5eb2aab7efd974c34df04b6343"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a342edf8b81f133d1dc5cc7bb6bb76e52"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmui_1_1uniface.html#a342edf8b81f133d1dc5cc7bb6bb76e52">announce_send_span</a> (<a class="el" href="classmui_1_1uniface.html#a65cbecf1936d7d61cb45f14b1138dc07">time_type</a> start, <a class="el" href="classmui_1_1uniface.html#a65cbecf1936d7d61cb45f14b1138dc07">time_type</a> timeout, <a class="el" href="classmui_1_1uniface.html#a9aeea388b73b17bdc634eb1c96cbfeff">span_t</a> s)</td></tr>
-<tr class="memdesc:a342edf8b81f133d1dc5cc7bb6bb76e52"><td class="mdescLeft">&#160;</td><td class="mdescRight">Announces to all remote nodes "I'll send this span".  <a href="classmui_1_1uniface.html#a342edf8b81f133d1dc5cc7bb6bb76e52">More...</a><br /></td></tr>
-<tr class="separator:a342edf8b81f133d1dc5cc7bb6bb76e52"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afddfc61714b699e1363101386a0b2a4e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmui_1_1uniface.html#afddfc61714b699e1363101386a0b2a4e">announce_send_disable</a> ()</td></tr>
-<tr class="memdesc:afddfc61714b699e1363101386a0b2a4e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Announces to all remote nodes "I'm disabled for send".  <a href="classmui_1_1uniface.html#afddfc61714b699e1363101386a0b2a4e">More...</a><br /></td></tr>
-<tr class="separator:afddfc61714b699e1363101386a0b2a4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5d1c452decc0aeab99aa071a82e81def"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmui_1_1uniface.html#a5d1c452decc0aeab99aa071a82e81def">announce_recv_span</a> (<a class="el" href="classmui_1_1uniface.html#a65cbecf1936d7d61cb45f14b1138dc07">time_type</a> start, <a class="el" href="classmui_1_1uniface.html#a65cbecf1936d7d61cb45f14b1138dc07">time_type</a> timeout, <a class="el" href="classmui_1_1uniface.html#a9aeea388b73b17bdc634eb1c96cbfeff">span_t</a> s)</td></tr>
-<tr class="memdesc:a5d1c452decc0aeab99aa071a82e81def"><td class="mdescLeft">&#160;</td><td class="mdescRight">Announces to all remote nodes "I'm receiving this span".  <a href="classmui_1_1uniface.html#a5d1c452decc0aeab99aa071a82e81def">More...</a><br /></td></tr>
-<tr class="separator:a5d1c452decc0aeab99aa071a82e81def"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5efbdd0cdf963954d8a1a0d9b01d6e9e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmui_1_1uniface.html#a5efbdd0cdf963954d8a1a0d9b01d6e9e">announce_recv_disable</a> ()</td></tr>
-<tr class="memdesc:a5efbdd0cdf963954d8a1a0d9b01d6e9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Announces to all remote nodes "I'm disabled for receive".  <a href="classmui_1_1uniface.html#a5efbdd0cdf963954d8a1a0d9b01d6e9e">More...</a><br /></td></tr>
-<tr class="separator:a5efbdd0cdf963954d8a1a0d9b01d6e9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a235ae4aea0d5834079b8698837e34e66"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmui_1_1uniface.html#a235ae4aea0d5834079b8698837e34e66">barrier_ss_send</a> ()</td></tr>
+<tr class="memdesc:a235ae4aea0d5834079b8698837e34e66"><td class="mdescLeft">&#160;</td><td class="mdescRight">Blocking barrier for Smart Send send values. Initiates receive from remote nodes.  <a href="classmui_1_1uniface.html#a235ae4aea0d5834079b8698837e34e66">More...</a><br /></td></tr>
+<tr class="separator:a235ae4aea0d5834079b8698837e34e66"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac67720e560c79dfc20f7b49bbc6198c2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmui_1_1uniface.html#ac67720e560c79dfc20f7b49bbc6198c2">barrier_ss_recv</a> ()</td></tr>
+<tr class="memdesc:ac67720e560c79dfc20f7b49bbc6198c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Blocking barrier for Smart Send receive values. Initiates receive from remote nodes.  <a href="classmui_1_1uniface.html#ac67720e560c79dfc20f7b49bbc6198c2">More...</a><br /></td></tr>
+<tr class="separator:ac67720e560c79dfc20f7b49bbc6198c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2084d122f6d2b80fcde0b61f29a4bb17"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmui_1_1uniface.html#a2084d122f6d2b80fcde0b61f29a4bb17">announce_send_span</a> (<a class="el" href="classmui_1_1uniface.html#a65cbecf1936d7d61cb45f14b1138dc07">time_type</a> start, <a class="el" href="classmui_1_1uniface.html#a65cbecf1936d7d61cb45f14b1138dc07">time_type</a> timeout, <a class="el" href="classmui_1_1uniface.html#a9aeea388b73b17bdc634eb1c96cbfeff">span_t</a> s, bool synchronised=false)</td></tr>
+<tr class="memdesc:a2084d122f6d2b80fcde0b61f29a4bb17"><td class="mdescLeft">&#160;</td><td class="mdescRight">Announces to all remote nodes using non-blocking peer-to-peer approach "I'll send this span".  <a href="classmui_1_1uniface.html#a2084d122f6d2b80fcde0b61f29a4bb17">More...</a><br /></td></tr>
+<tr class="separator:a2084d122f6d2b80fcde0b61f29a4bb17"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2348dbf6cb2a9e10fa1d3ae22c3f4234"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmui_1_1uniface.html#a2348dbf6cb2a9e10fa1d3ae22c3f4234">announce_send_disable</a> (bool synchronised=false)</td></tr>
+<tr class="memdesc:a2348dbf6cb2a9e10fa1d3ae22c3f4234"><td class="mdescLeft">&#160;</td><td class="mdescRight">Announces to all remote nodes "I'm disabled for send".  <a href="classmui_1_1uniface.html#a2348dbf6cb2a9e10fa1d3ae22c3f4234">More...</a><br /></td></tr>
+<tr class="separator:a2348dbf6cb2a9e10fa1d3ae22c3f4234"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1e456be4b0217b5e3a3d350cefb50ec"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmui_1_1uniface.html#af1e456be4b0217b5e3a3d350cefb50ec">announce_recv_span</a> (<a class="el" href="classmui_1_1uniface.html#a65cbecf1936d7d61cb45f14b1138dc07">time_type</a> start, <a class="el" href="classmui_1_1uniface.html#a65cbecf1936d7d61cb45f14b1138dc07">time_type</a> timeout, <a class="el" href="classmui_1_1uniface.html#a9aeea388b73b17bdc634eb1c96cbfeff">span_t</a> s, bool synchronised=false)</td></tr>
+<tr class="memdesc:af1e456be4b0217b5e3a3d350cefb50ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Announces to all remote nodes using non-blocking peer-to-peer approach "I'm receiving this span".  <a href="classmui_1_1uniface.html#af1e456be4b0217b5e3a3d350cefb50ec">More...</a><br /></td></tr>
+<tr class="separator:af1e456be4b0217b5e3a3d350cefb50ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af89501e5c569dcefa242899d2a4f05aa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmui_1_1uniface.html#af89501e5c569dcefa242899d2a4f05aa">announce_recv_disable</a> (bool synchronised=false)</td></tr>
+<tr class="memdesc:af89501e5c569dcefa242899d2a4f05aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Announces to all remote nodes "I'm disabled for receive".  <a href="classmui_1_1uniface.html#af89501e5c569dcefa242899d2a4f05aa">More...</a><br /></td></tr>
+<tr class="separator:af89501e5c569dcefa242899d2a4f05aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a119791e4d0f5332b3db82d6067423604"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmui_1_1uniface.html#a119791e4d0f5332b3db82d6067423604">forget</a> (<a class="el" href="classmui_1_1uniface.html#a65cbecf1936d7d61cb45f14b1138dc07">time_type</a> last, bool reset_log=false)</td></tr>
 <tr class="memdesc:a119791e4d0f5332b3db82d6067423604"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes log between (-inf, @last].  <a href="classmui_1_1uniface.html#a119791e4d0f5332b3db82d6067423604">More...</a><br /></td></tr>
 <tr class="separator:a119791e4d0f5332b3db82d6067423604"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -416,8 +423,8 @@ template&lt;typename CONFIG  = default_config&gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a5efbdd0cdf963954d8a1a0d9b01d6e9e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5efbdd0cdf963954d8a1a0d9b01d6e9e">&#9670;&nbsp;</a></span>announce_recv_disable()</h2>
+<a id="af89501e5c569dcefa242899d2a4f05aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af89501e5c569dcefa242899d2a4f05aa">&#9670;&nbsp;</a></span>announce_recv_disable()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -430,7 +437,8 @@ template&lt;typename CONFIG  = default_config&gt; </div>
         <tr>
           <td class="memname">void <a class="el" href="classmui_1_1uniface.html">mui::uniface</a>&lt; CONFIG &gt;::announce_recv_disable </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>synchronised</em> = <code>false</code></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -445,8 +453,8 @@ template&lt;typename CONFIG  = default_config&gt; </div>
 
 </div>
 </div>
-<a id="a5d1c452decc0aeab99aa071a82e81def"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5d1c452decc0aeab99aa071a82e81def">&#9670;&nbsp;</a></span>announce_recv_span()</h2>
+<a id="af1e456be4b0217b5e3a3d350cefb50ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af1e456be4b0217b5e3a3d350cefb50ec">&#9670;&nbsp;</a></span>announce_recv_span()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -472,7 +480,13 @@ template&lt;typename CONFIG  = default_config&gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="classmui_1_1uniface.html#a9aeea388b73b17bdc634eb1c96cbfeff">span_t</a>&#160;</td>
-          <td class="paramname"><em>s</em>&#160;</td>
+          <td class="paramname"><em>s</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>synchronised</em> = <code>false</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -487,12 +501,12 @@ template&lt;typename CONFIG  = default_config&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Announces to all remote nodes "I'm receiving this span". </p>
+<p>Announces to all remote nodes using non-blocking peer-to-peer approach "I'm receiving this span". </p>
 
 </div>
 </div>
-<a id="afddfc61714b699e1363101386a0b2a4e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afddfc61714b699e1363101386a0b2a4e">&#9670;&nbsp;</a></span>announce_send_disable()</h2>
+<a id="a2348dbf6cb2a9e10fa1d3ae22c3f4234"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2348dbf6cb2a9e10fa1d3ae22c3f4234">&#9670;&nbsp;</a></span>announce_send_disable()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -505,7 +519,8 @@ template&lt;typename CONFIG  = default_config&gt; </div>
         <tr>
           <td class="memname">void <a class="el" href="classmui_1_1uniface.html">mui::uniface</a>&lt; CONFIG &gt;::announce_send_disable </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>synchronised</em> = <code>false</code></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -520,8 +535,8 @@ template&lt;typename CONFIG  = default_config&gt; </div>
 
 </div>
 </div>
-<a id="a342edf8b81f133d1dc5cc7bb6bb76e52"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a342edf8b81f133d1dc5cc7bb6bb76e52">&#9670;&nbsp;</a></span>announce_send_span()</h2>
+<a id="a2084d122f6d2b80fcde0b61f29a4bb17"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2084d122f6d2b80fcde0b61f29a4bb17">&#9670;&nbsp;</a></span>announce_send_span()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -547,7 +562,13 @@ template&lt;typename CONFIG  = default_config&gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="classmui_1_1uniface.html#a9aeea388b73b17bdc634eb1c96cbfeff">span_t</a>&#160;</td>
-          <td class="paramname"><em>s</em>&#160;</td>
+          <td class="paramname"><em>s</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>synchronised</em> = <code>false</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -562,7 +583,7 @@ template&lt;typename CONFIG  = default_config&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Announces to all remote nodes "I'll send this span". </p>
+<p>Announces to all remote nodes using non-blocking peer-to-peer approach "I'll send this span". </p>
 
 </div>
 </div>
@@ -633,6 +654,64 @@ template&lt;typename CONFIG  = default_config&gt; </div>
 </div><div class="memdoc">
 
 <p>Blocking barrier at t1 (or t1,t2). Initiates receive from remote nodes. </p>
+
+</div>
+</div>
+<a id="ac67720e560c79dfc20f7b49bbc6198c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac67720e560c79dfc20f7b49bbc6198c2">&#9670;&nbsp;</a></span>barrier_ss_recv()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename CONFIG  = default_config&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classmui_1_1uniface.html">mui::uniface</a>&lt; CONFIG &gt;::barrier_ss_recv </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Blocking barrier for Smart Send receive values. Initiates receive from remote nodes. </p>
+
+</div>
+</div>
+<a id="a235ae4aea0d5834079b8698837e34e66"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a235ae4aea0d5834079b8698837e34e66">&#9670;&nbsp;</a></span>barrier_ss_send()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename CONFIG  = default_config&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classmui_1_1uniface.html">mui::uniface</a>&lt; CONFIG &gt;::barrier_ss_send </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Blocking barrier for Smart Send send values. Initiates receive from remote nodes. </p>
 
 </div>
 </div>
@@ -1480,7 +1559,7 @@ template&lt;typename TYPE &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Push data with tag "attr" to buffer Push data with tag "attr" to buffer. If using CONFIG::FIXEDPOINTS=true, data must be pushed in the same order that the points were previously pushed. </p>
+<p>Push data with tag "attr" to buffer Push data with tag "attr" to bcuffer. If using CONFIG::FIXEDPOINTS=true, data must be pushed in the same order that the points were previously pushed. </p>
 
 </div>
 </div>
@@ -1522,7 +1601,7 @@ template&lt;typename TYPE &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Push the value <code>value</code> to the parameter <code>attr</code> Useful if, for example, you wish to pass a parameter rather than a field without an associated timestamp. </p>
+<p>Announce the value <code>value</code> with the parameter <code>attr</code> Useful if, for example, you wish to pass a parameter rather than a field without an associated timestamp. </p>
 
 </div>
 </div>

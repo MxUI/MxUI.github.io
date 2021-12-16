@@ -23,7 +23,7 @@ for the JavaScript code in this file
 var NAVTREE =
 [
   [ "Multiscale Universal Interface", "index.html", [
-    [ "MUI - Multiscale Universal Interface", "md__home_stephen_eclipse-workspace__m_u_i-_forked__r_e_a_d_m_e.html", null ],
+    [ "MUI - Multiscale Universal Interface", "md__home_stephen_eclipse-workspace__m_u_i__r_e_a_d_m_e.html", null ],
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", "namespaces_dup" ],
       [ "Namespace Members", "namespacemembers.html", [
@@ -61,10 +61,10 @@ var NAVTREEINDEX =
 [
 "annotated.html",
 "classmui_1_1sampler__exact.html#a88cc43b85d889ff064c91962c9954497",
-"classmui_1_1write__que.html#ada9cb8be7f83626720a977b063ea2471",
-"geometry_8h.html#aad4f6edacb9272973a2206385d991f9b",
-"structmui_1_1detail_1_1endian__converter.html#a1e68df4966d4777253a3540405b4fd25",
-"util_8h.html#a4d85cef0ffefcf38c4eb3cf62eb2efa2"
+"classmui_1_1write__que.html#a918b54d9b9652c765e86dec9a41504e4",
+"geometry_8h.html#aa280a571c409841cd8e7ecb1774fd266",
+"structmui_1_1default__config.html",
+"util_8h.html#a300c1ee6082d9a5ce567f3d48223cf59"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
