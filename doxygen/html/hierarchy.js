@@ -1,24 +1,20 @@
 var hierarchy =
 [
+    [ "mui::algo_aitken< CONFIG >", "classmui_1_1algo__aitken.html", null ],
+    [ "mui::algo_fixed_relaxation< CONFIG >", "classmui_1_1algo__fixed__relaxation.html", null ],
+    [ "mui::algo_null< CONFIG >", "classmui_1_1algo__null.html", null ],
     [ "mui::geometry::any_shape< CONFIG >", "classmui_1_1geometry_1_1any__shape.html", null ],
     [ "mui::geometry::any_shape< default_config >", "classmui_1_1geometry_1_1any__shape.html", null ],
-    [ "bad_cast", null, [
+    [ "std::bad_cast", null, [
       [ "mui::bad_storage_cast", "structmui_1_1bad__storage__cast.html", null ]
     ] ],
     [ "mui::bin_range< T, CONFIG >", "structmui_1_1bin__range.html", null ],
     [ "mui::bin_t< CONFIG >", "structmui_1_1bin__t.html", null ],
-    [ "mui::geometry::box< CONFIG >", "classmui_1_1geometry_1_1box.html", null ],
-    [ "mui::chrono_sampler_exact< CONFIG >", "classmui_1_1chrono__sampler__exact.html", null ],
-    [ "mui::chrono_sampler_gauss< CONFIG >", "classmui_1_1chrono__sampler__gauss.html", null ],
-    [ "mui::chrono_sampler_mean< CONFIG >", "classmui_1_1chrono__sampler__mean.html", null ],
-    [ "mui::chrono_sampler_null< CONFIG >", "classmui_1_1chrono__sampler__null.html", null ],
-    [ "mui::chrono_sampler_sum< CONFIG >", "classmui_1_1chrono__sampler__sum.html", null ],
     [ "mui::communicator", "classmui_1_1communicator.html", [
       [ "mui::comm_fd", "classmui_1_1comm__fd.html", null ],
       [ "mui::comm_mpi", "classmui_1_1comm__mpi.html", [
         [ "mui::comm_mpi_smart", "classmui_1_1comm__mpi__smart.html", null ]
-      ] ],
-      [ "mui::mpicomm_nxn", "classmui_1_1mpicomm__nxn.html", null ]
+      ] ]
     ] ],
     [ "mui::detail::endian_converter< size_bytes >::data_t", "unionmui_1_1detail_1_1endian__converter_1_1data__t.html", null ],
     [ "mui::dim::dim< MLTTAELI >", "structmui_1_1dim_1_1dim.html", null ],
@@ -38,7 +34,7 @@ var hierarchy =
         [ "mui::container_stream< Seq, Alloc >", "classmui_1_1container__stream.html", null ]
       ] ]
     ] ],
-    [ "iterator", null, [
+    [ "std::iterator", null, [
       [ "mui::bin_iterator< T, CONFIG >", "structmui_1_1bin__iterator.html", null ],
       [ "mui::index_iterator< V, ARRAY >", "structmui_1_1index__iterator.html", null ]
     ] ],
@@ -52,9 +48,15 @@ var hierarchy =
       [ "mui::oitr_stream< OutputIterator >", "classmui_1_1oitr__stream.html", null ]
     ] ],
     [ "mui::poll_scheduler", "classmui_1_1poll__scheduler.html", null ],
+    [ "mui::linalg::preconditioner< ITYPE, VTYPE >", "classmui_1_1linalg_1_1preconditioner.html", [
+      [ "mui::linalg::diagonal_preconditioner< ITYPE, VTYPE >", "classmui_1_1linalg_1_1diagonal__preconditioner.html", null ],
+      [ "mui::linalg::incomplete_cholesky_preconditioner< ITYPE, VTYPE >", "classmui_1_1linalg_1_1incomplete__cholesky__preconditioner.html", null ],
+      [ "mui::linalg::incomplete_lu_preconditioner< ITYPE, VTYPE >", "classmui_1_1linalg_1_1incomplete__lu__preconditioner.html", null ],
+      [ "mui::linalg::symmetric_successive_over_relaxation_preconditioner< ITYPE, VTYPE >", "classmui_1_1linalg_1_1symmetric__successive__over__relaxation__preconditioner.html", null ]
+    ] ],
     [ "mui::read_que", "classmui_1_1read__que.html", null ],
     [ "mui::reader_variables< Args >", "structmui_1_1reader__variables.html", null ],
-    [ "runtime_error", null, [
+    [ "std::runtime_error", null, [
       [ "mui::bad_storage_id", "structmui_1_1bad__storage__id.html", null ],
       [ "mui::mutex_timeout", "structmui_1_1mutex__timeout.html", null ]
     ] ],
@@ -72,18 +74,34 @@ var hierarchy =
     [ "mui::sampler_sph_quintic< CONFIG, O_TP, I_TP >", "classmui_1_1sampler__sph__quintic.html", null ],
     [ "mui::sampler_sum_quintic< CONFIG, O_TP, I_TP >", "classmui_1_1sampler__sum__quintic.html", null ],
     [ "mui::geometry::shape< CONFIG >", "classmui_1_1geometry_1_1shape.html", [
+      [ "mui::geometry::box< CONFIG >", "classmui_1_1geometry_1_1box.html", null ],
       [ "mui::geometry::or_set< CONFIG >", "classmui_1_1geometry_1_1or__set.html", null ],
       [ "mui::geometry::point< CONFIG >", "classmui_1_1geometry_1_1point.html", null ],
       [ "mui::geometry::sphere< CONFIG >", "classmui_1_1geometry_1_1sphere.html", null ]
     ] ],
     [ "mui::singleton< T >", "classmui_1_1singleton.html", null ],
-    [ "mui::singleton< dispatcher< std::string, std::function< communicator *(const char[])> > >", "classmui_1_1singleton.html", [
+    [ "mui::singleton< dispatcher< std::string, std::function< communicator *(const char[], const bool)> > >", "classmui_1_1singleton.html", [
       [ "mui::comm_factory", "structmui_1_1comm__factory.html", null ]
     ] ],
     [ "mui::smalluint", "structmui_1_1smalluint.html", null ],
+    [ "mui::linalg::solver< ITYPE, VTYPE >", "classmui_1_1linalg_1_1solver.html", [
+      [ "mui::linalg::biconjugate_gradient_stabilized< ITYPE, VTYPE >", "classmui_1_1linalg_1_1biconjugate__gradient__stabilized.html", null ],
+      [ "mui::linalg::biconjugate_gradient_stabilized_1d< ITYPE, VTYPE >", "classmui_1_1linalg_1_1biconjugate__gradient__stabilized__1d.html", null ],
+      [ "mui::linalg::conjugate_gradient< ITYPE, VTYPE >", "classmui_1_1linalg_1_1conjugate__gradient.html", null ],
+      [ "mui::linalg::conjugate_gradient_1d< ITYPE, VTYPE >", "classmui_1_1linalg_1_1conjugate__gradient__1d.html", null ],
+      [ "mui::linalg::gaussian_elimination< ITYPE, VTYPE >", "classmui_1_1linalg_1_1gaussian__elimination.html", null ],
+      [ "mui::linalg::gaussian_elimination_1d< ITYPE, VTYPE >", "classmui_1_1linalg_1_1gaussian__elimination__1d.html", null ]
+    ] ],
     [ "mui::span< CONFIG >", "classmui_1_1span.html", null ],
+    [ "mui::linalg::sparse_matrix< ITYPE, VTYPE >", "classmui_1_1linalg_1_1sparse__matrix.html", null ],
+    [ "mui::linalg::sparse_matrix< INT, REAL >", "classmui_1_1linalg_1_1sparse__matrix.html", null ],
     [ "mui::spatial_storage< BIN, STORAGE, CONFIG >", "classmui_1_1spatial__storage.html", null ],
     [ "mui::storage< Types >", "structmui_1_1storage.html", null ],
+    [ "mui::temporal_sampler_exact< CONFIG >", "classmui_1_1temporal__sampler__exact.html", null ],
+    [ "mui::temporal_sampler_gauss< CONFIG >", "classmui_1_1temporal__sampler__gauss.html", null ],
+    [ "mui::temporal_sampler_mean< CONFIG >", "classmui_1_1temporal__sampler__mean.html", null ],
+    [ "mui::temporal_sampler_null< CONFIG >", "classmui_1_1temporal__sampler__null.html", null ],
+    [ "mui::temporal_sampler_sum< CONFIG >", "classmui_1_1temporal__sampler__sum.html", null ],
     [ "mui::three_dim", "structmui_1_1three__dim.html", [
       [ "mui::default_config", "structmui_1_1default__config.html", null ]
     ] ],

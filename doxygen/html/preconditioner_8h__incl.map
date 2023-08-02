@@ -1,0 +1,9 @@
+<map id="preconditioner.h" name="preconditioner.h">
+<area shape="rect" id="node1" title="Preconditioner classes." alt="" coords="451,5,577,32"/>
+<area shape="rect" id="node2" href="$preconditioner__ilu_8h.html" title="Class of Incomplete LU preconditioner." alt="" coords="5,80,231,121"/>
+<area shape="rect" id="node3" href="$preconditioner__ic_8h.html" title="Implementation of Incomplete Cholesky preconditioner." alt="" coords="255,87,509,114"/>
+<area shape="rect" id="node6" href="$preconditioner__ssor_8h.html" title="Class of Symmetric Successive Over&#45;relaxation preconditioner." alt="" coords="533,80,759,121"/>
+<area shape="rect" id="node7" href="$preconditioner__diagonal_8h.html" title="Diagonal (Jacobi) preconditioner." alt="" coords="783,80,1008,121"/>
+<area shape="rect" id="node4" title=" " alt="" coords="568,169,636,196"/>
+<area shape="rect" id="node5" title=" " alt="" coords="661,169,719,196"/>
+</map>

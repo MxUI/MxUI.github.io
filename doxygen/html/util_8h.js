@@ -2,6 +2,7 @@ var util_8h =
 [
     [ "triple", "structmui_1_1triple.html", "structmui_1_1triple" ],
     [ "llong", "util_8h.html#acdd7d9ab9b53650d3c9faa4aa3320d7f", null ],
+    [ "uint", "util_8h.html#af15a3e7188a2117fb9965277bb0cacd2", null ],
     [ "ull", "util_8h.html#ad0c8bc9723291f37096fd61fcb905115", null ],
     [ "almost_equal", "util_8h.html#a2e00c62074bb5b841ee769fdaca679a0", null ],
     [ "clamp", "util_8h.html#ad6e3ca675b42ee8b65ded570c858b442", null ],

@@ -1,7 +1,28 @@
 var searchData=
 [
-  ['three_5fdim_624',['three_dim',['../structmui_1_1three__dim.html',1,'mui']]],
-  ['triple_625',['triple',['../structmui_1_1triple.html',1,'mui']]],
-  ['two_5fdim_626',['two_dim',['../structmui_1_1two__dim.html',1,'mui']]],
-  ['type_5flist_627',['type_list',['../structmui_1_1type__list.html',1,'mui']]]
+  ['same_5ftype_770',['same_type',['../structmui_1_1same__type.html',1,'mui']]],
+  ['same_5ftype_3c_20t_2c_20t_20_3e_771',['same_type&lt; T, T &gt;',['../structmui_1_1same__type_3_01_t_00_01_t_01_4.html',1,'mui']]],
+  ['sampler_5fexact_772',['sampler_exact',['../classmui_1_1sampler__exact.html',1,'mui']]],
+  ['sampler_5fgauss_773',['sampler_gauss',['../classmui_1_1sampler__gauss.html',1,'mui']]],
+  ['sampler_5fmoving_5faverage_774',['sampler_moving_average',['../classmui_1_1sampler__moving__average.html',1,'mui']]],
+  ['sampler_5fnearest_5fneighbor_775',['sampler_nearest_neighbor',['../classmui_1_1sampler__nearest__neighbor.html',1,'mui']]],
+  ['sampler_5fnull_776',['sampler_null',['../classmui_1_1sampler__null.html',1,'mui']]],
+  ['sampler_5fpseudo_5fn2_5flinear_777',['sampler_pseudo_n2_linear',['../classmui_1_1sampler__pseudo__n2__linear.html',1,'mui']]],
+  ['sampler_5fpseudo_5fnearest_5fneighbor_778',['sampler_pseudo_nearest_neighbor',['../classmui_1_1sampler__pseudo__nearest__neighbor.html',1,'mui']]],
+  ['sampler_5frbf_779',['sampler_rbf',['../classmui_1_1sampler__rbf.html',1,'mui']]],
+  ['sampler_5fshepard_5fquintic_780',['sampler_shepard_quintic',['../classmui_1_1sampler__shepard__quintic.html',1,'mui']]],
+  ['sampler_5fsph_5fquintic_781',['sampler_sph_quintic',['../classmui_1_1sampler__sph__quintic.html',1,'mui']]],
+  ['sampler_5fsum_5fquintic_782',['sampler_sum_quintic',['../classmui_1_1sampler__sum__quintic.html',1,'mui']]],
+  ['shape_783',['shape',['../classmui_1_1geometry_1_1shape.html',1,'mui::geometry']]],
+  ['singleton_784',['singleton',['../classmui_1_1singleton.html',1,'mui']]],
+  ['singleton_3c_20dispatcher_3c_20std_3a_3astring_2c_20std_3a_3afunction_3c_20communicator_20_2a_28const_20char_5b_5d_2c_20const_20bool_29_3e_20_3e_20_3e_785',['singleton&lt; dispatcher&lt; std::string, std::function&lt; communicator *(const char[], const bool)&gt; &gt; &gt;',['../classmui_1_1singleton.html',1,'mui']]],
+  ['smalluint_786',['smalluint',['../structmui_1_1smalluint.html',1,'mui']]],
+  ['solver_787',['solver',['../classmui_1_1linalg_1_1solver.html',1,'mui::linalg']]],
+  ['span_788',['span',['../classmui_1_1span.html',1,'mui']]],
+  ['sparse_5fmatrix_789',['sparse_matrix',['../classmui_1_1linalg_1_1sparse__matrix.html',1,'mui::linalg']]],
+  ['sparse_5fmatrix_3c_20int_2c_20real_20_3e_790',['sparse_matrix&lt; INT, REAL &gt;',['../classmui_1_1linalg_1_1sparse__matrix.html',1,'mui::linalg']]],
+  ['spatial_5fstorage_791',['spatial_storage',['../classmui_1_1spatial__storage.html',1,'mui']]],
+  ['sphere_792',['sphere',['../classmui_1_1geometry_1_1sphere.html',1,'mui::geometry']]],
+  ['storage_793',['storage',['../structmui_1_1storage.html',1,'mui']]],
+  ['symmetric_5fsuccessive_5fover_5frelaxation_5fpreconditioner_794',['symmetric_successive_over_relaxation_preconditioner',['../classmui_1_1linalg_1_1symmetric__successive__over__relaxation__preconditioner.html',1,'mui::linalg']]]
 ];

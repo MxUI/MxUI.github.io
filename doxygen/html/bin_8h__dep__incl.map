@@ -2,6 +2,6 @@
 <area shape="rect" id="node1" title="Structures and methods to create an underlying binning structure for data received through an interfa..." alt="" coords="188,5,243,32"/>
 <area shape="rect" id="node2" href="$uniface_8h.html" title="Provides the majority of the useful functionality for MUI, including all fetch, commit and push funct..." alt="" coords="174,80,257,107"/>
 <area shape="rect" id="node3" href="$lib__mpi__multidomain_8h.html" title="Provides helper functions for creating and synchronising multiple MUI interfaces for a single domain." alt="" coords="5,155,177,181"/>
-<area shape="rect" id="node4" href="$mui_8h.html" title="The main header file for MUI. Usually the only file that needs to be included in order to integrate i..." alt="" coords="123,229,182,256"/>
-<area shape="rect" id="node5" href="$sampler__rbf_8h.html" title="Spatial sampler using Gaussian Radial Basis Function interpolation." alt="" coords="253,155,364,181"/>
+<area shape="rect" id="node4" href="$mui_8h.html" title="The main header file for MUI. Usually the only file that needs to be included in order to integrate i..." alt="" coords="186,229,245,256"/>
+<area shape="rect" id="node5" href="$sampler__rbf_8h.html" title="Spatial sampler using Radial Basis Function interpolation." alt="" coords="253,155,364,181"/>
 </map>

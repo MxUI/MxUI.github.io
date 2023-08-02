@@ -1,0 +1,19 @@
+<map id="matrix.h" name="matrix.h">
+<area shape="rect" id="node1" title="Base class for sparse matrix based on COO, CSR &amp; CSC formats includes basic arithmetic operations,..." alt="" coords="539,5,616,32"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,87,56,114"/>
+<area shape="rect" id="node3" title=" " alt="" coords="81,87,143,114"/>
+<area shape="rect" id="node4" title=" " alt="" coords="612,169,681,196"/>
+<area shape="rect" id="node5" href="$linalg__util_8h.html" title="Utility functions for mui::linalg." alt="" coords="168,87,267,114"/>
+<area shape="rect" id="node9" href="$matrix__ctor__dtor_8h.html" title="Implementation of sparse matrix constructors and destructor." alt="" coords="1138,80,1313,121"/>
+<area shape="rect" id="node10" href="$matrix__io__info_8h.html" title="Implementation of sparse matrix I/O functions." alt="" coords="291,80,466,121"/>
+<area shape="rect" id="node13" href="$matrix__manipulation_8h.html" title="Implementation of sparse matrix manipulation functions." alt="" coords="741,80,915,121"/>
+<area shape="rect" id="node15" href="$matrix__arithmetic_8h.html" title="Implementation of sparse matrix arithmetic operations." alt="" coords="939,80,1114,121"/>
+<area shape="rect" id="node17" href="$matrix__asserts_8h.html" title="Implementation of sparse matrix asserts functions." alt="" coords="490,80,665,121"/>
+<area shape="rect" id="node6" title=" " alt="" coords="104,169,179,196"/>
+<area shape="rect" id="node7" title=" " alt="" coords="203,169,288,196"/>
+<area shape="rect" id="node8" title=" " alt="" coords="313,169,378,196"/>
+<area shape="rect" id="node11" title=" " alt="" coords="402,169,475,196"/>
+<area shape="rect" id="node12" title=" " alt="" coords="500,169,559,196"/>
+<area shape="rect" id="node14" title=" " alt="" coords="791,169,865,196"/>
+<area shape="rect" id="node16" title=" " alt="" coords="993,169,1061,196"/>
+</map>

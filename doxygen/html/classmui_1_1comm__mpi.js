@@ -1,11 +1,11 @@
 var classmui_1_1comm__mpi =
 [
-    [ "comm_mpi", "classmui_1_1comm__mpi.html#a6116417b53d8634c453f3fa2e767c40d", null ],
+    [ "comm_mpi", "classmui_1_1comm__mpi.html#ae4b91eba38672c462ffcc9d34e2226c3", null ],
     [ "~comm_mpi", "classmui_1_1comm__mpi.html#a3e55a5ec5ae58ca0f59c7e82afbd391d", null ],
     [ "finalize", "classmui_1_1comm__mpi.html#a7f6419844f743488c069c600ad57d47f", null ],
     [ "global_rank", "classmui_1_1comm__mpi.html#ad2413502326fd78d453978abf96ad9de", null ],
     [ "global_size", "classmui_1_1comm__mpi.html#ad96c274b259a5aa4a4c18882dace97a7", null ],
-    [ "init", "classmui_1_1comm__mpi.html#a4cb3bd6ed04dfea6bcf8ab8136beafaf", null ],
+    [ "init", "classmui_1_1comm__mpi.html#a1fb3fe980bd90df9a3db6241863d6cca", null ],
     [ "local_rank", "classmui_1_1comm__mpi.html#ab0cf03ad7dbe099e0859a920f2711709", null ],
     [ "local_size", "classmui_1_1comm__mpi.html#a580ce0c15f414fe6d80efa74cefa2338", null ],
     [ "remote_size", "classmui_1_1comm__mpi.html#abbf8ab973f51af297cc7ecf145f6cd84", null ],

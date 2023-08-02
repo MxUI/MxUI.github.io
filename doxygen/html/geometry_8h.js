@@ -2,9 +2,6 @@ var geometry_8h =
 [
     [ "shape", "classmui_1_1geometry_1_1shape.html", "classmui_1_1geometry_1_1shape" ],
     [ "any_shape", "classmui_1_1geometry_1_1any__shape.html", "classmui_1_1geometry_1_1any__shape" ],
-    [ "box", "classmui_1_1geometry_1_1box.html", "classmui_1_1geometry_1_1box" ],
-    [ "shape", "classmui_1_1geometry_1_1shape.html", "classmui_1_1geometry_1_1shape" ],
-    [ "any_shape", "classmui_1_1geometry_1_1any__shape.html", "classmui_1_1geometry_1_1any__shape" ],
     [ "point", "classmui_1_1geometry_1_1point.html", "classmui_1_1geometry_1_1point" ],
     [ "sphere", "classmui_1_1geometry_1_1sphere.html", "classmui_1_1geometry_1_1sphere" ],
     [ "box", "classmui_1_1geometry_1_1box.html", "classmui_1_1geometry_1_1box" ],

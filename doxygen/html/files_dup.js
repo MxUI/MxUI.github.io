@@ -1,21 +1,15 @@
 var files_dup =
 [
+    [ "algo_aitken.h", "algo__aitken_8h.html", [
+      [ "algo_aitken", "classmui_1_1algo__aitken.html", "classmui_1_1algo__aitken" ]
+    ] ],
+    [ "algo_fixed_relaxation.h", "algo__fixed__relaxation_8h.html", [
+      [ "algo_fixed_relaxation", "classmui_1_1algo__fixed__relaxation.html", "classmui_1_1algo__fixed__relaxation" ]
+    ] ],
+    [ "algo_null.h", "algo__null_8h.html", [
+      [ "algo_null", "classmui_1_1algo__null.html", "classmui_1_1algo__null" ]
+    ] ],
     [ "bin.h", "bin_8h.html", "bin_8h" ],
-    [ "chrono_sampler_exact.h", "chrono__sampler__exact_8h.html", [
-      [ "chrono_sampler_exact", "classmui_1_1chrono__sampler__exact.html", "classmui_1_1chrono__sampler__exact" ]
-    ] ],
-    [ "chrono_sampler_gauss.h", "chrono__sampler__gauss_8h.html", [
-      [ "chrono_sampler_gauss", "classmui_1_1chrono__sampler__gauss.html", "classmui_1_1chrono__sampler__gauss" ]
-    ] ],
-    [ "chrono_sampler_mean.h", "chrono__sampler__mean_8h.html", [
-      [ "chrono_sampler_mean", "classmui_1_1chrono__sampler__mean.html", "classmui_1_1chrono__sampler__mean" ]
-    ] ],
-    [ "chrono_sampler_null.h", "chrono__sampler__null_8h.html", [
-      [ "chrono_sampler_null", "classmui_1_1chrono__sampler__null.html", "classmui_1_1chrono__sampler__null" ]
-    ] ],
-    [ "chrono_sampler_sum.h", "chrono__sampler__sum_8h.html", [
-      [ "chrono_sampler_sum", "classmui_1_1chrono__sampler__sum.html", "classmui_1_1chrono__sampler__sum" ]
-    ] ],
     [ "comm.h", "comm_8h.html", [
       [ "communicator", "classmui_1_1communicator.html", "classmui_1_1communicator" ]
     ] ],
@@ -24,9 +18,6 @@ var files_dup =
     ] ],
     [ "comm_mpi.h", "comm__mpi_8h.html", [
       [ "comm_mpi", "classmui_1_1comm__mpi.html", "classmui_1_1comm__mpi" ]
-    ] ],
-    [ "comm_mpi_nxn.h", "comm__mpi__nxn_8h.html", [
-      [ "mpicomm_nxn", "classmui_1_1mpicomm__nxn.html", "classmui_1_1mpicomm__nxn" ]
     ] ],
     [ "comm_mpi_smart.h", "comm__mpi__smart_8h.html", "comm__mpi__smart_8h" ],
     [ "comm_tcp.h", "comm__tcp_8h.html", "comm__tcp_8h" ],
@@ -39,18 +30,7 @@ var files_dup =
     ] ],
     [ "dim.h", "dim_8h.html", "dim_8h" ],
     [ "dynstorage.h", "dynstorage_8h.html", "dynstorage_8h" ],
-    [ "endian_traits.h", "endian__traits_8h.html", [
-      [ "uint", "structmui_1_1detail_1_1uint.html", null ],
-      [ "uint< 1 >", "structmui_1_1detail_1_1uint_3_011_01_4.html", "structmui_1_1detail_1_1uint_3_011_01_4" ],
-      [ "uint< 2 >", "structmui_1_1detail_1_1uint_3_012_01_4.html", "structmui_1_1detail_1_1uint_3_012_01_4" ],
-      [ "uint< 4 >", "structmui_1_1detail_1_1uint_3_014_01_4.html", "structmui_1_1detail_1_1uint_3_014_01_4" ],
-      [ "uint< 8 >", "structmui_1_1detail_1_1uint_3_018_01_4.html", "structmui_1_1detail_1_1uint_3_018_01_4" ],
-      [ "endian_converter", "structmui_1_1detail_1_1endian__converter.html", "structmui_1_1detail_1_1endian__converter" ],
-      [ "data_t", "unionmui_1_1detail_1_1endian__converter_1_1data__t.html", "unionmui_1_1detail_1_1endian__converter_1_1data__t" ],
-      [ "endian_traits", "structmui_1_1endian__traits.html", null ],
-      [ "endian_traits< T, typename std::enable_if< std::is_integral< T >::value >::type >", "structmui_1_1endian__traits_3_01_t_00_01typename_01std_1_1enable__if_3_01std_1_1is__integral_3_017f2a9fc75456eff64bb43276e6e0ef4.html", null ],
-      [ "endian_traits< T, typename std::enable_if< std::is_floating_point< T >::value >::type >", "structmui_1_1endian__traits_3_01_t_00_01typename_01std_1_1enable__if_3_01std_1_1is__floating__po2204fe17b69811056c26bb26c4197e1a.html", null ]
-    ] ],
+    [ "endian_traits.h", "endian__traits_8h.html", "endian__traits_8h" ],
     [ "exception.h", "exception_8h.html", "exception_8h" ],
     [ "geometry.h", "geometry_8h.html", "geometry_8h" ],
     [ "lib_dispatcher.h", "lib__dispatcher_8h.html", [
@@ -65,9 +45,31 @@ var files_dup =
     [ "lib_uri.h", "lib__uri_8h.html", [
       [ "uri", "classmui_1_1uri.html", "classmui_1_1uri" ]
     ] ],
+    [ "linalg_util.h", "linalg__util_8h.html", "linalg__util_8h" ],
+    [ "matrix.h", "matrix_8h.html", [
+      [ "sparse_matrix", "classmui_1_1linalg_1_1sparse__matrix.html", "classmui_1_1linalg_1_1sparse__matrix" ]
+    ] ],
+    [ "matrix_arithmetic.h", "matrix__arithmetic_8h.html", "matrix__arithmetic_8h" ],
+    [ "matrix_arithmetics.cpp", "matrix__arithmetics_8cpp.html", "matrix__arithmetics_8cpp" ],
+    [ "matrix_asserts.h", "matrix__asserts_8h.html", null ],
+    [ "matrix_ctor_dtor.h", "matrix__ctor__dtor_8h.html", null ],
+    [ "matrix_io_info.h", "matrix__io__info_8h.html", "matrix__io__info_8h" ],
+    [ "matrix_manipulation.h", "matrix__manipulation_8h.html", null ],
+    [ "matrix_manipulations.cpp", "matrix__manipulations_8cpp.html", "matrix__manipulations_8cpp" ],
     [ "message.h", "message_8h.html", "message_8h" ],
     [ "mui.h", "mui_8h.html", "mui_8h" ],
     [ "point.h", "point_8h.html", "point_8h" ],
+    [ "preconditioner.h", "preconditioner_8h.html", [
+      [ "preconditioner", "classmui_1_1linalg_1_1preconditioner.html", "classmui_1_1linalg_1_1preconditioner" ],
+      [ "incomplete_lu_preconditioner", "classmui_1_1linalg_1_1incomplete__lu__preconditioner.html", "classmui_1_1linalg_1_1incomplete__lu__preconditioner" ],
+      [ "incomplete_cholesky_preconditioner", "classmui_1_1linalg_1_1incomplete__cholesky__preconditioner.html", "classmui_1_1linalg_1_1incomplete__cholesky__preconditioner" ],
+      [ "symmetric_successive_over_relaxation_preconditioner", "classmui_1_1linalg_1_1symmetric__successive__over__relaxation__preconditioner.html", "classmui_1_1linalg_1_1symmetric__successive__over__relaxation__preconditioner" ],
+      [ "diagonal_preconditioner", "classmui_1_1linalg_1_1diagonal__preconditioner.html", "classmui_1_1linalg_1_1diagonal__preconditioner" ]
+    ] ],
+    [ "preconditioner_diagonal.h", "preconditioner__diagonal_8h.html", null ],
+    [ "preconditioner_ic.h", "preconditioner__ic_8h.html", null ],
+    [ "preconditioner_ilu.h", "preconditioner__ilu_8h.html", null ],
+    [ "preconditioner_ssor.h", "preconditioner__ssor_8h.html", null ],
     [ "reader_variable.h", "reader__variable_8h.html", [
       [ "reader_variables", "structmui_1_1reader__variables.html", "structmui_1_1reader__variables" ]
     ] ],
@@ -105,6 +107,20 @@ var files_dup =
     [ "sampler_sum_quintic.h", "sampler__sum__quintic_8h.html", [
       [ "sampler_sum_quintic", "classmui_1_1sampler__sum__quintic.html", "classmui_1_1sampler__sum__quintic" ]
     ] ],
+    [ "solver.cpp", "solver_8cpp.html", "solver_8cpp" ],
+    [ "solver.h", "solver_8h.html", [
+      [ "solver", "classmui_1_1linalg_1_1solver.html", "classmui_1_1linalg_1_1solver" ],
+      [ "conjugate_gradient_1d", "classmui_1_1linalg_1_1conjugate__gradient__1d.html", "classmui_1_1linalg_1_1conjugate__gradient__1d" ],
+      [ "conjugate_gradient", "classmui_1_1linalg_1_1conjugate__gradient.html", "classmui_1_1linalg_1_1conjugate__gradient" ],
+      [ "biconjugate_gradient_stabilized_1d", "classmui_1_1linalg_1_1biconjugate__gradient__stabilized__1d.html", "classmui_1_1linalg_1_1biconjugate__gradient__stabilized__1d" ],
+      [ "biconjugate_gradient_stabilized", "classmui_1_1linalg_1_1biconjugate__gradient__stabilized.html", "classmui_1_1linalg_1_1biconjugate__gradient__stabilized" ],
+      [ "gaussian_elimination_1d", "classmui_1_1linalg_1_1gaussian__elimination__1d.html", "classmui_1_1linalg_1_1gaussian__elimination__1d" ],
+      [ "gaussian_elimination", "classmui_1_1linalg_1_1gaussian__elimination.html", "classmui_1_1linalg_1_1gaussian__elimination" ]
+    ] ],
+    [ "solver_bicgstab.h", "solver__bicgstab_8h.html", null ],
+    [ "solver_cg.h", "solver__cg_8h.html", null ],
+    [ "solver_compare_with_Eigen.cpp", "solver__compare__with___eigen_8cpp.html", "solver__compare__with___eigen_8cpp" ],
+    [ "solver_ge.h", "solver__ge_8h.html", null ],
     [ "span.h", "span_8h.html", "span_8h" ],
     [ "spatial_storage.h", "spatial__storage_8h.html", "spatial__storage_8h" ],
     [ "stream.h", "stream_8h.html", "stream_8h" ],
@@ -113,6 +129,21 @@ var files_dup =
     [ "stream_tuple.h", "stream__tuple_8h.html", "stream__tuple_8h" ],
     [ "stream_unordered.h", "stream__unordered_8h.html", "stream__unordered_8h" ],
     [ "stream_vector.h", "stream__vector_8h.html", "stream__vector_8h" ],
+    [ "temporal_sampler_exact.h", "temporal__sampler__exact_8h.html", [
+      [ "temporal_sampler_exact", "classmui_1_1temporal__sampler__exact.html", "classmui_1_1temporal__sampler__exact" ]
+    ] ],
+    [ "temporal_sampler_gauss.h", "temporal__sampler__gauss_8h.html", [
+      [ "temporal_sampler_gauss", "classmui_1_1temporal__sampler__gauss.html", "classmui_1_1temporal__sampler__gauss" ]
+    ] ],
+    [ "temporal_sampler_mean.h", "temporal__sampler__mean_8h.html", [
+      [ "temporal_sampler_mean", "classmui_1_1temporal__sampler__mean.html", "classmui_1_1temporal__sampler__mean" ]
+    ] ],
+    [ "temporal_sampler_null.h", "temporal__sampler__null_8h.html", [
+      [ "temporal_sampler_null", "classmui_1_1temporal__sampler__null.html", "classmui_1_1temporal__sampler__null" ]
+    ] ],
+    [ "temporal_sampler_sum.h", "temporal__sampler__sum_8h.html", [
+      [ "temporal_sampler_sum", "classmui_1_1temporal__sampler__sum.html", "classmui_1_1temporal__sampler__sum" ]
+    ] ],
     [ "uniface.h", "uniface_8h.html", [
       [ "uniface", "classmui_1_1uniface.html", "classmui_1_1uniface" ]
     ] ],

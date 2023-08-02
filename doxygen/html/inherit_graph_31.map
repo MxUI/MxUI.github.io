@@ -1,3 +1,9 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$structmui_1_1index__sequence.html" title=" " alt="" coords="5,5,165,47"/>
+<area shape="rect" id="node1" href="$classmui_1_1linalg_1_1solver.html" title=" " alt="" coords="5,199,144,241"/>
+<area shape="rect" id="node2" href="$classmui_1_1linalg_1_1biconjugate__gradient__stabilized.html" title=" " alt="" coords="199,5,407,61"/>
+<area shape="rect" id="node3" href="$classmui_1_1linalg_1_1biconjugate__gradient__stabilized__1d.html" title=" " alt="" coords="215,85,391,141"/>
+<area shape="rect" id="node4" href="$classmui_1_1linalg_1_1conjugate__gradient.html" title=" " alt="" coords="203,166,402,207"/>
+<area shape="rect" id="node5" href="$classmui_1_1linalg_1_1conjugate__gradient__1d.html" title=" " alt="" coords="192,231,413,273"/>
+<area shape="rect" id="node6" href="$classmui_1_1linalg_1_1gaussian__elimination.html" title=" " alt="" coords="223,297,382,353"/>
+<area shape="rect" id="node7" href="$classmui_1_1linalg_1_1gaussian__elimination__1d.html" title=" " alt="" coords="212,377,393,433"/>
 </map>

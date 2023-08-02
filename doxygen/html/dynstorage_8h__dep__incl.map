@@ -1,8 +1,8 @@
 <map id="dynstorage.h" name="dynstorage.h">
 <area shape="rect" id="node1" title="Implementation of a compound dynamic data structure used throughout MUI." alt="" coords="162,5,269,32"/>
-<area shape="rect" id="node2" href="$uniface_8h.html" title="Provides the majority of the useful functionality for MUI, including all fetch, commit and push funct..." alt="" coords="174,155,257,181"/>
-<area shape="rect" id="node6" href="$spatial__storage_8h.html" title="Defines the spatial_storage data type." alt="" coords="201,80,336,107"/>
-<area shape="rect" id="node3" href="$lib__mpi__multidomain_8h.html" title="Provides helper functions for creating and synchronising multiple MUI interfaces for a single domain." alt="" coords="5,229,177,256"/>
-<area shape="rect" id="node4" href="$mui_8h.html" title="The main header file for MUI. Usually the only file that needs to be included in order to integrate i..." alt="" coords="123,304,182,331"/>
-<area shape="rect" id="node5" href="$sampler__rbf_8h.html" title="Spatial sampler using Gaussian Radial Basis Function interpolation." alt="" coords="253,229,364,256"/>
+<area shape="rect" id="node2" href="$spatial__storage_8h.html" title="Defines the spatial_storage data type." alt="" coords="96,80,231,107"/>
+<area shape="rect" id="node3" href="$uniface_8h.html" title="Provides the majority of the useful functionality for MUI, including all fetch, commit and push funct..." alt="" coords="174,155,257,181"/>
+<area shape="rect" id="node4" href="$lib__mpi__multidomain_8h.html" title="Provides helper functions for creating and synchronising multiple MUI interfaces for a single domain." alt="" coords="5,229,177,256"/>
+<area shape="rect" id="node5" href="$mui_8h.html" title="The main header file for MUI. Usually the only file that needs to be included in order to integrate i..." alt="" coords="186,304,245,331"/>
+<area shape="rect" id="node6" href="$sampler__rbf_8h.html" title="Spatial sampler using Radial Basis Function interpolation." alt="" coords="253,229,364,256"/>
 </map>

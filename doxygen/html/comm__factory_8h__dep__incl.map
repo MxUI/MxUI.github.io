@@ -3,7 +3,7 @@
 <area shape="rect" id="node2" href="$comm__mpi__smart_8h.html" title="Structures and methods for a smart (communication reducing) communicator type." alt="" coords="5,155,157,181"/>
 <area shape="rect" id="node4" href="$comm__tcp_8h.html" title="File containing class definition of base TCP communicator." alt="" coords="142,80,245,107"/>
 <area shape="rect" id="node5" href="$uniface_8h.html" title="Provides the majority of the useful functionality for MUI, including all fetch, commit and push funct..." alt="" coords="273,80,356,107"/>
-<area shape="rect" id="node3" href="$mui_8h.html" title="The main header file for MUI. Usually the only file that needs to be included in order to integrate i..." alt="" coords="165,229,224,256"/>
+<area shape="rect" id="node3" href="$mui_8h.html" title="The main header file for MUI. Usually the only file that needs to be included in order to integrate i..." alt="" coords="227,229,285,256"/>
 <area shape="rect" id="node6" href="$lib__mpi__multidomain_8h.html" title="Provides helper functions for creating and synchronising multiple MUI interfaces for a single domain." alt="" coords="233,155,405,181"/>
-<area shape="rect" id="node7" href="$sampler__rbf_8h.html" title="Spatial sampler using Gaussian Radial Basis Function interpolation." alt="" coords="429,155,539,181"/>
+<area shape="rect" id="node7" href="$sampler__rbf_8h.html" title="Spatial sampler using Radial Basis Function interpolation." alt="" coords="429,155,539,181"/>
 </map>

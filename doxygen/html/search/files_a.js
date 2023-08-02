@@ -1,5 +1,30 @@
 var searchData=
 [
-  ['uniface_2eh_722',['uniface.h',['../uniface_8h.html',1,'']]],
-  ['util_2eh_723',['util.h',['../util_8h.html',1,'']]]
+  ['readme_2emd_890',['README.md',['../src_2linear__algebra_2_r_e_a_d_m_e_8md.html',1,'']]],
+  ['sampler_2eh_891',['sampler.h',['../sampler_8h.html',1,'']]],
+  ['sampler_5fexact_2eh_892',['sampler_exact.h',['../sampler__exact_8h.html',1,'']]],
+  ['sampler_5fgauss_2eh_893',['sampler_gauss.h',['../sampler__gauss_8h.html',1,'']]],
+  ['sampler_5fmov_5favg_2eh_894',['sampler_mov_avg.h',['../sampler__mov__avg_8h.html',1,'']]],
+  ['sampler_5fnn_2eh_895',['sampler_nn.h',['../sampler__nn_8h.html',1,'']]],
+  ['sampler_5fnull_2eh_896',['sampler_null.h',['../sampler__null_8h.html',1,'']]],
+  ['sampler_5fpseudo_5fn2_5flinear_2eh_897',['sampler_pseudo_n2_linear.h',['../sampler__pseudo__n2__linear_8h.html',1,'']]],
+  ['sampler_5fpseudo_5fnn_2eh_898',['sampler_pseudo_nn.h',['../sampler__pseudo__nn_8h.html',1,'']]],
+  ['sampler_5frbf_2eh_899',['sampler_rbf.h',['../sampler__rbf_8h.html',1,'']]],
+  ['sampler_5fshepard_5fquintic_2eh_900',['sampler_shepard_quintic.h',['../sampler__shepard__quintic_8h.html',1,'']]],
+  ['sampler_5fsph_5fquintic_2eh_901',['sampler_sph_quintic.h',['../sampler__sph__quintic_8h.html',1,'']]],
+  ['sampler_5fsum_5fquintic_2eh_902',['sampler_sum_quintic.h',['../sampler__sum__quintic_8h.html',1,'']]],
+  ['solver_2ecpp_903',['solver.cpp',['../solver_8cpp.html',1,'']]],
+  ['solver_2eh_904',['solver.h',['../solver_8h.html',1,'']]],
+  ['solver_5fbicgstab_2eh_905',['solver_bicgstab.h',['../solver__bicgstab_8h.html',1,'']]],
+  ['solver_5fcg_2eh_906',['solver_cg.h',['../solver__cg_8h.html',1,'']]],
+  ['solver_5fcompare_5fwith_5feigen_2ecpp_907',['solver_compare_with_Eigen.cpp',['../solver__compare__with___eigen_8cpp.html',1,'']]],
+  ['solver_5fge_2eh_908',['solver_ge.h',['../solver__ge_8h.html',1,'']]],
+  ['span_2eh_909',['span.h',['../span_8h.html',1,'']]],
+  ['spatial_5fstorage_2eh_910',['spatial_storage.h',['../spatial__storage_8h.html',1,'']]],
+  ['stream_2eh_911',['stream.h',['../stream_8h.html',1,'']]],
+  ['stream_5fordered_2eh_912',['stream_ordered.h',['../stream__ordered_8h.html',1,'']]],
+  ['stream_5fstring_2eh_913',['stream_string.h',['../stream__string_8h.html',1,'']]],
+  ['stream_5ftuple_2eh_914',['stream_tuple.h',['../stream__tuple_8h.html',1,'']]],
+  ['stream_5funordered_2eh_915',['stream_unordered.h',['../stream__unordered_8h.html',1,'']]],
+  ['stream_5fvector_2eh_916',['stream_vector.h',['../stream__vector_8h.html',1,'']]]
 ];

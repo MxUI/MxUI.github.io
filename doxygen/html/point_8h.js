@@ -15,7 +15,6 @@ var point_8h =
     [ "vexpr_scale_rcp", "structmui_1_1vexpr__scale__rcp.html", "structmui_1_1vexpr__scale__rcp" ],
     [ "vexpr_apply1", "structmui_1_1vexpr__apply1.html", "structmui_1_1vexpr__apply1" ],
     [ "vexpr_apply2", "structmui_1_1vexpr__apply2.html", "structmui_1_1vexpr__apply2" ],
-    [ "uint", "point_8h.html#af15a3e7188a2117fb9965277bb0cacd2", null ],
     [ "ulong", "point_8h.html#a9547f17257ee9191f5ca66284f9ca8ab", null ],
     [ "apply", "point_8h.html#af94c98a0248d6923c8681b4d2c39df6e", null ],
     [ "apply", "point_8h.html#a8636e43027b552ba308a2da852512941", null ],

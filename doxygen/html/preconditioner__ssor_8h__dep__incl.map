@@ -1,0 +1,9 @@
+<map id="preconditioner_ssor.h" name="preconditioner_ssor.h">
+<area shape="rect" id="node1" title="Class of Symmetric Successive Over&#45;relaxation preconditioner." alt="" coords="155,5,316,32"/>
+<area shape="rect" id="node2" href="$preconditioner_8h.html" title="Preconditioner classes." alt="" coords="172,80,299,107"/>
+<area shape="rect" id="node3" href="$solver_8h.html" title=" " alt="" coords="199,155,272,181"/>
+<area shape="rect" id="node4" href="$solver__compare__with___eigen_8cpp.html" title="Conjugate Gradient solver with preconditioners compared with Eigen." alt="" coords="5,229,167,271"/>
+<area shape="rect" id="node5" href="$solver_8cpp.html" title="Unit test on Conjugate Gradient solver with preconditioners." alt="" coords="191,237,279,263"/>
+<area shape="rect" id="node6" href="$sampler__rbf_8h.html" title="Spatial sampler using Radial Basis Function interpolation." alt="" coords="304,237,415,263"/>
+<area shape="rect" id="node7" href="$mui_8h.html" title="The main header file for MUI. Usually the only file that needs to be included in order to integrate i..." alt="" coords="330,319,389,345"/>
+</map>

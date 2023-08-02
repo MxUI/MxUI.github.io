@@ -1,0 +1,10 @@
+<map id="matrix.h" name="matrix.h">
+<area shape="rect" id="node1" title="Base class for sparse matrix based on COO, CSR &amp; CSC formats includes basic arithmetic operations,..." alt="" coords="345,5,422,32"/>
+<area shape="rect" id="node2" href="$solver_8h.html" title=" " alt="" coords="199,80,272,107"/>
+<area shape="rect" id="node7" href="$matrix__arithmetics_8cpp.html" title="Unit test on Sparse Matrix arithmetic operations." alt="" coords="297,80,470,107"/>
+<area shape="rect" id="node8" href="$matrix__manipulations_8cpp.html" title="Unit test on Sparse Matrix manipulations." alt="" coords="494,80,686,107"/>
+<area shape="rect" id="node3" href="$solver__compare__with___eigen_8cpp.html" title="Conjugate Gradient solver with preconditioners compared with Eigen." alt="" coords="5,155,167,196"/>
+<area shape="rect" id="node4" href="$solver_8cpp.html" title="Unit test on Conjugate Gradient solver with preconditioners." alt="" coords="191,162,279,189"/>
+<area shape="rect" id="node5" href="$sampler__rbf_8h.html" title="Spatial sampler using Radial Basis Function interpolation." alt="" coords="304,162,415,189"/>
+<area shape="rect" id="node6" href="$mui_8h.html" title="The main header file for MUI. Usually the only file that needs to be included in order to integrate i..." alt="" coords="330,244,389,271"/>
+</map>

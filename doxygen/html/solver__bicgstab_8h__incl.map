@@ -1,0 +1,4 @@
+<map id="solver_bicgstab.h" name="solver_bicgstab.h">
+<area shape="rect" id="node1" title="Implementation to solve problem A.x = b using the Biconjugate Gradient Stabilized method." alt="" coords="5,5,141,32"/>
+<area shape="rect" id="node2" title=" " alt="" coords="42,80,105,107"/>
+</map>

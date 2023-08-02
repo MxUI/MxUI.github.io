@@ -1,11 +1,11 @@
 <map id="lib_uri.h" name="lib_uri.h">
-<area shape="rect" id="node1" title="Base class to contain and manipulate a unique URI (Uniform Resource Identifier)." alt="" coords="381,5,455,32"/>
-<area shape="rect" id="node2" href="$comm__factory_8h.html" title="Structures and methods to create a new communicator based on chosen protocols." alt="" coords="304,80,431,107"/>
-<area shape="rect" id="node5" href="$comm__tcp_8h.html" title="File containing class definition of base TCP communicator." alt="" coords="376,155,479,181"/>
-<area shape="rect" id="node7" href="$lib__mpi__multidomain_8h.html" title="Provides helper functions for creating and synchronising multiple MUI interfaces for a single domain." alt="" coords="192,229,364,256"/>
-<area shape="rect" id="node9" href="$comm__mpi_8h.html" title="Class definition of base MPI communicator." alt="" coords="503,155,610,181"/>
-<area shape="rect" id="node3" href="$comm__mpi__smart_8h.html" title="Structures and methods for a smart (communication reducing) communicator type." alt="" coords="389,229,541,256"/>
-<area shape="rect" id="node6" href="$uniface_8h.html" title="Provides the majority of the useful functionality for MUI, including all fetch, commit and push funct..." alt="" coords="135,155,218,181"/>
-<area shape="rect" id="node4" href="$mui_8h.html" title="The main header file for MUI. Usually the only file that needs to be included in order to integrate i..." alt="" coords="342,304,401,331"/>
-<area shape="rect" id="node8" href="$sampler__rbf_8h.html" title="Spatial sampler using Gaussian Radial Basis Function interpolation." alt="" coords="5,229,116,256"/>
+<area shape="rect" id="node1" title="Base class to contain and manipulate a unique URI (Uniform Resource Identifier)." alt="" coords="273,5,347,32"/>
+<area shape="rect" id="node2" href="$comm__factory_8h.html" title="Structures and methods to create a new communicator based on chosen protocols." alt="" coords="311,80,437,107"/>
+<area shape="rect" id="node5" href="$comm__tcp_8h.html" title="File containing class definition of base TCP communicator." alt="" coords="455,155,557,181"/>
+<area shape="rect" id="node7" href="$lib__mpi__multidomain_8h.html" title="Provides helper functions for creating and synchronising multiple MUI interfaces for a single domain." alt="" coords="201,229,373,256"/>
+<area shape="rect" id="node9" href="$comm__mpi_8h.html" title="Class definition of base MPI communicator." alt="" coords="93,155,199,181"/>
+<area shape="rect" id="node3" href="$comm__mpi__smart_8h.html" title="Structures and methods for a smart (communication reducing) communicator type." alt="" coords="25,229,177,256"/>
+<area shape="rect" id="node6" href="$uniface_8h.html" title="Provides the majority of the useful functionality for MUI, including all fetch, commit and push funct..." alt="" coords="347,155,430,181"/>
+<area shape="rect" id="node4" href="$mui_8h.html" title="The main header file for MUI. Usually the only file that needs to be included in order to integrate i..." alt="" coords="258,304,317,331"/>
+<area shape="rect" id="node8" href="$sampler__rbf_8h.html" title="Spatial sampler using Radial Basis Function interpolation." alt="" coords="449,229,560,256"/>
 </map>

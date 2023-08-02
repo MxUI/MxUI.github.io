@@ -1,0 +1,8 @@
+<map id="solver_cg.h" name="solver_cg.h">
+<area shape="rect" id="node1" title="Implementation to solve problem A.x = b using the Conjugate Gradient method. Based on Baratta,..." alt="" coords="187,5,283,32"/>
+<area shape="rect" id="node2" href="$solver_8h.html" title=" " alt="" coords="199,80,272,107"/>
+<area shape="rect" id="node3" href="$solver__compare__with___eigen_8cpp.html" title="Conjugate Gradient solver with preconditioners compared with Eigen." alt="" coords="5,155,167,196"/>
+<area shape="rect" id="node4" href="$solver_8cpp.html" title="Unit test on Conjugate Gradient solver with preconditioners." alt="" coords="191,162,279,189"/>
+<area shape="rect" id="node5" href="$sampler__rbf_8h.html" title="Spatial sampler using Radial Basis Function interpolation." alt="" coords="304,162,415,189"/>
+<area shape="rect" id="node6" href="$mui_8h.html" title="The main header file for MUI. Usually the only file that needs to be included in order to integrate i..." alt="" coords="330,244,389,271"/>
+</map>
